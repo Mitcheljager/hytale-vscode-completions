@@ -1,26 +1,52 @@
-// The module "vscode" contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
 
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
+const ITEMS = [
+    {
+        id: "Plant_Crop_Berry_Block",
+        name: "Berry Bush",
+        description: "Stage 0: Berry Bush\nHarvest: 1-2 berries per day\nRegrows after 1 day",
+    },
+];
+
 export function activate(context: vscode.ExtensionContext) {
+    const completionProvider = createCompletions();
+    context.subscriptions.push(completionProvider);
 
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
-	console.log("Congratulations, your extension 'hytale-completions' is now active!");
-
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	const disposable = vscode.commands.registerCommand("hytale-completions.helloWorld", () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage("Hello World from Hytale Completions!");
-	});
-
-	context.subscriptions.push(disposable);
+    const hoverProvider = createHover();
+    context.subscriptions.push(hoverProvider);
 }
 
-// This method is called when your extension is deactivated
+function createCompletions(): vscode.Disposable {
+    return vscode.languages.registerCompletionItemProvider("plaintext", {
+        provideCompletionItems() {
+            return ITEMS.map(item => {
+                const completion = new vscode.CompletionItem(item.id, vscode.CompletionItemKind.Constant);
+
+                completion.detail = item.name;
+                completion.documentation = new vscode.MarkdownString(item.description);
+                completion.filterText = `${item.id} ${item.name}`;
+
+                return completion;
+            });
+        },
+    });
+}
+
+function createHover(): vscode.Disposable {
+    return vscode.languages.registerHoverProvider("plaintext", {
+        provideHover(document: vscode.TextDocument, position: vscode.Position) {
+            const wordRange = document.getWordRangeAtPosition(position);
+
+            if (!wordRange) return undefined;
+
+            const word = document.getText(wordRange);
+            const item = ITEMS.find(i => i.id === word);
+
+            if (!item) return undefined;
+
+            return new vscode.Hover(new vscode.MarkdownString(`### ${item.name}\n\n${item.description}`), wordRange);
+        },
+    });
+}
+
 export function deactivate() {}

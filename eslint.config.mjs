@@ -29,7 +29,6 @@ export default [{
             SwitchCase: 1,
         }],
 
-        curly: "warn",
         eqeqeq: "warn",
         "no-throw-literal": "warn",
         semi: "warn",
