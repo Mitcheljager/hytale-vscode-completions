@@ -17,7 +17,12 @@
   ],
   "icon": "icon.png",
   "activationEvents": [
-    "*"
+    "onStartupFinished",
+    "onLanguage:plaintext",
+    "onLanguage:json",
+    "onLanguage:jsonc",
+    "onLanguage:yaml",
+    "onLanguage:java"
   ],
   "main": "./out/extension.js",
   "files": [
