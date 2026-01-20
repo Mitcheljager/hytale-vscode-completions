@@ -7,6 +7,12 @@ VSCode extension that provides completions for Hytale related things.
 - Hover documentation for Item IDs, showing the in-game text
 - Schema for .json files in Items/Item
 
+![Completion of item name](images/Completion-1.jpg)
+
+![Hover preview of completion](images/Completion-2.jpg)
+
+![Auto suggestion from json schema](images/Completion-3.jpg)
+
 ## Planned features
 - More schemas for all .json file types (different schemas for all .json files in Server/*)
 - More completions than just item names
@@ -14,3 +20,4 @@ VSCode extension that provides completions for Hytale related things.
 
 ## Requirements
 The extension is initialized in all projects that have a manifest.json file and a Server or Common folder anywhere in your project. Alternatively you can add an empty .hytale file in your project and it will initialize regardless.
+

@@ -23,7 +23,8 @@
   "files": [
     "out/**/*",
     "data/**/*",
-    "schema/**/*"
+    "schema/**/*",
+    "images/**/*"
   ],
   "contributes": {
     "commands": [
