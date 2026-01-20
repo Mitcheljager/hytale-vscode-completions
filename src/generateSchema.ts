@@ -3,7 +3,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
-import { type SchemaNode } from "./types/schema";
+import type { SchemaNode } from "./types/schema";
 
 function getType(value: any): SchemaNode["type"] {
     if (value === null) return "null";
@@ -39,8 +39,11 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
         }
     } else {
         existing.type = type;
-        existing.values = existing.values || [];
-        if (!existing.values.includes(value)) existing.values.push(value);
+
+        if (type === "object" || type === "string") {
+            existing.values ||= [];
+            if (!existing.values.includes(value)) existing.values.push(value);
+        }
     }
 
     return existing;
