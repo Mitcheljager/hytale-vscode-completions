@@ -19,7 +19,7 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 
     await tryActivate();
 
-    const watcher = vscode.workspace.createFileSystemWatcher("**/*");
+    const watcher = vscode.workspace.createFileSystemWatcher("{**/manifest.json,**/.hytale,**/Common/**,**/Server/**}");
 
     watcher.onDidCreate(tryActivate);
     watcher.onDidChange(tryActivate);
