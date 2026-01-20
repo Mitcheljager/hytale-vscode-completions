@@ -32,13 +32,45 @@ export function jsonToSchema(
 }
 
 export function getJsonPathAtPosition(document: vscode.TextDocument, position: vscode.Position): (string | number)[] {
-    const offset = document.offsetAt(position);
-
-    const tree = jsonc.parseTree(document.getText());
-    if (!tree) return [];
-
-    const node = jsonc.findNodeAtOffset(tree, offset);
+    const node = getCurrentNode(document, position);
     if (!node) return [];
 
     return jsonc.getNodePath(node);
+}
+
+export function getExistingKeys(document: vscode.TextDocument, position: vscode.Position): Set<string> {
+    const node = getEnclosingNode(document, position);
+    const keys = new Set<string>();
+
+    if (!node?.children) return keys;
+
+    for (const property of node.children) {
+        const keyNode = property.children?.[0];
+
+        if (keyNode?.value) {
+            keys.add(String(keyNode.value));
+        }
+    }
+
+    return keys;
+}
+
+function getCurrentNode(document: vscode.TextDocument, position: vscode.Position): jsonc.Node | null {
+    const offset = document.offsetAt(position);
+
+    const tree = jsonc.parseTree(document.getText());
+    if (!tree) return null;
+
+    return jsonc.findNodeAtOffset(tree, offset) || null;
+}
+
+function getEnclosingNode(document: vscode.TextDocument, position: vscode.Position): jsonc.Node | null {
+    let node = getCurrentNode(document, position);
+
+    while (node) {
+        if (node.type === "object") return node;
+        node = node.parent!;
+    }
+
+    return null;
 }

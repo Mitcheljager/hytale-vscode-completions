@@ -3,7 +3,7 @@ import { getItems } from "./getItems";
 import { type Item } from "./types/item";
 import { itemDescriptionToMarkdown } from "./markdown";
 import { isHytaleProject } from "./project";
-import { jsonToSchema } from "./schema";
+import { getExistingKeys, jsonToSchema } from "./schema";
 import itemSchema from "../schema/item.json";
 
 const languages = ["plaintext", "json", "jsonc", "yaml", "java"];
@@ -51,7 +51,7 @@ function createItemCompletions(items: Item[]): vscode.Disposable {
                 completion.detail = item.name;
                 completion.documentation = new vscode.MarkdownString(itemDescriptionToMarkdown(item.description));
                 completion.filterText = `${item.id} ${item.name}`;
-                completion.sortText = "1" + item.id;
+                completion.sortText = "1_" + item.id;
 
                 return completion;
             });
@@ -92,7 +92,9 @@ function createJsonSchema(json: any): vscode.Disposable {
                 });
             }
 
-            return Object.entries(node.children || node).map(([key, value]: [string, any]) => {
+            const existingKeys = getExistingKeys(document, position);
+
+            return Object.entries(node.children || node).filter(([key]) => !existingKeys.has(key)) .map(([key, value]: [string, any]) => {
                 const item = new vscode.CompletionItem(key, vscode.CompletionItemKind.Property);
 
                 item.detail = value.type;
