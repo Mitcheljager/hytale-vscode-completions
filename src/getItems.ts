@@ -33,7 +33,7 @@ export async function getItems(context: vscode.ExtensionContext): Promise<Item[]
 }
 
 async function getFileContents(context: vscode.ExtensionContext) {
-    const langFileUri = vscode.Uri.joinPath(context.extensionUri, "src/data/server.lang");
+    const langFileUri = vscode.Uri.joinPath(context.extensionUri, "data/server.lang");
 
     const fileData = await vscode.workspace.fs.readFile(langFileUri);
     return Buffer.from(fileData).toString("utf8");
