@@ -1,0 +1,1 @@
+# VSCode Completions for Hytale
