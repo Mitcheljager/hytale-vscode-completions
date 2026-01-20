@@ -24,6 +24,10 @@ export default [{
             allowTemplateLiterals: true,
         }],
 
+        indent: ["warn", 4, {
+            SwitchCase: 1,
+        }],
+
         curly: "warn",
         eqeqeq: "warn",
         "no-throw-literal": "warn",
