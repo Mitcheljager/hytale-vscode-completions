@@ -9,7 +9,8 @@ export async function isHytaleProject(): Promise<boolean> {
 }
 
 async function hasFileOrFolder(path: string): Promise<boolean> {
-    return !!(await vscode.workspace.findFiles(path, null, 1)).length;
+    const exclude = "{**/node_modules/**,**/.git/**}";
+    return !!(await vscode.workspace.findFiles(path, exclude, 1)).length;
 }
 
 async function containsHytaleFile(): Promise<boolean> {
