@@ -5,7 +5,7 @@ export async function getItems(context: vscode.ExtensionContext): Promise<Item[]
     try {
         const data = await getFileContents(context);
 
-        const items: Record<string, { name?: string; description?: string }> = {};
+        const items = new Map<string, { name?: string; description?: string }>();
 
         for (const line of data.split(/\r?\n/)) {
             const match = line.match(/^items\.([\w_]+)\.(name|description)\s*=\s*(.+)$/);
@@ -13,13 +13,15 @@ export async function getItems(context: vscode.ExtensionContext): Promise<Item[]
 
             const [_, id, field, value] = match;
 
-            if (!items[id]) items[id] = {};
+            if (field !== "name" && field !== "description") continue;
 
-            // @ts-ignore
-            items[id][field] = value;
+            const item = items.get(id) ?? {};
+
+            item[field] = value;
+            items.set(id, item);
         }
 
-        return Object.entries(items).filter(([_, v]) => v.name).map(([id, v]) => ({
+        return [...items.entries()].filter(([_, v]) => v.name).map(([id, v]) => ({
             id,
             name: v.name!,
             description: v.description ?? "",
