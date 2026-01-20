@@ -23,9 +23,6 @@ export function jsonToSchema(
         } else if (isObject && currentNode[key]) {
             currentNode = currentNode[key];
             lastValidNode = currentNode;
-        } else if (!!children) {
-            lastValidNode = currentNode;
-            break;
         } else {
             break;
         }
