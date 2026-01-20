@@ -1,29 +1,28 @@
 import * as vscode from "vscode";
+import { getItems } from "./getItems";
+import { type Item } from "./item";
+import { itemDescriptionToMarkdown } from "./markdown";
 
-const ITEMS = [
-    {
-        id: "Plant_Crop_Berry_Block",
-        name: "Berry Bush",
-        description: "Stage 0: Berry Bush\nHarvest: 1-2 berries per day\nRegrows after 1 day",
-    },
-];
+export async function activate(context: vscode.ExtensionContext) {
+    const items = await getItems(context);
 
-export function activate(context: vscode.ExtensionContext) {
-    const completionProvider = createCompletions();
+    console.log(items);
+
+    const completionProvider = createCompletions(items);
     context.subscriptions.push(completionProvider);
 
-    const hoverProvider = createHover();
+    const hoverProvider = createHover(items);
     context.subscriptions.push(hoverProvider);
 }
 
-function createCompletions(): vscode.Disposable {
+function createCompletions(items: Item[]): vscode.Disposable {
     return vscode.languages.registerCompletionItemProvider("plaintext", {
         provideCompletionItems() {
-            return ITEMS.map(item => {
+            return items.map(item => {
                 const completion = new vscode.CompletionItem(item.id, vscode.CompletionItemKind.Constant);
 
                 completion.detail = item.name;
-                completion.documentation = new vscode.MarkdownString(item.description);
+                completion.documentation = new vscode.MarkdownString(itemDescriptionToMarkdown(item.description));
                 completion.filterText = `${item.id} ${item.name}`;
 
                 return completion;
@@ -32,7 +31,7 @@ function createCompletions(): vscode.Disposable {
     });
 }
 
-function createHover(): vscode.Disposable {
+function createHover(items: Item[]): vscode.Disposable {
     return vscode.languages.registerHoverProvider("plaintext", {
         provideHover(document: vscode.TextDocument, position: vscode.Position) {
             const wordRange = document.getWordRangeAtPosition(position);
@@ -40,11 +39,11 @@ function createHover(): vscode.Disposable {
             if (!wordRange) return undefined;
 
             const word = document.getText(wordRange);
-            const item = ITEMS.find(i => i.id === word);
+            const item = items.find(i => i.id === word);
 
             if (!item) return undefined;
 
-            return new vscode.Hover(new vscode.MarkdownString(`### ${item.name}\n\n${item.description}`), wordRange);
+            return new vscode.Hover(new vscode.MarkdownString(`### ${item.name}\n\n${itemDescriptionToMarkdown(item.description)}`), wordRange);
         },
     });
 }
