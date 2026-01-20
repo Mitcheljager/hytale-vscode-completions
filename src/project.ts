@@ -13,11 +13,11 @@ async function hasFileOrFolder(path: string): Promise<boolean> {
 }
 
 async function containsHytaleFile(): Promise<boolean> {
-    return !!(await hasFileOrFolder("**/.hytale"));
+    return await hasFileOrFolder("**/.hytale");
 }
 
 async function containsManifestFile(): Promise<boolean> {
-    return !!(await hasFileOrFolder("**/manifest.json"));
+    return await hasFileOrFolder("**/manifest.json");
 }
 
 async function containsServerOrCommonFolder() {
