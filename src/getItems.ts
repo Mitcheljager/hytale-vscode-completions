@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { Item } from "./item";
+import { Item } from "./types/item";
 
 export async function getItems(context: vscode.ExtensionContext): Promise<Item[]> {
     try {

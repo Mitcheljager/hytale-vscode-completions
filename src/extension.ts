@@ -1,8 +1,10 @@
 import * as vscode from "vscode";
 import { getItems } from "./getItems";
-import { type Item } from "./item";
+import { type Item } from "./types/item";
 import { itemDescriptionToMarkdown } from "./markdown";
 import { isHytaleProject } from "./project";
+import { jsonToSchema } from "./schema";
+import itemSchema from "../schema/item.json";
 
 const languages = ["plaintext", "json", "jsonc", "yaml", "java"];
 
@@ -30,14 +32,17 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 async function createExtension(context: vscode.ExtensionContext) {
     const items = await getItems(context);
 
-    const completionProvider = createCompletions(items);
+    const completionProvider = createItemCompletions(items);
     context.subscriptions.push(completionProvider);
 
     const hoverProvider = createHover(items);
     context.subscriptions.push(hoverProvider);
+
+    const schemaProvider = createJsonSchema(itemSchema);
+    context.subscriptions.push(schemaProvider);
 }
 
-function createCompletions(items: Item[]): vscode.Disposable {
+function createItemCompletions(items: Item[]): vscode.Disposable {
     return vscode.languages.registerCompletionItemProvider(languages, {
         provideCompletionItems() {
             return items.map(item => {
@@ -46,6 +51,7 @@ function createCompletions(items: Item[]): vscode.Disposable {
                 completion.detail = item.name;
                 completion.documentation = new vscode.MarkdownString(itemDescriptionToMarkdown(item.description));
                 completion.filterText = `${item.id} ${item.name}`;
+                completion.sortText = "1" + item.id;
 
                 return completion;
             });
@@ -68,6 +74,34 @@ function createHover(items: Item[]): vscode.Disposable {
             return new vscode.Hover(new vscode.MarkdownString(`### ${item.name}\n\n${itemDescriptionToMarkdown(item.description)}`), wordRange);
         },
     });
+}
+
+function createJsonSchema(json: any): vscode.Disposable {
+    return vscode.languages.registerCompletionItemProvider(["json", "jsonc"], {
+        provideCompletionItems(document, position) {
+            const node = jsonToSchema(json, document, position);
+            if (!node) return;
+
+            if (node.values?.length) {
+                return node.values.map((value: string) => {
+                    const item = new vscode.CompletionItem(JSON.stringify(value), vscode.CompletionItemKind.Value);
+
+                    item.sortText = "0_" + value;
+
+                    return item;
+                });
+            }
+
+            return Object.entries(node.children || node).map(([key, value]: [string, any]) => {
+                const item = new vscode.CompletionItem(key, vscode.CompletionItemKind.Property);
+
+                item.detail = value.type;
+                item.sortText = "0_" + key;
+
+                return item;
+            });
+        }
+    }, '"');
 }
 
 export function deactivate() {}
