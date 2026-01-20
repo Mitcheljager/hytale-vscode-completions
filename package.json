@@ -1,14 +1,17 @@
 {
   "name": "hytale-completions",
   "displayName": "Hytale Completions",
-  "description": "Completions for Hytale mods and related bits",
-  "version": "0.0.1",
+  "description": "Auto complete and hover info for Hytale mods and related bits",
+  "version": "1.0.0",
+  "publisher": "Mitsiee",
   "engines": {
     "vscode": "^1.108.1"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Language Packs"
   ],
+  "icon": "icon.png",
   "activationEvents": ["*"],
   "main": "./out/extension.js",
   "contributes": {
