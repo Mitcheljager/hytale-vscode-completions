@@ -2,11 +2,33 @@ import * as vscode from "vscode";
 import { getItems } from "./getItems";
 import { type Item } from "./item";
 import { itemDescriptionToMarkdown } from "./markdown";
+import { isHytaleProject } from "./project";
 
-export async function activate(context: vscode.ExtensionContext) {
+const languages = ["plaintext", "json", "jsonc", "yaml", "java"];
+
+export async function activate(context: vscode.ExtensionContext): Promise<void> {
+    let active = false;
+
+    async function tryActivate() {
+        if (active) return;
+        if (!await isHytaleProject()) return;
+
+        active = true;
+        createExtension(context);
+    }
+
+    await tryActivate();
+
+    const watcher = vscode.workspace.createFileSystemWatcher("**/*");
+
+    watcher.onDidCreate(tryActivate);
+    watcher.onDidChange(tryActivate);
+
+    context.subscriptions.push(watcher);
+}
+
+async function createExtension(context: vscode.ExtensionContext) {
     const items = await getItems(context);
-
-    console.log(items);
 
     const completionProvider = createCompletions(items);
     context.subscriptions.push(completionProvider);
@@ -16,7 +38,7 @@ export async function activate(context: vscode.ExtensionContext) {
 }
 
 function createCompletions(items: Item[]): vscode.Disposable {
-    return vscode.languages.registerCompletionItemProvider("plaintext", {
+    return vscode.languages.registerCompletionItemProvider(languages, {
         provideCompletionItems() {
             return items.map(item => {
                 const completion = new vscode.CompletionItem(item.id, vscode.CompletionItemKind.Constant);
@@ -32,7 +54,7 @@ function createCompletions(items: Item[]): vscode.Disposable {
 }
 
 function createHover(items: Item[]): vscode.Disposable {
-    return vscode.languages.registerHoverProvider("plaintext", {
+    return vscode.languages.registerHoverProvider(languages, {
         provideHover(document: vscode.TextDocument, position: vscode.Position) {
             const wordRange = document.getWordRangeAtPosition(position);
 
