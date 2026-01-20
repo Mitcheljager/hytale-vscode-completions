@@ -21,10 +21,10 @@ export async function getItems(context: vscode.ExtensionContext): Promise<Item[]
             items.set(id, item);
         }
 
-        return [...items.entries()].filter(([_, v]) => v.name).map(([id, v]) => ({
+        return [...items.entries()].map(([id, v]) => ({
             id,
-            name: v.name!,
-            description: v.description ?? "",
+            name: v.name || "",
+            description: v.description || "",
         }));
     } catch (error) {
         console.error(error);
