@@ -4,6 +4,13 @@ All notable changes to the "hytale-completions" extension will be documented in 
 
 Follow [Keep a Changelog](http://keepachangelog.com/)
 
+## [1.3.0]
+
+### Added
+
+- Completions for arrays will now show the type of items in the array
+- Completions will now exclude some very specific values like specific numbers and colors
+
 ## [1.2.1]
 
 ### Fixes
