@@ -3,8 +3,7 @@ import { getItems } from "./getItems";
 import { type Item } from "./types/item";
 import { itemDescriptionToMarkdown } from "./markdown";
 import { isHytaleProject } from "./project";
-import { getExistingKeys, jsonToSchema } from "./schema";
-import itemSchema from "../schema/item.json";
+import { getExistingKeys, getSchemaForFile, jsonToSchema } from "./schema";
 
 const languages = ["plaintext", "json", "jsonc", "yaml", "java"];
 
@@ -38,7 +37,7 @@ async function createExtension(context: vscode.ExtensionContext) {
     const hoverProvider = createHover(items);
     context.subscriptions.push(hoverProvider);
 
-    const schemaProvider = createJsonSchema(itemSchema);
+    const schemaProvider = createJsonSchema();
     context.subscriptions.push(schemaProvider);
 }
 
@@ -76,9 +75,11 @@ function createHover(items: Item[]): vscode.Disposable {
     });
 }
 
-function createJsonSchema(json: any): vscode.Disposable {
+function createJsonSchema(): vscode.Disposable {
     return vscode.languages.registerCompletionItemProvider(["json", "jsonc"], {
         provideCompletionItems(document, position) {
+            const json = getSchemaForFile(document);
+
             const node = jsonToSchema(json, document, position);
             if (!node) return;
 

@@ -88,16 +88,26 @@ function generateSchema(folderPath: string): Record<string, SchemaNode> {
     return schema;
 }
 
+const items = [{
+    input: "/Server/Item/Items",
+    output: "Items.json"
+}, {
+    input: "/Server/NPC/Roles",
+    output: "Roles.json"
+}];
+
 const folderArg = process.argv[2];
-const filenameArg = process.argv[3];
-if (!folderArg || !filenameArg) {
-    console.error("Usage: node generateSchema.js <folder-path> <output-filename>");
+if (!folderArg) {
+    console.error("Usage: node generateSchema.js <folder-path>");
     process.exit(1);
 }
 
-const absoluteFolder = path.resolve(folderArg);
-const schema = generateSchema(absoluteFolder);
+for(const { input, output } of items) {
+    const baseFolder = path.resolve(folderArg);
+    const absoluteFolder = baseFolder + input;
+    const schema = generateSchema(absoluteFolder);
 
-const outputPath = path.join(process.cwd(), `schema/${filenameArg}`);
-fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
-console.log("Schema generated:", outputPath);
+    const outputPath = path.join(process.cwd(), `schema/${output}`);
+    fs.writeFileSync(outputPath, JSON.stringify(schema, null, 2));
+    console.log("Schema generated:", outputPath);
+}

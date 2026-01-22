@@ -9,20 +9,28 @@ export function jsonToSchema(
 ): SchemaNode | null {
     const path = getJsonPathAtPosition(document, position);
 
+    console.log(path);
+
     let currentNode: any = schema;
     let lastValidNode: any = currentNode;
 
     for (const key of path) {
         if (key === undefined || key === null || key === "") break;
 
+        console.log("key", key);
+
         const children = currentNode.children;
         const isObject = typeof currentNode === "object" && !Array.isArray(currentNode);
-        const isNumber = typeof key === "number";
+        const isArray = typeof key === "number" && currentNode.type === "array";
+
+        if (isArray) {
+            console.log(JSON.stringify(currentNode).slice(0, 200));
+        }
 
         if (children?.[key]) {
             currentNode = children[key];
             lastValidNode = currentNode;
-        } else if (isNumber && currentNode?.values) {
+        } else if (isArray && currentNode?.values) {
             currentNode = currentNode.values;
             lastValidNode = currentNode;
         } else if (isObject && currentNode[key]) {
@@ -78,4 +86,25 @@ function getEnclosingNode(document: vscode.TextDocument, position: vscode.Positi
     }
 
     return null;
+}
+
+import schemaItems from "../schema/Items.json";
+import schemaRoles from "../schema/Roles.json";
+
+export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
+    const schemas = [{
+        path: "/Item/Items",
+        json: schemaItems
+    }, {
+        path: "/NPC/Roles",
+        json: schemaRoles
+    }];
+
+    const fileName = document.uri.path;
+
+    for (const { path, json } of schemas) {
+        if (!fileName.includes(path)) {
+            return json;
+        }
+    }
 }
