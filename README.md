@@ -3,9 +3,9 @@
 VSCode extension that provides completions for Hytale related things.
 
 ## Current features
-- Autocomplete for Item names and/or IDs, names matching into IDs
-- Hover documentation for Item IDs, showing the in-game text
-- Schema for .json files in Items/Item
+- Autocomplete for Item names and/or IDs, with names matching into IDs
+- Hover documentation for Item IDs, NPC Roles, and more, showing the in-game text where relevant
+- Schemas for several .json files in Server/*
 
 ![Completion of item name](images/Completion-1.jpg)
 
@@ -13,9 +13,10 @@ VSCode extension that provides completions for Hytale related things.
 
 ![Auto suggestion from json schema](images/Completion-3.jpg)
 
+![Array types](images/Completion-4.jpg)
+
 ## Planned features
-- More schemas for all .json file types (different schemas for all .json files in Server/*)
-- More completions than just item names
+- Even more schemas for all .json file types (different schemas for all .json files in Server/*)
 - Matching icons for each item
 
 ## Requirements
