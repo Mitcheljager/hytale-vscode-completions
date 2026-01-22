@@ -28,13 +28,18 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
             existing.children[key] = mergeSchema(existing.children[key], value[key]);
         }
     } else if (type === "array") {
-        if (!existing.children) existing.children = {};
+        existing.values ||= [];
 
         for (const item of value) {
-            if (getType(item) === "object") {
+            const itemType = getType(item);
+
+            if (itemType === "object") {
+                existing.children ||= {};
                 for (const key of Object.keys(item)) {
                     existing.children[key] = mergeSchema(existing.children[key], item[key]);
                 }
+            } else {
+                if (!existing.values.includes(item)) existing.values.push(item);
             }
         }
     } else {

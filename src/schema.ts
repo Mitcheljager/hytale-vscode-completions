@@ -2,14 +2,8 @@ import * as vscode from "vscode";
 import * as jsonc from "jsonc-parser";
 import { type SchemaNode } from "./types/schema";
 
-export function jsonToSchema(
-    schema: any,
-    document: vscode.TextDocument,
-    position: vscode.Position
-): SchemaNode | null {
+export function jsonToSchema(schema: any, document: vscode.TextDocument, position: vscode.Position): SchemaNode | null {
     const path = getJsonPathAtPosition(document, position);
-
-    console.log(path);
 
     let currentNode: any = schema;
     let lastValidNode: any = currentNode;
@@ -17,21 +11,15 @@ export function jsonToSchema(
     for (const key of path) {
         if (key === undefined || key === null || key === "") break;
 
-        console.log("key", key);
-
         const children = currentNode.children;
         const isObject = typeof currentNode === "object" && !Array.isArray(currentNode);
         const isArray = typeof key === "number" && currentNode.type === "array";
-
-        if (isArray) {
-            console.log(JSON.stringify(currentNode).slice(0, 200));
-        }
 
         if (children?.[key]) {
             currentNode = children[key];
             lastValidNode = currentNode;
         } else if (isArray && currentNode?.values) {
-            currentNode = currentNode.values;
+            currentNode = currentNode.values?.length ? currentNode : currentNode.children;
             lastValidNode = currentNode;
         } else if (isObject && currentNode[key]) {
             currentNode = currentNode[key];
@@ -103,7 +91,7 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
     const fileName = document.uri.path;
 
     for (const { path, json } of schemas) {
-        if (!fileName.includes(path)) {
+        if (fileName.includes(path)) {
             return json;
         }
     }

@@ -6196,14 +6196,655 @@
     "children": {
       "Rotation": {
         "type": "array",
-        "children": {}
+        "values": [
+          22.5,
+          45,
+          21.94,
+          45.565,
+          23.06,
+          43.315,
+          29.815,
+          41.065,
+          15.19,
+          25.315,
+          47.815,
+          9,
+          47.3,
+          5.6,
+          35.44,
+          2.23,
+          50.065,
+          42.8,
+          15,
+          0,
+          293.625,
+          336.375,
+          121,
+          25,
+          316.7,
+          339.2,
+          7,
+          43,
+          10,
+          77,
+          6.935,
+          37.31,
+          33.935,
+          336.56,
+          13.685,
+          3,
+          4,
+          30.945,
+          51.195,
+          278,
+          328,
+          50.1,
+          16.3,
+          51.73,
+          50.605,
+          42.73,
+          20,
+          302,
+          340,
+          339,
+          192,
+          356,
+          358,
+          265,
+          341,
+          215,
+          317.435,
+          28,
+          37,
+          40,
+          56,
+          49,
+          250,
+          320,
+          14.81,
+          21.4,
+          20.3,
+          27.185,
+          25.9,
+          19.1,
+          10.1,
+          13.5,
+          2.3,
+          43.615,
+          23.625,
+          12.375,
+          4.5,
+          41.6,
+          14.6,
+          36.185,
+          11,
+          35,
+          179.44,
+          331.3,
+          127.7,
+          29.8,
+          22,
+          18,
+          21.375,
+          175.5,
+          189,
+          15.7,
+          24.8,
+          23.6,
+          27,
+          46,
+          24,
+          212,
+          326,
+          229,
+          315,
+          90,
+          191.25,
+          34.315,
+          16.315,
+          54.56,
+          33.19,
+          32,
+          38.435,
+          69.935,
+          10.125,
+          54,
+          16.875,
+          200,
+          308,
+          5,
+          67,
+          330,
+          17.06,
+          74.435,
+          73.31,
+          350,
+          163,
+          19,
+          56.8,
+          60.75,
+          6,
+          29.3,
+          30,
+          57,
+          21,
+          40.5,
+          348.8,
+          321.8,
+          48.935,
+          76.5,
+          30.4,
+          34.9,
+          14.065,
+          169.315,
+          12.935,
+          3.935,
+          83.3,
+          20.8,
+          321.2,
+          1.7,
+          16.9,
+          24.19,
+          38.815,
+          114.7,
+          64.1,
+          17,
+          36,
+          347.6,
+          360,
+          7.315,
+          101.815,
+          1.69,
+          20.815,
+          11.815,
+          18.565,
+          65.815,
+          328.5,
+          138.375,
+          65.25,
+          103.685,
+          18.185,
+          93.375,
+          50.625,
+          103.684998,
+          18.184999,
+          124.875,
+          91.125,
+          95.625,
+          48.375,
+          100.125,
+          50.81,
+          1.31,
+          51.935,
+          51.935001,
+          57.4,
+          72.185,
+          29.435,
+          119.25,
+          49.48,
+          67.48,
+          116.98,
+          9.185,
+          6.92,
+          15.73,
+          58.685,
+          66.375,
+          336,
+          16,
+          357,
+          354,
+          145,
+          143,
+          22.684999,
+          27.184999,
+          11.435,
+          137,
+          12.5,
+          135,
+          47.8,
+          339.295,
+          229.107,
+          337.792,
+          300,
+          270,
+          208,
+          86,
+          112,
+          317,
+          111,
+          273.545,
+          207.17,
+          300.545013,
+          60,
+          180,
+          322,
+          131,
+          29,
+          59.81,
+          33.92,
+          68.795,
+          40.67,
+          33.345,
+          230.065,
+          177.73,
+          195,
+          4.685,
+          331,
+          137.3,
+          108,
+          43.9,
+          309.4,
+          320.6,
+          28.1,
+          69.8,
+          327.375,
+          50,
+          115,
+          245,
+          225,
+          244
+        ]
       },
       "Scale": {
         "type": "number"
       },
       "Translation": {
         "type": "array",
-        "children": {}
+        "values": [
+          0.3,
+          0.7,
+          -2.3,
+          0,
+          -1.5,
+          -1.2,
+          -22.2,
+          -5,
+          -8,
+          -4.5,
+          -2.7,
+          -12.9,
+          -17.4,
+          2.1,
+          -1.8,
+          -22.8,
+          4.2,
+          -18,
+          0.6,
+          -32.4,
+          -0.6,
+          -5.4,
+          -16.8,
+          -3.3,
+          -0.9,
+          -0.3,
+          -11.7,
+          -4.2,
+          -30.6,
+          -31.2,
+          -7.2,
+          -8.7,
+          0.9,
+          -12.3,
+          -6.9,
+          -8.1,
+          -13.2,
+          15,
+          -35.4,
+          -2.1,
+          -6.61,
+          -1.81,
+          -33,
+          -15,
+          -19.2,
+          -20.4,
+          -6.6,
+          -15.6,
+          -85.8,
+          3.6,
+          5.4,
+          -91.5,
+          -3.6,
+          -59.4,
+          35.4,
+          -55.8,
+          -9.6,
+          -4.8,
+          5,
+          -10,
+          -2.4,
+          -6,
+          -11.4,
+          -14.4,
+          16.8,
+          -30,
+          -23.4,
+          4.8,
+          18.6,
+          3,
+          -21.6,
+          -7.8,
+          -3,
+          1.2,
+          -12.6,
+          1.5,
+          -2,
+          -84.9,
+          11.4,
+          -18.6,
+          9.6,
+          13.5,
+          -11.1,
+          -3.9,
+          -14.1,
+          -19.8,
+          12,
+          13,
+          2,
+          -41,
+          -21,
+          -9,
+          13.2,
+          -10.8,
+          18.7,
+          12.9,
+          1.8,
+          -13.5,
+          9.9,
+          -18.9,
+          -17.7,
+          11.1,
+          -22.5,
+          10.2,
+          10.5,
+          -20.1,
+          -25.1,
+          -27.5,
+          9.59,
+          -41.1,
+          3.59,
+          -14.41,
+          -9.3,
+          4,
+          -17,
+          -14,
+          -6.895,
+          14,
+          -58,
+          1.9,
+          3.1,
+          -0.5,
+          -1,
+          0.305,
+          -24.6,
+          -1.7,
+          -13.1,
+          -0.895,
+          -3.895,
+          4.3,
+          -27.3,
+          -14.9,
+          -37.1,
+          -7.495,
+          8.5,
+          -19.1,
+          -17.3,
+          7,
+          -11,
+          -1.21,
+          -12,
+          0.352,
+          9.905,
+          -10.495,
+          11.5,
+          8,
+          -20,
+          -29.3,
+          -11.3,
+          -42,
+          -4,
+          38,
+          -32,
+          -28,
+          1,
+          26,
+          -22,
+          -7,
+          -39,
+          33,
+          7.3,
+          0.1,
+          -7.1,
+          2.5,
+          -27,
+          -19.700001,
+          -26,
+          14.5,
+          -22.7,
+          12.7,
+          -10.7,
+          -13,
+          -15.5,
+          0.315,
+          -45.07,
+          -28.2,
+          9,
+          5.27,
+          -29.53,
+          8.4,
+          -25.5,
+          -29,
+          -31,
+          7.8,
+          -27.6,
+          9.5,
+          -0.585,
+          -13.985,
+          -16.2,
+          13.815,
+          -25.485,
+          -0.885,
+          -24,
+          -23.9,
+          -25.8,
+          17.1,
+          -5.7,
+          10,
+          0.8,
+          -26.1,
+          -10.2,
+          -16,
+          2.4,
+          12.3,
+          -15.3,
+          -36,
+          7.2,
+          -26.4,
+          12.6,
+          6,
+          -35,
+          -52.8,
+          -43,
+          -23,
+          16.9,
+          -12.13,
+          -22.93,
+          10.8,
+          -61.71,
+          -33.509998,
+          -25,
+          -14.3,
+          10.9,
+          -29.9,
+          -13.8,
+          -19,
+          1.515,
+          -39.5,
+          -2.085,
+          -40.7,
+          14.4,
+          -15.285,
+          -23.7,
+          -53.4,
+          -60,
+          -38.3,
+          13.8,
+          -27.13,
+          7.07,
+          9.47,
+          -19.93,
+          -21.13,
+          1.67,
+          -52.2,
+          -25.7,
+          -6.51,
+          5.7,
+          -28.5,
+          -39.6,
+          8.7,
+          -31.8,
+          -22.21,
+          -33.51,
+          28.2,
+          -38.4,
+          8.39,
+          -19.21,
+          -24.01,
+          -61,
+          -54,
+          -27.01,
+          -36.9,
+          9.3,
+          -18.13,
+          -19.7,
+          -33.5,
+          -3.5,
+          22.3,
+          -28.7,
+          -35.3,
+          2.113,
+          -42.254,
+          -8.4,
+          0.69,
+          -10.11,
+          -5.1,
+          3.9,
+          1.3,
+          17,
+          3.7,
+          -10.1,
+          -9.61,
+          -16.200001,
+          -26.299999,
+          -26.3,
+          -18.5,
+          -24.9,
+          -21.5,
+          -21.9,
+          -15.9,
+          4.9,
+          -17.9,
+          -20.3,
+          -20.299999,
+          -22.1,
+          -8.9,
+          -8.3,
+          -22.700001,
+          3.3,
+          -19.5,
+          -49.5,
+          -11.5,
+          2.7,
+          4.5,
+          -18.3,
+          -17.299999,
+          -20.7,
+          -17.1,
+          -25.2,
+          6.6,
+          -34.2,
+          -16.1,
+          -4.7,
+          -13.7,
+          -20.685,
+          -29.4,
+          -28.8,
+          2.99,
+          -7.7,
+          -21.3,
+          -4.81,
+          -7.81,
+          -7.21,
+          1.79,
+          -24.61,
+          -2.9,
+          -29.7,
+          10.3,
+          0.59,
+          -19.81,
+          -4.1,
+          -34.5,
+          -1.1,
+          -35.1,
+          -33.9,
+          -16.700001,
+          20.4,
+          15.6,
+          18,
+          19,
+          -25.71,
+          22.200001,
+          31.2,
+          -30.3,
+          -1.11,
+          1.19,
+          2.39,
+          -34.8,
+          -40,
+          -37.2,
+          40,
+          43,
+          -7.11,
+          -19.799999,
+          -34,
+          -20.31,
+          -20.91,
+          -19.11,
+          -4.11,
+          -15.51,
+          -55,
+          -56,
+          -45,
+          -47,
+          -50,
+          -51,
+          -53,
+          -44,
+          -38,
+          -57,
+          -71,
+          -75,
+          -28.11,
+          -29.31,
+          -58.2,
+          -62,
+          -64,
+          -72,
+          -48,
+          -65,
+          -49,
+          -37,
+          1.29,
+          -51.6,
+          -54.6,
+          -26.31,
+          -23.91,
+          -52,
+          -30.9,
+          -24.5,
+          11,
+          -16.7,
+          -2.91
+        ]
       }
     }
   },
@@ -7250,6 +7891,7 @@
     "children": {
       "Input": {
         "type": "array",
+        "values": [],
         "children": {
           "ItemId": {
             "type": "string",
@@ -7546,6 +8188,7 @@
       },
       "BenchRequirement": {
         "type": "array",
+        "values": [],
         "children": {
           "Id": {
             "type": "string",
@@ -7583,7 +8226,82 @@
           },
           "Categories": {
             "type": "array",
-            "children": {}
+            "values": [
+              "Armor_Chest",
+              "Armor_Hands",
+              "Armor_Head",
+              "Armor_Legs",
+              "Workbench_Crafting",
+              "Tools",
+              "Workbench_Survival",
+              "Furniture_Misc",
+              "Roof",
+              "Furniture_Textiles",
+              "Farming",
+              "Furniture_Seasonal",
+              "Decorative",
+              "Wall",
+              "Platform",
+              "Furniture_Lighting",
+              "Bricks",
+              "Workbench_Tinkering",
+              "Arcane_Portals",
+              "Baked",
+              "Ingredients",
+              "Prepared",
+              "Furniture_Beds",
+              "Chair",
+              "Furniture_Storage",
+              "Door",
+              "Ladder",
+              "Shelf",
+              "Sign",
+              "Table",
+              "Trapdoor",
+              "Wardrobe",
+              "Window",
+              "Bench",
+              "Bookshelf",
+              "Stool",
+              "Planters",
+              "Essence",
+              "Seeds",
+              "Saplings",
+              "Alchemy_Potions",
+              "Alchemy_Potions_Misc",
+              "Beam",
+              "HalfSlab",
+              "Ornate",
+              "Pillar",
+              "Smooth",
+              "SmoothHalfSlab",
+              "Stairs",
+              "Structural-Rock",
+              "Furniture_Pottery",
+              "Workbench_Tools",
+              "Workbench_Farming",
+              "Weapon_Bow",
+              "Weapon_Axe",
+              "Weapons.Axe",
+              "Weapon_Battleaxe",
+              "Alchemy_Bombs",
+              "Weapons.Club",
+              "Weapon_Club",
+              "Weapons.Bow",
+              "Weapon_Daggers",
+              "Arcane_Misc",
+              "Weapon_Longsword",
+              "Weapons.Longsword",
+              "Weapon_Mace",
+              "Weapons.Mace",
+              "Weapon_Shield",
+              "Weapon_Sword",
+              "DecorativePlanks",
+              "Gate",
+              "OrnatePlanks",
+              "WoodPlanks",
+              "Furniture_Village_Walls"
+            ]
           },
           "RequiredTierLevel": {
             "type": "number"
@@ -7598,6 +8316,7 @@
       },
       "Output": {
         "type": "array",
+        "values": [],
         "children": {
           "ItemId": {
             "type": "string",
@@ -7720,13 +8439,25 @@
       },
       "CosmeticsToHide": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Overtop",
+          "EarAccessory",
+          "Ear",
+          "Haircut",
+          "HeadAccessory",
+          "Pants",
+          "Shoes",
+          "Gloves",
+          "Overpants",
+          "Cape"
+        ]
       },
       "StatModifiers": {
         "type": "object",
         "children": {
           "Health": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7741,6 +8472,7 @@
           },
           "Mana": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7755,6 +8487,7 @@
           },
           "Oxygen": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7769,6 +8502,7 @@
           },
           "SignatureEnergy": {
             "type": "array",
+            "values": [],
             "children": {
               "CalculationType": {
                 "type": "string",
@@ -7783,6 +8517,7 @@
           },
           "Stamina": {
             "type": "array",
+            "values": [],
             "children": {
               "CalculationType": {
                 "type": "string",
@@ -7802,6 +8537,7 @@
         "children": {
           "Physical": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7817,6 +8553,7 @@
           },
           "Projectile": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7832,6 +8569,7 @@
           },
           "Fire": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7846,6 +8584,7 @@
           },
           "Poison": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7860,6 +8599,7 @@
           },
           "Fall": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7879,6 +8619,7 @@
         "children": {
           "Light": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7893,6 +8634,7 @@
           },
           "Signature": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7907,6 +8649,7 @@
           },
           "Charged": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -7926,6 +8669,7 @@
         "children": {
           "Stamina": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -7947,6 +8691,7 @@
               },
               "Conditions": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Id": {
                     "type": "string",
@@ -7960,6 +8705,7 @@
           },
           "Health": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -7981,6 +8727,7 @@
               },
               "Conditions": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Id": {
                     "type": "string",
@@ -8049,6 +8796,7 @@
         "children": {
           "Physical": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -8063,6 +8811,7 @@
           },
           "Projectile": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -8098,19 +8847,197 @@
     "children": {
       "Type": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Armor",
+          "Bench",
+          "Furniture",
+          "Deco",
+          "Cloth",
+          "Container",
+          "Plant",
+          "Ingredient",
+          "Editor",
+          "Food",
+          "Weapon",
+          "SpawnNPC",
+          "Soil",
+          "Glider",
+          "Potion",
+          "Rock",
+          "Instances",
+          "Wood",
+          "Ore",
+          "Tree",
+          "Portal",
+          "HubPortal",
+          "Temporary",
+          "Consumable",
+          "Rail",
+          "Recipe",
+          "Rubble",
+          "Flint",
+          "Tool",
+          "Trap",
+          "Upgrade",
+          "Utility",
+          "Branch",
+          "Sap_Source",
+          "Trunk",
+          "Debug"
+        ]
       },
       "Family": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Adamantite",
+          "Bronze",
+          "Cloth_Cotton",
+          "Cloth_Linen",
+          "Cloth_Silk",
+          "Cloth_Wool",
+          "Cobalt",
+          "Copper",
+          "Diving",
+          "Iron",
+          "Kweebec",
+          "Leather",
+          "Mithril",
+          "Onyxium",
+          "Prisma",
+          "Steel",
+          "Thorium",
+          "Trooper",
+          "Trork",
+          "Hide",
+          "Clay",
+          "Temple",
+          "Coral",
+          "Moss",
+          "Tavern",
+          "Fish",
+          "Ancient",
+          "Human",
+          "Castle",
+          "Crude",
+          "Desert",
+          "Dungeon",
+          "Feran",
+          "Village",
+          "Jungle",
+          "Lumberjack",
+          "Sand",
+          "Scarak Temple",
+          "Scarak_Temple",
+          "Crystal",
+          "Goldenwood",
+          "Gold",
+          "Bush",
+          "Cactus",
+          "CactusGrowth",
+          "Cactus_Ball",
+          "Beech",
+          "Seeds",
+          "Crop",
+          "Seed",
+          "Aspen",
+          "Sallow",
+          "Flower",
+          "Fruit",
+          "Grass",
+          "Leaves",
+          "Petals",
+          "Bramble",
+          "Sapling",
+          "Vine",
+          "Reeds",
+          "Seaweed",
+          "Food",
+          "Aqua",
+          "Stone",
+          "Basalt",
+          "Calcite",
+          "Gem",
+          "Ice",
+          "Volcanic",
+          "Marble",
+          "Quartzite",
+          "Sandstone",
+          "Sandstone_White",
+          "Shale",
+          "Slate",
+          "Dirt",
+          "Hardwood",
+          "Snow",
+          "Mud",
+          "Trap",
+          "Developer",
+          "Bait",
+          "Backpack",
+          "Arrow",
+          "Axe",
+          "Bomb",
+          "Dagger",
+          "Club",
+          "Crossbow",
+          "Stick",
+          "Gun",
+          "Longsword",
+          "Sword",
+          "Mace",
+          "Shield",
+          "Bow",
+          "Spear",
+          "Spellbook",
+          "Staff",
+          "Magic",
+          "Wand",
+          "Ash",
+          "Azure",
+          "Bamboo",
+          "Banyan",
+          "Birch",
+          "Blackwood",
+          "Bottletree",
+          "Burnt",
+          "Camphor",
+          "Cedar",
+          "Darkwood",
+          "Deadwood",
+          "Fig_Blue",
+          "Fir",
+          "Greenwood",
+          "Gumboab",
+          "Lightwood",
+          "Maple",
+          "Oak",
+          "Palm",
+          "Palo",
+          "Petrified",
+          "Redwood",
+          "Rubble",
+          "Tropicalwood",
+          "Windwillow"
+        ]
       },
       "SubType": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Planks",
+          "Roof",
+          "Planter",
+          "Cactus",
+          "Cactus_Flat",
+          "Branch",
+          "Roots",
+          "Tilled",
+          "Trunk"
+        ]
       },
       "Material": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Fluid"
+        ]
       }
     }
   },
@@ -8342,7 +9269,46 @@
   },
   "Categories": {
     "type": "array",
-    "children": {}
+    "values": [
+      "Items.Armors",
+      "Furniture.Benches",
+      "Blocks.Deco",
+      "Furniture.Furniture",
+      "Blocks.Plants",
+      "Tool.Block",
+      "Tool.BrushFilters",
+      "Blocks.Structural",
+      "Blocks.Rocks",
+      "Furniture.Containers",
+      "Items",
+      "Furniture.Shelves",
+      "Furniture.Lighting",
+      "Tool.BuilderTool",
+      "Tool.BuilderToolSecondPage",
+      "Tool.Machinima",
+      "Tool.ScriptedBrushes",
+      "Fish",
+      "Blocks.Fluids",
+      "Items.Foods",
+      "Furniture.Beds",
+      "Furniture.Doors",
+      "Furniture.Signs",
+      "Items.Tools",
+      "Items.Weapons",
+      "Items.Ingredients",
+      "Items.Potions",
+      "Blocks.Portals",
+      "Blocks.Ores",
+      "Items.Consumables",
+      "Items.Recipes",
+      "Blocks.Soils",
+      "Tool",
+      "Upgrade",
+      "Items.Utility",
+      "Items.Debug",
+      "Items.CombatMilestone2",
+      "Blocks.Wood"
+    ]
   },
   "Interactions": {
     "type": "object",
@@ -8352,6 +9318,14 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "Shovel_Attack",
+              "Bomb_Throw",
+              "Bomb_Throw_Popberry",
+              "Bomb_Throw_Stun",
+              "Debug_Combo_Primary",
+              "Debug_Projectile"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -8417,7 +9391,9 @@
                   },
                   "EntityEffectIds": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Stamina_Broken"
+                    ]
                   },
                   "Match": {
                     "type": "string",
@@ -8502,6 +9478,7 @@
                       },
                       "Particles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -8540,7 +9517,9 @@
                   },
                   "AcceptedNpcGroups": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Capture_Crate"
+                    ]
                   },
                   "FullIcon": {
                     "type": "string",
@@ -8578,6 +9557,7 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -8653,6 +9633,7 @@
                             "children": {
                               "Interactions": {
                                 "type": "array",
+                                "values": [],
                                 "children": {
                                   "Type": {
                                     "type": "string",
@@ -8675,6 +9656,7 @@
                                     "children": {
                                       "Interactions": {
                                         "type": "array",
+                                        "values": [],
                                         "children": {
                                           "Type": {
                                             "type": "string",
@@ -8846,6 +9828,7 @@
               },
               "Interactions": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -8932,9 +9915,11 @@
               },
               "HitEntityRules": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Matchers": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -8953,6 +9938,7 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -8978,6 +9964,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -9081,6 +10068,7 @@
                           },
                           "WorldParticles": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "SystemId": {
                                 "type": "string",
@@ -9101,6 +10089,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -9215,6 +10204,12 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "Teleporter_Place",
+              "Kunai_Throw",
+              "Debug_Stick_Parry",
+              "Debug_Combo_Secondary"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -9294,7 +10289,9 @@
                         "children": {
                           "AllowedFluids": {
                             "type": "array",
-                            "children": {}
+                            "values": [
+                              "Water_Source"
+                            ]
                           },
                           "TransformFluid": {
                             "type": "string",
@@ -9372,7 +10369,9 @@
                             "children": {
                               "Interactions": {
                                 "type": "array",
-                                "children": {}
+                                "values": [
+                                  "Effect"
+                                ]
                               }
                             }
                           },
@@ -9400,7 +10399,9 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
-                        "children": {}
+                        "values": [
+                          "Stat_Check"
+                        ]
                       }
                     }
                   },
@@ -9430,6 +10431,7 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -9524,7 +10526,9 @@
                         "children": {
                           "AllowedFluids": {
                             "type": "array",
-                            "children": {}
+                            "values": [
+                              "Water_Source"
+                            ]
                           },
                           "TransformFluid": {
                             "type": "string",
@@ -9576,6 +10580,7 @@
               },
               "Matchers": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Block": {
                     "type": "object",
@@ -9704,6 +10709,7 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -9824,6 +10830,7 @@
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -9881,7 +10888,9 @@
               },
               "Charges": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  1
+                ]
               },
               "InterruptRecharge": {
                 "type": "boolean"
@@ -9960,6 +10969,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -10010,6 +11020,9 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "Debug_Projectile"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -10072,7 +11085,9 @@
             "children": {
               "Attack": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  "Melee"
+                ]
               }
             }
           },
@@ -10091,6 +11106,9 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "Bomb_Throw"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -10147,6 +11165,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -10191,6 +11210,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -10284,7 +11304,9 @@
             "children": {
               "Allows": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  "Movement"
+                ]
               }
             }
           }
@@ -11128,6 +12150,7 @@
       },
       "CustomModelTexture": {
         "type": "array",
+        "values": [],
         "children": {
           "Texture": {
             "type": "string",
@@ -12763,6 +13786,36 @@
           },
           "Categories": {
             "type": "array",
+            "values": [
+              "WoodPlanks",
+              "OrnatePlanks",
+              "DecorativePlanks",
+              "Bricks",
+              "Decorative",
+              "Ornate",
+              "Smooth",
+              "Stairs",
+              "HalfSlab",
+              "SmoothHalfSlab",
+              "Beam",
+              "Platform",
+              "Roof",
+              "Pillar",
+              "Wall",
+              "Gate",
+              "Ladder",
+              "Window",
+              "Wardrobe",
+              "Door",
+              "Trapdoor",
+              "Table",
+              "Chair",
+              "Bench",
+              "Stool",
+              "Shelf",
+              "Sign",
+              "VillageWall"
+            ],
             "children": {
               "Id": {
                 "type": "string",
@@ -12899,6 +13952,7 @@
               },
               "ItemCategories": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Id": {
                     "type": "string",
@@ -12980,6 +14034,7 @@
           },
           "TierLevels": {
             "type": "array",
+            "values": [],
             "children": {
               "CraftingTimeReductionModifier": {
                 "type": "number"
@@ -12989,6 +14044,7 @@
                 "children": {
                   "Material": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "ItemId": {
                         "type": "string",
@@ -13072,7 +14128,11 @@
           },
           "HeaderCategories": {
             "type": "array",
-            "children": {}
+            "values": [
+              "WoodPlanks",
+              "OrnatePlanks",
+              "DecorativePlanks"
+            ]
           },
           "FailedSoundEventId": {
             "type": "string",
@@ -13087,6 +14147,7 @@
           },
           "Input": {
             "type": "array",
+            "values": [],
             "children": {
               "FilterValidIngredients": {
                 "type": "boolean"
@@ -13095,6 +14156,7 @@
           },
           "Fuel": {
             "type": "array",
+            "values": [],
             "children": {
               "ResourceTypeId": {
                 "type": "string",
@@ -13115,6 +14177,7 @@
             "children": {
               "Outputs": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "ItemId": {
                     "type": "string",
@@ -13129,6 +14192,7 @@
               },
               "IgnoredFuelSources": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "ItemId": {
                     "type": "string",
@@ -13233,6 +14297,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Weight": {
                         "type": "number"
@@ -13256,6 +14321,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -13319,6 +14385,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Weight": {
                         "type": "number"
@@ -13338,6 +14405,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -13377,6 +14445,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -13435,6 +14504,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -13525,6 +14595,7 @@
                     "children": {
                       "East": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13536,6 +14607,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13547,6 +14619,7 @@
                       },
                       "DownEast": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13558,6 +14631,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13569,12 +14643,14 @@
                       },
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -13594,6 +14670,7 @@
                     "children": {
                       "East": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13605,6 +14682,7 @@
                       },
                       "DownEast": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13616,6 +14694,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13627,6 +14706,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13638,6 +14718,7 @@
                       },
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13654,6 +14735,7 @@
                     "children": {
                       "Points": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Point": {
                             "type": "object",
@@ -13790,6 +14872,7 @@
                     "children": {
                       "West": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13801,6 +14884,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13812,6 +14896,7 @@
                       },
                       "DownWest": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13823,6 +14908,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13834,12 +14920,14 @@
                       },
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -13859,6 +14947,7 @@
                     "children": {
                       "West": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13870,6 +14959,7 @@
                       },
                       "DownWest": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13881,6 +14971,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13892,6 +14983,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13903,6 +14995,7 @@
                       },
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -13919,6 +15012,7 @@
                     "children": {
                       "Points": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Point": {
                             "type": "object",
@@ -14025,6 +15119,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -14090,6 +15185,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
@@ -14112,6 +15208,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -14148,6 +15245,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -14249,6 +15347,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Weight": {
                         "type": "number"
@@ -14280,7 +15379,7 @@
                   },
                   "Particles": {
                     "type": "null",
-                    "children": {}
+                    "values": []
                   },
                   "InteractionSoundEventId": {
                     "type": "string",
@@ -14300,6 +15399,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -14353,6 +15453,7 @@
                           },
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -14369,7 +15470,9 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
-                            "children": {}
+                            "values": [
+                              "Simple"
+                            ]
                           }
                         }
                       }
@@ -14402,6 +15505,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -14520,6 +15624,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -14577,6 +15682,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -14653,6 +15759,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15116,6 +16223,7 @@
                   },
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "All": {
                         "type": "string",
@@ -15188,6 +16296,7 @@
                     "children": {
                       "BlockSides": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
@@ -15211,6 +16320,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15227,6 +16337,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15286,6 +16397,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15302,6 +16414,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15370,6 +16483,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -15542,6 +16656,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -15571,6 +16686,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -15588,6 +16704,7 @@
                     "children": {
                       "Up": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -15607,7 +16724,10 @@
                   },
                   "Effect": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "WindFractal",
+                      "WindAttached"
+                    ]
                   },
                   "Group": {
                     "type": "string",
@@ -15659,6 +16779,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -15808,7 +16929,9 @@
                   },
                   "Effect": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "WindAttached"
+                    ]
                   },
                   "BiomeTint": {
                     "type": "number"
@@ -15846,6 +16969,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -15863,6 +16987,7 @@
                     "children": {
                       "Up": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -15908,6 +17033,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -16085,7 +17211,9 @@
                   },
                   "Effect": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "WindAttached"
+                    ]
                   },
                   "Interactions": {
                     "type": "object",
@@ -16095,6 +17223,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -16138,6 +17267,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -16173,6 +17303,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16190,6 +17321,7 @@
                     "children": {
                       "Up": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16222,6 +17354,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -16343,7 +17476,9 @@
                   },
                   "Effect": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "WindAttached"
+                    ]
                   },
                   "BiomeTint": {
                     "type": "number"
@@ -16356,6 +17491,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -16384,6 +17520,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16401,6 +17538,7 @@
                     "children": {
                       "Up": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16426,6 +17564,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -16590,6 +17729,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -16623,6 +17763,7 @@
                     "children": {
                       "UpNorth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16634,6 +17775,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16645,6 +17787,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16656,6 +17799,7 @@
                       },
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16672,6 +17816,7 @@
                     "children": {
                       "UpNorth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16683,6 +17828,7 @@
                       },
                       "South": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16694,6 +17840,7 @@
                       },
                       "DownSouth": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16710,6 +17857,7 @@
                     "children": {
                       "Points": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Point": {
                             "type": "object",
@@ -16765,6 +17913,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16776,6 +17925,7 @@
                       },
                       "CardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16787,6 +17937,7 @@
                       },
                       "DownCardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16803,6 +17954,7 @@
                     "children": {
                       "CardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16814,6 +17966,7 @@
                       },
                       "DownCardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16847,6 +18000,7 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16858,6 +18012,7 @@
                       },
                       "CardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16869,6 +18024,7 @@
                       },
                       "DownCardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16885,6 +18041,7 @@
                     "children": {
                       "CardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16896,6 +18053,7 @@
                       },
                       "DownCardinalDirections": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "FaceType": {
                             "type": "string",
@@ -16949,14 +18107,17 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       },
                       "North": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       },
                       "East": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
@@ -17021,6 +18182,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -17076,14 +18238,17 @@
                     "children": {
                       "Down": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       },
                       "North": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       },
                       "West": {
                         "type": "array",
+                        "values": [],
                         "children": {}
                       }
                     }
@@ -17148,6 +18313,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -17168,6 +18334,7 @@
                 "children": {
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -17349,6 +18516,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Down": {
                         "type": "string",
@@ -17380,6 +18548,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Down": {
                         "type": "string",
@@ -17411,6 +18580,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Down": {
                         "type": "string",
@@ -17442,6 +18612,7 @@
                 "children": {
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -17483,6 +18654,7 @@
                   },
                   "CustomModelTexture": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Texture": {
                         "type": "string",
@@ -17515,6 +18687,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -17583,6 +18756,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -17613,6 +18787,7 @@
                           },
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -17651,6 +18826,7 @@
                         "children": {
                           "Interactions": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -17682,6 +18858,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Sides": {
                         "type": "string",
@@ -17744,6 +18921,7 @@
                         "children": {
                           "Default": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "Type": {
                                 "type": "string",
@@ -17794,6 +18972,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "All": {
                         "type": "string",
@@ -17854,6 +19033,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "All": {
                         "type": "string",
@@ -17895,6 +19075,7 @@
                 "children": {
                   "Textures": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "All": {
                         "type": "string",
@@ -18085,6 +19266,7 @@
                       },
                       "Containers": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -18615,6 +19797,7 @@
           },
           "Tools": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -19430,6 +20613,7 @@
         "children": {
           "Down": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19468,7 +20652,7 @@
               },
               "Filler": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "BlockTypeId": {
                 "type": "string",
@@ -19510,6 +20694,7 @@
           },
           "North": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19539,6 +20724,7 @@
           },
           "Up": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19558,6 +20744,7 @@
               },
               "Filler": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "X": {
                     "type": "number"
@@ -19605,6 +20792,7 @@
           },
           "CardinalDirections": {
             "type": "array",
+            "values": [],
             "children": {
               "Rotate": {
                 "type": "boolean"
@@ -19639,6 +20827,7 @@
           },
           "East": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19656,6 +20845,7 @@
           },
           "West": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19673,6 +20863,7 @@
           },
           "All": {
             "type": "array",
+            "values": [],
             "children": {
               "Support": {
                 "type": "string",
@@ -19690,6 +20881,7 @@
           },
           "Horizontal": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19719,6 +20911,7 @@
           },
           "BlockSides": {
             "type": "array",
+            "values": [],
             "children": {
               "Support": {
                 "type": "string",
@@ -19744,6 +20937,7 @@
           },
           "DownNorth": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19755,6 +20949,7 @@
           },
           "South": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -19766,6 +20961,7 @@
           },
           "DownSouth": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -20005,6 +21201,10 @@
             "children": {
               "Interactions": {
                 "type": "array",
+                "values": [
+                  "Block_Scarack_Eggsacks_Burst",
+                  "Block_Coffin_Open"
+                ],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -20034,6 +21234,7 @@
                         "children": {
                           "Particles": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "SystemId": {
                                 "type": "string",
@@ -20235,6 +21436,7 @@
               },
               "Interactions": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -20347,6 +21549,7 @@
                         "children": {
                           "Particles": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "SystemId": {
                                 "type": "string",
@@ -20378,6 +21581,9 @@
             "children": {
               "Interactions": {
                 "type": "array",
+                "values": [
+                  "Block_Scarack_Eggsacks_Burst"
+                ],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -20503,6 +21709,7 @@
                       },
                       "Matchers": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Block": {
                             "type": "object",
@@ -20794,6 +22001,7 @@
       },
       "Particles": {
         "type": "array",
+        "values": [],
         "children": {
           "SystemId": {
             "type": "string",
@@ -20946,6 +22154,7 @@
       },
       "Textures": {
         "type": "array",
+        "values": [],
         "children": {
           "Weight": {
             "type": "number"
@@ -21579,6 +22788,7 @@
         "children": {
           "North": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21591,6 +22801,7 @@
           },
           "Up": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21609,6 +22820,7 @@
               },
               "Filler": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "X": {
                     "type": "number"
@@ -21625,6 +22837,7 @@
           },
           "Down": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21642,6 +22855,7 @@
           },
           "CardinalDirections": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21653,6 +22867,7 @@
           },
           "DownNorth": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21664,6 +22879,7 @@
           },
           "South": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21675,6 +22891,7 @@
           },
           "DownSouth": {
             "type": "array",
+            "values": [],
             "children": {
               "FaceType": {
                 "type": "string",
@@ -21711,7 +22928,16 @@
       },
       "Effect": {
         "type": "array",
-        "children": {}
+        "values": [
+          "WindAttached",
+          "Lava",
+          "Slime",
+          "Water",
+          "Wind",
+          "WindFractal",
+          "WindRandom",
+          "Ripple"
+        ]
       },
       "Group": {
         "type": "string",
@@ -22848,6 +24074,7 @@
       },
       "Seats": {
         "type": "array",
+        "values": [],
         "children": {
           "Offset": {
             "type": "object",
@@ -23020,10 +24247,31 @@
       },
       "TransitionToGroups": {
         "type": "array",
-        "children": {}
+        "values": [
+          "Stone",
+          "Dirt",
+          "Dirt_Dark",
+          "Grass",
+          "GrassDeep",
+          "GrassDeepSunny",
+          "Sand",
+          "Sand_White",
+          "Gravel",
+          "Dirt_Dry",
+          "Mud",
+          "Grass_Dry",
+          "Clay",
+          "Wood",
+          "Moss",
+          "Ice",
+          "Soil_Mud_Dry",
+          "Lava",
+          "LeavesGround"
+        ]
       },
       "Beds": {
         "type": "array",
+        "values": [],
         "children": {
           "Offset": {
             "type": "object",
@@ -23080,6 +24328,7 @@
             "children": {
               "Default": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -23162,14 +24411,26 @@
                   },
                   "Executions": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      1,
+                      2,
+                      7,
+                      10,
+                      3
+                    ]
                   },
                   "SpreadDecayPercent": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      20,
+                      60,
+                      50,
+                      100
+                    ]
                   },
                   "GrowthBehaviours": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -23179,6 +24440,7 @@
                       },
                       "GrowthBlockTypes": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "BlockType": {
                             "type": "string",
@@ -23210,6 +24472,7 @@
                       },
                       "LocationConditions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -23234,7 +24497,11 @@
                       },
                       "Vertical": {
                         "type": "array",
-                        "children": {}
+                        "values": [
+                          1,
+                          0,
+                          2
+                        ]
                       },
                       "VerticalDirection": {
                         "type": "string",
@@ -23244,7 +24511,11 @@
                       },
                       "Horizontal": {
                         "type": "array",
-                        "children": {}
+                        "values": [
+                          1,
+                          2,
+                          4
+                        ]
                       }
                     }
                   },
@@ -23259,6 +24530,7 @@
                   },
                   "Prefabs": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Path": {
                         "type": "string",
@@ -23324,12 +24596,15 @@
                   },
                   "ReplaceMaskTags": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Soil"
+                    ]
                   }
                 }
               },
               "Harvested": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Duration": {
                     "type": "object",
@@ -23383,6 +24658,7 @@
               },
               "Starting": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Duration": {
                     "type": "object",
@@ -23424,6 +24700,7 @@
               },
               "Baited": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -23469,7 +24746,11 @@
           },
           "ActiveGrowthModifiers": {
             "type": "array",
-            "children": {}
+            "values": [
+              "Fertilizer",
+              "Water",
+              "LightLevel"
+            ]
           },
           "SoilConfig": {
             "type": "object",
@@ -23500,11 +24781,16 @@
         "children": {
           "Type": {
             "type": "array",
-            "children": {}
+            "values": [
+              "Ingredient",
+              "Wood"
+            ]
           },
           "Family": {
             "type": "array",
-            "children": {}
+            "values": [
+              "Oak"
+            ]
           }
         }
       },
@@ -23519,7 +24805,32 @@
       },
       "Tint": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#3F3F3F",
+          "#C6C6C6",
+          "#686868",
+          "#e4c945",
+          "#7f8a38",
+          "#5ca12d",
+          "#297430",
+          "#983cc5",
+          "#dcb86d",
+          "#67b62d",
+          "#4aa17a",
+          "#2db668",
+          "#a57c2a",
+          "#159a6a",
+          "#84b338",
+          "#75883c",
+          "#c65865",
+          "#c0bb2e",
+          "#bfbb2a",
+          "#698a38",
+          "#37ae8f",
+          "#f3d97c",
+          "#37ac6b",
+          "#a2b24e"
+        ]
       },
       "BiomeTintDown": {
         "type": "number"
@@ -23541,7 +24852,12 @@
       },
       "TintUp": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#67b62d",
+          "#2db668",
+          "#4aa17a",
+          "#c6e442"
+        ]
       },
       "TransitionToTag": {
         "type": "string",
@@ -23554,6 +24870,7 @@
         "children": {
           "Points": {
             "type": "array",
+            "values": [],
             "children": {
               "Point": {
                 "type": "object",
@@ -23589,7 +24906,12 @@
       },
       "Aliases": {
         "type": "array",
-        "children": {}
+        "values": [
+          "aqua",
+          "aqua00",
+          "stone",
+          "stone00"
+        ]
       },
       "InteractionHitboxType": {
         "type": "string",
@@ -23618,19 +24940,27 @@
       },
       "TintEast": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#67b62d"
+        ]
       },
       "TintNorth": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#67b62d"
+        ]
       },
       "TintSouth": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#67b62d"
+        ]
       },
       "TintWest": {
         "type": "array",
-        "children": {}
+        "values": [
+          "#67b62d"
+        ]
       }
     }
   },
@@ -23761,6 +25091,7 @@
   },
   "ResourceTypes": {
     "type": "array",
+    "values": [],
     "children": {
       "Id": {
         "type": "string",
@@ -23930,11 +25261,30 @@
               },
               "Rotation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  0,
+                  121,
+                  25,
+                  22.5,
+                  278,
+                  328,
+                  24,
+                  45,
+                  60
+                ]
               },
               "Translation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  -3,
+                  -18,
+                  0,
+                  -9,
+                  0.305,
+                  -6.895,
+                  -11.4,
+                  -10.8
+                ]
               }
             }
           },
@@ -23949,6 +25299,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24024,6 +25375,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24090,6 +25442,7 @@
               },
               "CustomModelTexture": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Weight": {
                     "type": "number"
@@ -24156,6 +25509,7 @@
                 "children": {
                   "Down": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "FaceType": {
                         "type": "string",
@@ -24206,6 +25560,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24228,6 +25583,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24255,6 +25611,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24282,6 +25639,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24379,6 +25737,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -24399,11 +25758,18 @@
               },
               "Rotation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  0,
+                  121,
+                  25
+                ]
               },
               "Translation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  -3,
+                  -18
+                ]
               }
             }
           },
@@ -24426,6 +25792,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24448,6 +25815,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24475,6 +25843,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24502,6 +25871,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24570,6 +25940,7 @@
               },
               "CustomModelTexture": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Weight": {
                     "type": "number"
@@ -24629,6 +26000,7 @@
                 "children": {
                   "Down": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "FaceType": {
                         "type": "string",
@@ -24717,6 +26089,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -24737,11 +26110,18 @@
               },
               "Rotation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  0,
+                  121,
+                  25
+                ]
               },
               "Translation": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  -3,
+                  -18
+                ]
               }
             }
           },
@@ -24764,6 +26144,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24787,6 +26168,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24814,6 +26196,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Parent": {
                         "type": "string",
@@ -24841,6 +26224,7 @@
                 "children": {
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -24909,6 +26293,7 @@
               },
               "CustomModelTexture": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Weight": {
                     "type": "number"
@@ -24968,6 +26353,7 @@
                 "children": {
                   "Down": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "FaceType": {
                         "type": "string",
@@ -25047,6 +26433,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -25087,6 +26474,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -25127,6 +26515,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -25167,6 +26556,7 @@
           },
           "ResourceTypes": {
             "type": "array",
+            "values": [],
             "children": {
               "Id": {
                 "type": "string",
@@ -25200,6 +26590,7 @@
   },
   "Particles": {
     "type": "array",
+    "values": [],
     "children": {
       "SystemId": {
         "type": "string",
@@ -25290,6 +26681,7 @@
     "children": {
       "Specs": {
         "type": "array",
+        "values": [],
         "children": {
           "Power": {
             "type": "number"
@@ -25316,10 +26708,16 @@
       },
       "DurabilityLossBlockTypes": {
         "type": "array",
+        "values": [],
         "children": {
           "BlockSets": {
             "type": "array",
-            "children": {}
+            "values": [
+              "Stone",
+              "Rock",
+              "Ores",
+              "Soil"
+            ]
           },
           "DurabilityLossOnHit": {
             "type": "number"
@@ -25336,10 +26734,11 @@
     "children": {
       "UI": {
         "type": "array",
-        "children": {}
+        "values": []
       },
       "Tools": {
         "type": "array",
+        "values": [],
         "children": {
           "Id": {
             "type": "string",
@@ -25502,7 +26901,15 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Up",
+                      "Down",
+                      "Camera",
+                      "North",
+                      "South",
+                      "East",
+                      "West"
+                    ]
                   }
                 }
               },
@@ -25751,7 +27158,19 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Cube",
+                      "Sphere",
+                      "Cylinder",
+                      "Cone",
+                      "InvertedCone",
+                      "Pyramid",
+                      "InvertedPyramid",
+                      "Dome",
+                      "InvertedDome",
+                      "Diamond",
+                      "Torus"
+                    ]
                   }
                 }
               },
@@ -25772,7 +27191,11 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Center",
+                      "Bottom",
+                      "Top"
+                    ]
                   }
                 }
               },
@@ -25853,7 +27276,11 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Continous",
+                      "Split",
+                      "Origin"
+                    ]
                   }
                 }
               },
@@ -25914,7 +27341,12 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Anchor",
+                      "Bottom",
+                      "Center",
+                      "Top"
+                    ]
                   }
                 }
               },
@@ -26520,7 +27952,15 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Cube",
+                      "Sphere",
+                      "Cylinder",
+                      "Cone",
+                      "Inverted_Cone",
+                      "Pyramid",
+                      "Inverted_Pyramid"
+                    ]
                   }
                 }
               },
@@ -26541,7 +27981,11 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Lava",
+                      "Water",
+                      "Empty"
+                    ]
                   }
                 }
               },
@@ -26722,7 +28166,11 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Boulders",
+                      "Trees",
+                      "Foliage"
+                    ]
                   }
                 }
               },
@@ -26783,7 +28231,85 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Amber",
+                      "Amber_Trunk",
+                      "Ash",
+                      "Ash_Dead",
+                      "Ash_Moss",
+                      "Ash_swamp",
+                      "Ash_swamp_dead",
+                      "Ash_twisted",
+                      "Ash_twisted_Giant",
+                      "Ash_twisted_Large",
+                      "Aspen",
+                      "Autumn",
+                      "Autumn_Stumps",
+                      "Azure",
+                      "Bamboo",
+                      "Beech",
+                      "Beech_Dry",
+                      "Beech_Mountain",
+                      "Birch",
+                      "Boab",
+                      "Burnt",
+                      "Burnt_dead",
+                      "Burnt_Roots",
+                      "Cedar",
+                      "Cedar_Burnt",
+                      "Cedar_Logs",
+                      "Crystal",
+                      "Dry",
+                      "Dry_Dead",
+                      "Fig_Blue",
+                      "Fir",
+                      "Fire_Burning",
+                      "Fir_Autumn",
+                      "Fir_Dead",
+                      "Fir_Dead_Large",
+                      "Fir_Logs",
+                      "Fir_red",
+                      "Fir_Snow",
+                      "Gum",
+                      "Jungle",
+                      "Jungle1",
+                      "Jungle2",
+                      "Jungle3",
+                      "Jungle_Canopy_Lower",
+                      "Jungle_Canopy_Middle",
+                      "Jungle_Canopy_Upper",
+                      "Jungle_Crystal",
+                      "Jungle_Crystal_Red",
+                      "Jungle_Ferns",
+                      "Jungle_Island1",
+                      "Jungle_Island2",
+                      "Jungle_Mushroom",
+                      "Logs",
+                      "Maple",
+                      "Maple_Stumps",
+                      "Mushroom",
+                      "Oak",
+                      "Oak_Moss",
+                      "Oak_Stumps",
+                      "Palm",
+                      "Palm_Green",
+                      "Palo",
+                      "Petrified",
+                      "Petrified_Coral_Bulbs",
+                      "Petrified_Dead",
+                      "Petrified_Logs",
+                      "Poisoned",
+                      "Redwood",
+                      "Redwood_Logs",
+                      "Redwood_Stumps",
+                      "Rocks",
+                      "Sallow",
+                      "Silver",
+                      "Stormbark_Stumps",
+                      "Willow",
+                      "Wisteria",
+                      "Zone5"
+                    ]
                   }
                 }
               },
@@ -27434,7 +28960,11 @@
                   },
                   "Options": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Normal",
+                      "Smooth",
+                      "Rough"
+                    ]
                   }
                 }
               }
@@ -27581,10 +29111,17 @@
     "children": {
       "Health": {
         "type": "array",
+        "values": [],
         "children": {
           "Condition": {
             "type": "array",
-            "children": {}
+            "values": [
+              0,
+              100,
+              20,
+              21,
+              40
+            ]
           },
           "ConditionValueType": {
             "type": "string",
@@ -27601,6 +29138,7 @@
           },
           "Particles": {
             "type": "array",
+            "values": [],
             "children": {
               "SystemId": {
                 "type": "string",
@@ -27627,10 +29165,13 @@
       },
       "GlidingActive": {
         "type": "array",
+        "values": [],
         "children": {
           "Condition": {
             "type": "array",
-            "children": {}
+            "values": [
+              1
+            ]
           },
           "Model": {
             "type": "string",
@@ -27648,10 +29189,13 @@
       },
       "SignatureEnergy": {
         "type": "array",
+        "values": [],
         "children": {
           "Condition": {
             "type": "array",
-            "children": {}
+            "values": [
+              100
+            ]
           },
           "ConditionValueType": {
             "type": "string",
@@ -27661,6 +29205,7 @@
           },
           "Particles": {
             "type": "array",
+            "values": [],
             "children": {
               "SystemId": {
                 "type": "string",
@@ -27711,6 +29256,7 @@
           },
           "FirstPersonParticles": {
             "type": "array",
+            "values": [],
             "children": {
               "SystemId": {
                 "type": "string",
@@ -27754,10 +29300,14 @@
       },
       "SignatureCharges": {
         "type": "array",
+        "values": [],
         "children": {
           "Condition": {
             "type": "array",
-            "children": {}
+            "values": [
+              1,
+              100
+            ]
           },
           "ConditionValueType": {
             "type": "string",
@@ -27779,6 +29329,7 @@
           },
           "Particles": {
             "type": "array",
+            "values": [],
             "children": {
               "SystemId": {
                 "type": "string",
@@ -27828,6 +29379,7 @@
           },
           "FirstPersonParticles": {
             "type": "array",
+            "values": [],
             "children": {
               "SystemId": {
                 "type": "string",
@@ -27875,13 +29427,20 @@
       },
       "MagicCharges": {
         "type": "array",
+        "values": [],
         "children": {
           "Condition": {
             "type": "array",
-            "children": {}
+            "values": [
+              4,
+              3,
+              2,
+              1
+            ]
           },
           "Particles": {
             "type": "array",
+            "values": [],
             "children": {
               "TargetNodeName": {
                 "type": "string",
@@ -27932,6 +29491,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28008,6 +29568,17 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "HealthRegen_TierCheck_T1",
+              "Meat_TierCheck_T1",
+              "HealthRegen_TierCheck_T2",
+              "FruitVeggie_TierCheck_T2",
+              "Meat_TierCheck_T2",
+              "HealthRegen_TierCheck_T3",
+              "FruitVeggie_TierCheck_T3",
+              "Meat_TierCheck_T3",
+              "FruitVeggie_TierCheck_T1"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -28158,6 +29729,7 @@
                   },
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Type": {
                         "type": "string",
@@ -28187,7 +29759,10 @@
               },
               "EntityEffectIds": {
                 "type": "array",
-                "children": {}
+                "values": [
+                  "Potion_Health_Greater_Regen",
+                  "Potion_Signature_Greater_Regen"
+                ]
               },
               "Match": {
                 "type": "string",
@@ -28208,6 +29783,7 @@
               },
               "Interactions": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Type": {
                     "type": "string",
@@ -28234,6 +29810,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28273,6 +29850,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28291,6 +29869,7 @@
                   },
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -28339,6 +29918,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28379,6 +29959,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28437,6 +30018,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28449,6 +30031,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -28512,6 +30095,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28561,6 +30145,9 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [
+              "Bomb_Throw"
+            ],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28610,6 +30197,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -28626,6 +30214,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28692,6 +30281,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28725,6 +30315,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28778,6 +30369,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28819,6 +30411,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28854,6 +30447,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -28881,6 +30475,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28914,6 +30509,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28963,6 +30559,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -28996,6 +30593,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29046,6 +30644,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29058,6 +30657,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -29112,6 +30712,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29161,6 +30762,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29173,6 +30775,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -29227,6 +30830,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29273,6 +30877,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -29312,6 +30917,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -29351,6 +30957,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -29366,6 +30973,7 @@
               },
               "Matchers": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Block": {
                     "type": "object",
@@ -29449,6 +31057,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29476,6 +31085,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29533,6 +31143,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29560,6 +31171,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29617,6 +31229,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29644,6 +31257,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29701,6 +31315,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29728,6 +31343,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29785,6 +31401,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29807,6 +31424,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29836,6 +31454,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29887,6 +31506,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29916,6 +31536,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29967,6 +31588,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -29994,6 +31616,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30045,6 +31668,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30098,6 +31722,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30146,6 +31771,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30194,6 +31820,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30216,6 +31843,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -30256,6 +31884,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30278,7 +31907,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -30308,6 +31937,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30397,6 +32027,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30430,6 +32061,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30463,6 +32095,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30505,6 +32138,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30544,6 +32178,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30556,7 +32191,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
-                    "children": {}
+                    "values": []
                   }
                 }
               }
@@ -30569,6 +32204,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30625,6 +32261,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30637,7 +32274,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
-                    "children": {}
+                    "values": []
                   }
                 }
               }
@@ -30650,6 +32287,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30706,6 +32344,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30718,6 +32357,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -30772,6 +32412,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30827,6 +32468,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30839,6 +32481,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -30899,6 +32542,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -30911,6 +32555,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -30971,6 +32616,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31001,6 +32647,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31031,6 +32678,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31043,6 +32691,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -31103,6 +32752,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31115,6 +32765,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -31175,6 +32826,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31205,6 +32857,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31235,6 +32888,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31265,6 +32919,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31281,6 +32936,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31311,6 +32967,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31327,6 +32984,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31356,6 +33014,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31407,6 +33066,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31436,6 +33096,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31493,6 +33154,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31544,6 +33206,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31556,6 +33219,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -31609,6 +33273,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31658,6 +33323,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31670,6 +33336,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -31723,6 +33390,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31772,6 +33440,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31784,6 +33453,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "TrailId": {
                         "type": "string",
@@ -31838,6 +33508,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31878,6 +33549,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -31908,6 +33580,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -31941,6 +33614,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -31970,6 +33644,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32009,6 +33684,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32048,6 +33724,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32087,6 +33764,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32116,6 +33794,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32161,6 +33840,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32189,6 +33869,7 @@
           },
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32201,7 +33882,11 @@
                 "children": {
                   "Blocking": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "SwapFrom",
+                      "Primary",
+                      "Secondary"
+                    ]
                   }
                 }
               },
@@ -32231,6 +33916,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32267,6 +33953,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32315,6 +34002,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32353,6 +34041,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -32386,6 +34075,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32408,6 +34098,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32437,6 +34128,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32470,6 +34162,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -32500,6 +34193,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -32567,6 +34261,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32628,6 +34323,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32701,6 +34397,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -32753,6 +34450,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -32805,6 +34503,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -32878,6 +34577,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -32930,6 +34630,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -32982,6 +34683,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33047,6 +34749,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -33099,6 +34802,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -33151,6 +34855,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33216,6 +34921,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -33268,6 +34974,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -33320,6 +35027,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33342,6 +35050,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -33397,6 +35106,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -33469,6 +35179,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -33535,6 +35246,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33557,6 +35269,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -33614,6 +35327,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -33686,6 +35400,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -33752,6 +35467,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33774,7 +35490,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -33819,6 +35535,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -33892,6 +35609,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -33958,6 +35676,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -33980,7 +35699,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -34025,6 +35744,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -34098,6 +35818,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -34164,6 +35885,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34186,7 +35908,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -34231,6 +35953,7 @@
               },
               "AngledDamage": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "Angle": {
                     "type": "number"
@@ -34303,6 +36026,7 @@
                       },
                       "WorldParticles": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "SystemId": {
                             "type": "string",
@@ -34369,6 +36093,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34394,6 +36119,7 @@
                   },
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -34443,6 +36169,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34468,6 +36195,7 @@
                   },
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -34517,6 +36245,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34550,6 +36279,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34583,6 +36313,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34616,6 +36347,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34649,6 +36381,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34671,6 +36404,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34695,6 +36429,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34731,6 +36466,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34750,6 +36486,7 @@
                   },
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -34810,6 +36547,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34863,6 +36601,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34883,6 +36622,7 @@
                   },
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -34943,6 +36683,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -34996,6 +36737,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35016,6 +36758,7 @@
                   },
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -35076,6 +36819,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35132,6 +36876,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35144,6 +36889,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -35205,6 +36951,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35258,6 +37005,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35306,6 +37054,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35328,6 +37077,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -35368,6 +37118,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35390,6 +37141,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -35430,6 +37182,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35452,6 +37205,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -35492,6 +37246,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35514,7 +37269,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -35544,6 +37299,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35577,6 +37333,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35610,6 +37367,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35643,6 +37401,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35676,6 +37435,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35709,6 +37469,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35742,6 +37503,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35789,6 +37551,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35818,6 +37581,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35847,6 +37611,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35876,6 +37641,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35898,6 +37664,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -35920,6 +37687,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -35968,6 +37736,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36016,6 +37785,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36064,6 +37834,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36112,6 +37883,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36217,6 +37989,7 @@
                           },
                           "WorldParticles": {
                             "type": "array",
+                            "values": [],
                             "children": {
                               "SystemId": {
                                 "type": "string",
@@ -36317,6 +38090,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -36338,6 +38112,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36377,6 +38152,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36416,6 +38192,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36455,6 +38232,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36494,6 +38272,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36533,6 +38312,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36566,6 +38346,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36599,6 +38380,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36632,6 +38414,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36665,6 +38448,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36698,6 +38482,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36742,6 +38527,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36781,6 +38567,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36820,6 +38607,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -36859,6 +38647,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36888,6 +38677,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36915,6 +38705,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36962,6 +38753,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -36999,6 +38791,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37023,6 +38816,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37089,6 +38883,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37113,6 +38908,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37140,6 +38936,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37188,9 +38985,11 @@
                   },
                   "Interactions": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -37260,6 +39059,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -37309,6 +39109,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37339,6 +39140,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37369,6 +39171,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37395,6 +39198,7 @@
                 "children": {
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -37425,6 +39229,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -37446,6 +39251,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37472,6 +39278,7 @@
                 "children": {
                   "Particles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -37502,6 +39309,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -37523,6 +39331,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37576,6 +39385,7 @@
                   },
                   "WorldParticles": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "SystemId": {
                         "type": "string",
@@ -37589,6 +39399,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -37610,6 +39421,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37664,7 +39476,9 @@
                   },
                   "ApplyEffects": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Flame_Staff_Burn"
+                    ]
                   },
                   "DeploySoundEventId": {
                     "type": "string",
@@ -37695,6 +39509,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -37714,6 +39529,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Type": {
                 "type": "string",
@@ -37733,6 +39549,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37755,6 +39572,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
+                "values": [],
                 "children": {
                   "EntityStatId": {
                     "type": "string",
@@ -37795,6 +39613,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37817,7 +39636,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -37847,6 +39666,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -37869,7 +39689,7 @@
               },
               "EntityStatsOnHit": {
                 "type": "array",
-                "children": {}
+                "values": []
               },
               "DamageEffects": {
                 "type": "object",
@@ -37899,6 +39719,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -37938,6 +39759,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "$Comment": {
                 "type": "string",
@@ -37977,6 +39799,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38010,6 +39833,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38022,6 +39846,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -38071,6 +39896,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38095,6 +39921,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38137,6 +39964,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38149,6 +39977,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -38215,6 +40044,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38227,6 +40057,7 @@
                 "children": {
                   "Trails": {
                     "type": "array",
+                    "values": [],
                     "children": {
                       "PositionOffset": {
                         "type": "object",
@@ -38293,6 +40124,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38309,6 +40141,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38342,6 +40175,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38366,7 +40200,9 @@
                   },
                   "EntityEffectIds": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Immune"
+                    ]
                   },
                   "Match": {
                     "type": "string",
@@ -38385,6 +40221,7 @@
                       },
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -38428,6 +40265,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38461,6 +40299,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38485,7 +40324,9 @@
                   },
                   "EntityEffectIds": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Immune"
+                    ]
                   },
                   "Match": {
                     "type": "string",
@@ -38504,6 +40345,7 @@
                       },
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -38547,6 +40389,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38571,7 +40414,9 @@
                   },
                   "EntityEffectIds": {
                     "type": "array",
-                    "children": {}
+                    "values": [
+                      "Immune"
+                    ]
                   },
                   "Match": {
                     "type": "string",
@@ -38590,6 +40435,7 @@
                       },
                       "Interactions": {
                         "type": "array",
+                        "values": [],
                         "children": {
                           "Type": {
                             "type": "string",
@@ -38651,6 +40497,7 @@
         "children": {
           "Interactions": {
             "type": "array",
+            "values": [],
             "children": {
               "Parent": {
                 "type": "string",
@@ -38744,13 +40591,19 @@
     "children": {
       "EntityStatsToClear": {
         "type": "array",
-        "children": {}
+        "values": [
+          "SignatureEnergy",
+          "SignatureCharges",
+          "Ammo",
+          "MagicCharges"
+        ]
       },
       "StatModifiers": {
         "type": "object",
         "children": {
           "SignatureEnergy": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -38765,6 +40618,7 @@
           },
           "Ammo": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -38779,6 +40633,7 @@
           },
           "SignatureCharges": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -38793,6 +40648,7 @@
           },
           "MagicCharges": {
             "type": "array",
+            "values": [],
             "children": {
               "Amount": {
                 "type": "number"
@@ -38841,6 +40697,7 @@
   },
   "Trails": {
     "type": "array",
+    "values": [],
     "children": {
       "TrailId": {
         "type": "string",
@@ -38953,7 +40810,9 @@
   },
   "DisplayEntityStatsHUD": {
     "type": "array",
-    "children": {}
+    "values": [
+      "Ammo"
+    ]
   },
   "ClipsGeometry": {
     "type": "boolean"
