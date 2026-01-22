@@ -4,6 +4,13 @@ All notable changes to the "hytale-completions" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.2.0]
+
+### Added
+
+- JSON files for NPC/Roles will now include completions
+- Arrays will now include completions
+
+## [1.0.0]
 
 - Initial release

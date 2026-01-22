@@ -2,7 +2,7 @@
   "name": "hytale-completions",
   "displayName": "Hytale Completions",
   "description": "Auto complete and hover info for Hytale mods and related bits",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "publisher": "Mitsiee",
   "repository": {
     "type": "git",
