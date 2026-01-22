@@ -8,17 +8,22 @@ export function jsonToSchema(
     position: vscode.Position
 ): SchemaNode | null {
     const path = getJsonPathAtPosition(document, position);
+
     let currentNode: any = schema;
     let lastValidNode: any = currentNode;
 
     for (const key of path) {
-        if (!key) break;
+        if (key === undefined || key === null || key === "") break;
 
         const children = currentNode.children;
         const isObject = typeof currentNode === "object" && !Array.isArray(currentNode);
+        const isNumber = typeof key === "number";
 
         if (children?.[key]) {
             currentNode = children[key];
+            lastValidNode = currentNode;
+        } else if (isNumber && currentNode?.values) {
+            currentNode = currentNode.values;
             lastValidNode = currentNode;
         } else if (isObject && currentNode[key]) {
             currentNode = currentNode[key];
