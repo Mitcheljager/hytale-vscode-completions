@@ -1,5 +1,8 @@
+type NodeType = "string" | "number" | "boolean" | "array" | "object" | "null";
+
 export type SchemaNode = {
-    type: "string" | "number" | "boolean" | "array" | "object" | "null";
+    type: NodeType;
     children?: Record<string, SchemaNode>;
     values?: any[];
+    arrayTypes?: NodeType[];
 };

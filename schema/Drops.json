@@ -13,6 +13,9 @@
       "Containers": {
         "type": "array",
         "values": [],
+        "arrayTypes": [
+          "object"
+        ],
         "children": {
           "Type": {
             "type": "string",
@@ -167,19 +170,26 @@
                 ]
               },
               "QuantityMin": {
-                "type": "number"
+                "type": "number",
+                "values": []
               },
               "QuantityMax": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
-            }
+            },
+            "values": []
           },
           "Weight": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "Containers": {
             "type": "array",
             "values": [],
+            "arrayTypes": [
+              "object"
+            ],
             "children": {
               "Type": {
                 "type": "string",
@@ -507,23 +517,29 @@
                     ]
                   },
                   "QuantityMin": {
-                    "type": "number"
+                    "type": "number",
+                    "values": []
                   },
                   "QuantityMax": {
-                    "type": "number"
+                    "type": "number",
+                    "values": []
                   }
-                }
+                },
+                "values": []
               },
               "Weight": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
             }
           },
           "RollsMin": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "RollsMax": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "DroplistId": {
             "type": "string",
@@ -581,16 +597,21 @@
             ]
           },
           "QuantityMin": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "QuantityMax": {
-            "type": "number"
+            "type": "number",
+            "values": []
           }
-        }
+        },
+        "values": []
       },
       "Weight": {
-        "type": "number"
+        "type": "number",
+        "values": []
       }
-    }
+    },
+    "values": []
   }
 }

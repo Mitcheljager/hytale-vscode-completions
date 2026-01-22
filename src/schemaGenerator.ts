@@ -26,9 +26,14 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
         }
     } else if (type === "array") {
         existing.values ||= [];
+        existing.arrayTypes ||= [];
 
         for (const item of value) {
             const itemType = getType(item);
+
+            if (!existing.arrayTypes.includes(itemType)) {
+                existing.arrayTypes.push(itemType);
+            }
 
             if (itemType === "object") {
                 existing.children ||= {};
@@ -37,10 +42,8 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
                     existing.children[key] = mergeSchema(existing.children[key], item[key]);
                 }
             } else {
-                if (typeof item !== "number") {
-                    if (!existing.values.includes(item)) {
-                        existing.values.push(item);
-                    }
+                if (!existing.values.includes(item)) {
+                    existing.values.push(item);
                 }
             }
         }

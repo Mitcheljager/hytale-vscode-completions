@@ -62,14 +62,21 @@
       "Env_Zone4_Volcanoes",
       "Env_Zone4_Wastes",
       "Env_Zone4_Shores"
+    ],
+    "arrayTypes": [
+      "string"
     ]
   },
   "NPCs": {
     "type": "array",
     "values": [],
+    "arrayTypes": [
+      "object"
+    ],
     "children": {
       "Weight": {
-        "type": "number"
+        "type": "number",
+        "values": []
       },
       "Id": {
         "type": "string",
@@ -276,7 +283,10 @@
         "children": {
           "Size": {
             "type": "array",
-            "values": []
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
           },
           "Type": {
             "type": "string",
@@ -285,11 +295,15 @@
             ]
           },
           "MinSize": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "SizeWeights": {
             "type": "array",
-            "values": []
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
           }
         },
         "values": [
@@ -534,7 +548,8 @@
         ]
       },
       "RealtimeRespawnTime": {
-        "type": "number"
+        "type": "number",
+        "values": []
       },
       "SpawnAfterGameTime": {
         "type": "string",
@@ -571,6 +586,9 @@
       "PT110M",
       "PT2M",
       "PT8M"
+    ],
+    "arrayTypes": [
+      "string"
     ]
   },
   "NPCSpawnState": {
@@ -588,32 +606,44 @@
     ]
   },
   "MinDistanceFromPlayer": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "MaxSpawnedNPCs": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "ConcurrentSpawnsRange": {
     "type": "array",
-    "values": []
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
   },
   "BeaconRadius": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "SpawnRadius": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "TargetDistanceFromPlayer": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "SpawnAfterRealTimeRange": {
     "type": "array",
     "values": [
       "PT1S"
+    ],
+    "arrayTypes": [
+      "string"
     ]
   },
   "NPCIdleDespawnTime": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "BeaconVacantDespawnGameTime": {
     "type": "string",
@@ -628,13 +658,20 @@
     "children": {
       "Light": {
         "type": "array",
-        "values": []
+        "values": [],
+        "arrayTypes": [
+          "number"
+        ]
       }
-    }
+    },
+    "values": []
   },
   "DayTimeRange": {
     "type": "array",
-    "values": []
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
   },
   "SpawnSuppression": {
     "type": "string",
@@ -649,22 +686,28 @@
     ]
   },
   "ExclusionRadius": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "RealtimeRespawn": {
-    "type": "boolean"
+    "type": "boolean",
+    "values": []
   },
   "MaxDropHeight": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "DeactivationDistance": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "ManualTrigger": {
-    "type": "boolean"
+    "type": "boolean",
+    "values": []
   },
   "SuppressionRadius": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "SuppressedGroups": {
     "type": "array",
@@ -674,22 +717,33 @@
       "Neutral",
       "Trork",
       "Prey"
+    ],
+    "arrayTypes": [
+      "string"
     ]
   },
   "SuppressSpawnMarkers": {
-    "type": "boolean"
+    "type": "boolean",
+    "values": []
   },
   "Despawn": {
     "type": "object",
     "children": {
       "DayTimeRange": {
         "type": "array",
-        "values": []
+        "values": [],
+        "arrayTypes": [
+          "number"
+        ]
       }
-    }
+    },
+    "values": []
   },
   "MoonPhaseWeightModifiers": {
     "type": "array",
-    "values": []
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
   }
 }

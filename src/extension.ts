@@ -99,7 +99,7 @@ function createJsonSchema(): vscode.Disposable {
             return Object.entries(node.children || node).filter(([key]) => !existingKeys.has(key)) .map(([key, value]: [string, any]) => {
                 const item = new vscode.CompletionItem(key, vscode.CompletionItemKind.Property);
 
-                item.detail = value.type;
+                item.detail = value.type === "array" ? `array<${value.arrayTypes.join("|")}>` : value.type;
                 item.sortText = "0_" + key;
 
                 return item;

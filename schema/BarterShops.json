@@ -10,16 +10,22 @@
     "type": "object",
     "children": {
       "Days": {
-        "type": "number"
+        "type": "number",
+        "values": []
       }
-    }
+    },
+    "values": []
   },
   "RestockHour": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "TradeSlots": {
     "type": "array",
     "values": [],
+    "arrayTypes": [
+      "object"
+    ],
     "children": {
       "Type": {
         "type": "string",
@@ -44,13 +50,18 @@
                 ]
               },
               "Quantity": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
-            }
+            },
+            "values": []
           },
           "Input": {
             "type": "array",
             "values": [],
+            "arrayTypes": [
+              "object"
+            ],
             "children": {
               "ItemId": {
                 "type": "string",
@@ -60,24 +71,32 @@
                 ]
               },
               "Quantity": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
             }
           },
           "Stock": {
-            "type": "number"
+            "type": "number",
+            "values": []
           }
-        }
+        },
+        "values": []
       },
       "SlotCount": {
-        "type": "number"
+        "type": "number",
+        "values": []
       },
       "Trades": {
         "type": "array",
         "values": [],
+        "arrayTypes": [
+          "object"
+        ],
         "children": {
           "Weight": {
-            "type": "number"
+            "type": "number",
+            "values": []
           },
           "Output": {
             "type": "object",
@@ -105,13 +124,18 @@
                 ]
               },
               "Quantity": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
-            }
+            },
+            "values": []
           },
           "Input": {
             "type": "array",
             "values": [],
+            "arrayTypes": [
+              "object"
+            ],
             "children": {
               "ItemId": {
                 "type": "string",
@@ -121,13 +145,17 @@
                 ]
               },
               "Quantity": {
-                "type": "number"
+                "type": "number",
+                "values": []
               }
             }
           },
           "Stock": {
             "type": "array",
-            "values": []
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
           }
         }
       }

@@ -6,17 +6,25 @@
     ]
   },
   "MinSize": {
-    "type": "number"
+    "type": "number",
+    "values": []
   },
   "SizeWeights": {
     "type": "array",
-    "values": []
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
   },
   "Size": {
     "type": "array",
-    "values": []
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
   },
   "MaxGrowSize": {
-    "type": "number"
+    "type": "number",
+    "values": []
   }
 }
