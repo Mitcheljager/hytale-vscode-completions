@@ -79,6 +79,7 @@ function createJsonSchema(): vscode.Disposable {
     return vscode.languages.registerCompletionItemProvider(["json", "jsonc"], {
         provideCompletionItems(document, position) {
             const json = getSchemaForFile(document);
+            if (!json) return;
 
             const node = jsonToSchema(json, document, position);
             if (!node) return;
