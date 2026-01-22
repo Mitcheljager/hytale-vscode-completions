@@ -1,6 +1,3 @@
-// This file is entirely a ChatGPT special. The goal is to read files from Hytale and parse them into a schema for json files.
-// Each type of json will have its own schema.
-
 import * as fs from "fs";
 import * as path from "path";
 import type { SchemaNode } from "./types/schema";
@@ -35,11 +32,16 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
 
             if (itemType === "object") {
                 existing.children ||= {};
+
                 for (const key of Object.keys(item)) {
                     existing.children[key] = mergeSchema(existing.children[key], item[key]);
                 }
             } else {
-                if (!existing.values.includes(item)) existing.values.push(item);
+                if (typeof item !== "number") {
+                    if (!existing.values.includes(item)) {
+                        existing.values.push(item);
+                    }
+                }
             }
         }
     } else {
@@ -51,7 +53,18 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
         }
     }
 
+    existing.values = removeBogusValues(existing.values || []);
+
     return existing;
+}
+
+function removeBogusValues(array: any[]) {
+    return array.filter(item => {
+        if (typeof item === "number") return false;
+        if (item.match(/^(#|rgba\().*|==$/)) return false;
+
+        return true;
+    });
 }
 
 function readJsonFiles(dir: string): any[] {
@@ -93,13 +106,16 @@ function generateSchema(folderPath: string): Record<string, SchemaNode> {
     return schema;
 }
 
-const items = [{
-    input: "/Server/Item/Items",
-    output: "Items.json"
-}, {
-    input: "/Server/NPC/Roles",
-    output: "Roles.json"
-}];
+const items = [
+    { input: "/Server/Item/Items", output: "Items.json" },
+    { input: "/Server/NPC/Roles", output: "Roles.json" },
+    { input: "/Server/NPC/Groups", output: "Groups.json" },
+    { input: "/Server/NPC/Flocks", output: "Flocks.json" },
+    { input: "/Server/NPC/Spawn", output: "Spawn.json" },
+    { input: "/Server/Drops", output: "Drops.json" },
+    { input: "/Server/BarterShops", output: "BarterShops.json" },
+    { input: "/Server/Weathers", output: "Weathers.json" }
+];
 
 const folderArg = process.argv[2];
 if (!folderArg) {
@@ -107,7 +123,7 @@ if (!folderArg) {
     process.exit(1);
 }
 
-for(const { input, output } of items) {
+for (const { input, output } of items) {
     const baseFolder = path.resolve(folderArg);
     const absoluteFolder = baseFolder + input;
     const schema = generateSchema(absoluteFolder);

@@ -1,0 +1,136 @@
+{
+  "DisplayNameKey": {
+    "type": "string",
+    "values": [
+      "server.barter.klops_merchant.title",
+      "server.barter.kweebec_merchant.title"
+    ]
+  },
+  "RefreshInterval": {
+    "type": "object",
+    "children": {
+      "Days": {
+        "type": "number"
+      }
+    }
+  },
+  "RestockHour": {
+    "type": "number"
+  },
+  "TradeSlots": {
+    "type": "array",
+    "values": [],
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Fixed",
+          "Pool"
+        ]
+      },
+      "Trade": {
+        "type": "object",
+        "children": {
+          "Output": {
+            "type": "object",
+            "children": {
+              "ItemId": {
+                "type": "string",
+                "values": [
+                  "Furniture_Construction_Sign",
+                  "Ingredient_Spices",
+                  "Ingredient_Salt",
+                  "Ingredient_Dough"
+                ]
+              },
+              "Quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "Input": {
+            "type": "array",
+            "values": [],
+            "children": {
+              "ItemId": {
+                "type": "string",
+                "values": [
+                  "Furniture_Construction_Sign",
+                  "Ingredient_Life_Essence"
+                ]
+              },
+              "Quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "Stock": {
+            "type": "number"
+          }
+        }
+      },
+      "SlotCount": {
+        "type": "number"
+      },
+      "Trades": {
+        "type": "array",
+        "values": [],
+        "children": {
+          "Weight": {
+            "type": "number"
+          },
+          "Output": {
+            "type": "object",
+            "children": {
+              "ItemId": {
+                "type": "string",
+                "values": [
+                  "Plant_Crop_Berry_Block",
+                  "Plant_Crop_Berry_Winter_Block",
+                  "Plant_Crop_Berry_Wet_Block",
+                  "Food_Salad_Berry",
+                  "Food_Salad_Mushroom",
+                  "Food_Kebab_Meat",
+                  "Food_Kebab_Mushroom",
+                  "Food_Kebab_Vegetable",
+                  "Food_Kebab_Fruit",
+                  "Recipe_Food_Pie_Apple",
+                  "Recipe_Food_Pie_Pumpkin",
+                  "Recipe_Food_Salad_Caesar",
+                  "Recipe_Food_Pie_Meat",
+                  "Food_Pie_Apple",
+                  "Food_Pie_Pumpkin",
+                  "Food_Pie_Meat",
+                  "Food_Salad_Caesar"
+                ]
+              },
+              "Quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "Input": {
+            "type": "array",
+            "values": [],
+            "children": {
+              "ItemId": {
+                "type": "string",
+                "values": [
+                  "Ingredient_Life_Essence",
+                  "Ingredient_Life_Essence_Concentrated"
+                ]
+              },
+              "Quantity": {
+                "type": "number"
+              }
+            }
+          },
+          "Stock": {
+            "type": "array",
+            "values": []
+          }
+        }
+      }
+    }
+  }
+}

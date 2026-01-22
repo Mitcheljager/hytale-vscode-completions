@@ -78,15 +78,24 @@ function getEnclosingNode(document: vscode.TextDocument, position: vscode.Positi
 
 import schemaItems from "../schema/Items.json";
 import schemaRoles from "../schema/Roles.json";
+import schemaGroups from "../schema/Groups.json";
+import schemaFlocks from "../schema/Flocks.json";
+import schemaSpawn from "../schema/Spawn.json";
+import schemaDrops from "../schema/Drops.json";
+import schemaBarterShops from "../schema/BarterShops.json";
+import schemaWeathers from "../schema/Weathers.json";
 
 export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
-    const schemas = [{
-        path: "/Item/Items",
-        json: schemaItems
-    }, {
-        path: "/NPC/Roles",
-        json: schemaRoles
-    }];
+    const schemas = [
+        { path: "/Item/Items", json: schemaItems },
+        { path: "/NPC/Roles", json: schemaRoles },
+        { path: "/NPC/Groups", json: schemaGroups },
+        { path: "/NPC/Flocks", json: schemaFlocks },
+        { path: "/NPC/Spawn", json: schemaSpawn },
+        { path: "/Drops", json: schemaDrops },
+        { path: "/BarterShops", json: schemaBarterShops },
+        { path: "/Weathers", json: schemaWeathers },
+    ];
 
     const fileName = document.uri.path;
 

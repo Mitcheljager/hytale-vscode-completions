@@ -1,0 +1,22 @@
+{
+  "Type": {
+    "type": "string",
+    "values": [
+      "Weighted"
+    ]
+  },
+  "MinSize": {
+    "type": "number"
+  },
+  "SizeWeights": {
+    "type": "array",
+    "values": []
+  },
+  "Size": {
+    "type": "array",
+    "values": []
+  },
+  "MaxGrowSize": {
+    "type": "number"
+  }
+}

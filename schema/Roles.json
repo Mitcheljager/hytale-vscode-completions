@@ -2473,23 +2473,14 @@
       },
       "AlertedTime": {
         "type": "array",
-        "values": [
-          4,
-          2,
-          3,
-          5,
-          0.5,
-          1
-        ]
+        "values": []
       },
       "MaintainDistanceWhileAlerted": {
         "type": "boolean"
       },
       "ThreatenDelayRange": {
         "type": "array",
-        "values": [
-          2
-        ]
+        "values": []
       },
       "ThreatenAnimation": {
         "type": "string",
@@ -2534,16 +2525,7 @@
       },
       "LeashTimer": {
         "type": "array",
-        "values": [
-          3,
-          4,
-          5,
-          2,
-          12,
-          16,
-          10,
-          15
-        ]
+        "values": []
       },
       "CombatBehaviorDistance": {
         "type": "number"
@@ -2562,37 +2544,19 @@
       },
       "CombatBackOffDurationRange": {
         "type": "array",
-        "values": [
-          3,
-          4,
-          2
-        ]
+        "values": []
       },
       "CombatBackOffDistanceRange": {
         "type": "array",
-        "values": [
-          3,
-          4,
-          5,
-          2,
-          2.5,
-          1,
-          3.5
-        ]
+        "values": []
       },
       "CombatStrafingFrequencyRange": {
         "type": "array",
-        "values": [
-          2,
-          1
-        ]
+        "values": []
       },
       "CombatStrafingDurationRange": {
         "type": "array",
-        "values": [
-          2,
-          3
-        ]
+        "values": []
       },
       "CombatMovingRelativeSpeed": {
         "type": "number"
@@ -2621,23 +2585,14 @@
       },
       "DayTimeNapTimeRange": {
         "type": "array",
-        "values": [
-          10,
-          12
-        ]
+        "values": []
       },
       "TimidDuringDay": {
         "type": "boolean"
       },
       "AttackPauseRange": {
         "type": "array",
-        "values": [
-          3,
-          4,
-          5,
-          1,
-          2.5
-        ]
+        "values": []
       },
       "AttractiveItems": {
         "type": "array",
@@ -2759,10 +2714,7 @@
       },
       "MotionNothingTimer": {
         "type": "array",
-        "values": [
-          8,
-          12
-        ]
+        "values": []
       },
       "BlockStepDetectionBlockSet": {
         "type": "string",
@@ -2802,11 +2754,7 @@
       },
       "DayTimePeriod": {
         "type": "array",
-        "values": [
-          17.99,
-          6.01,
-          18.01
-        ]
+        "values": []
       },
       "Weapons": {
         "type": "array",
@@ -2890,35 +2838,15 @@
       },
       "DesiredAttackDistanceRange": {
         "type": "array",
-        "values": [
-          2,
-          2.6,
-          2.4,
-          5,
-          14.5,
-          15,
-          2.5,
-          1,
-          1.6,
-          12
-        ]
+        "values": []
       },
       "CombatAttackPostDelay": {
         "type": "array",
-        "values": [
-          1,
-          1.2,
-          0.8,
-          1.5,
-          0.6
-        ]
+        "values": []
       },
       "WakingPeriod": {
         "type": "array",
-        "values": [
-          0,
-          24
-        ]
+        "values": []
       },
       "WalkSpeed": {
         "type": "number"
@@ -3141,10 +3069,7 @@
       },
       "MotionWanderStopTime": {
         "type": "array",
-        "values": [
-          2,
-          3
-        ]
+        "values": []
       },
       "CombatFleeIfTooCloseDistance": {
         "type": "number"
@@ -3168,9 +3093,7 @@
       },
       "CombatAttackPreDelay": {
         "type": "array",
-        "values": [
-          0.05
-        ]
+        "values": []
       },
       "CombatMessageTargetGroups": {
         "type": "array",
@@ -3211,10 +3134,7 @@
       },
       "Count": {
         "type": "array",
-        "values": [
-          5,
-          10
-        ]
+        "values": []
       },
       "DisplayName": {
         "type": "string",
@@ -3259,121 +3179,83 @@
       },
       "PrimaryTimer": {
         "type": "array",
-        "values": [
-          0.1
-        ]
+        "values": []
       },
       "PrimaryCharge": {
         "type": "number"
       },
       "PrimaryCost": {
         "type": "array",
-        "values": [
-          0,
-          1
-        ]
+        "values": []
       },
       "PrimaryDistance": {
         "type": "array",
-        "values": [
-          2,
-          2.5
-        ]
+        "values": []
       },
       "Secondary": {
         "type": "boolean"
       },
       "SecondaryTimer": {
         "type": "array",
-        "values": [
-          1,
-          2
-        ]
+        "values": []
       },
       "SecondaryCharge": {
         "type": "number"
       },
       "SecondaryCost": {
         "type": "array",
-        "values": [
-          0.2,
-          1
-        ]
+        "values": []
       },
       "SecondaryDistance": {
         "type": "array",
-        "values": [
-          2,
-          2.5
-        ]
+        "values": []
       },
       "Charged": {
         "type": "boolean"
       },
       "ChargedTimer": {
         "type": "array",
-        "values": [
-          2
-        ]
+        "values": []
       },
       "ChargedCharge": {
         "type": "number"
       },
       "ChargedCost": {
         "type": "array",
-        "values": [
-          0.2,
-          1
-        ]
+        "values": []
       },
       "ChargedDistance": {
         "type": "array",
-        "values": [
-          4,
-          5
-        ]
+        "values": []
       },
       "Signature": {
         "type": "boolean"
       },
       "SignatureTimer": {
         "type": "array",
-        "values": [
-          5
-        ]
+        "values": []
       },
       "SignatureCharge": {
         "type": "number"
       },
       "SignatureCost": {
         "type": "array",
-        "values": [
-          1
-        ]
+        "values": []
       },
       "SignatureDistance": {
         "type": "array",
-        "values": [
-          5,
-          6
-        ]
+        "values": []
       },
       "Flee": {
         "type": "boolean"
       },
       "FleeDistance": {
         "type": "array",
-        "values": [
-          7,
-          9
-        ]
+        "values": []
       },
       "ChaseDistance": {
         "type": "array",
-        "values": [
-          2,
-          3
-        ]
+        "values": []
       }
     }
   },
@@ -4159,12 +4041,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2,
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -4527,10 +4404,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2
-            ]
+            "values": []
           }
         }
       },
@@ -4813,10 +4687,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5285,10 +5156,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              9,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5303,10 +5171,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              15,
-              20
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5423,10 +5288,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0.2,
-              0.4
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5441,10 +5303,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0,
-              0.2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5473,9 +5332,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5581,11 +5438,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              8,
-              5,
-              3
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5616,9 +5469,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              120
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5699,11 +5550,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              10,
-              20,
-              15
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5783,9 +5630,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              150
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5832,14 +5677,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              6,
-              12,
-              5,
-              10,
-              1.5,
-              8
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -5889,13 +5727,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              6.01,
-              23.99,
-              17.99,
-              18,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6066,9 +5898,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6315,12 +6145,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              3,
-              5,
-              10
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6434,9 +6259,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6465,11 +6288,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              5,
-              8,
-              3
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6516,10 +6335,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              6.01,
-              17.99
-            ]
+            "values": []
           },
           "TypeHint": {
             "type": "string",
@@ -6704,12 +6520,7 @@
         "children": {
           "Value": {
             "type": "number",
-            "values": [
-              3,
-              4,
-              0,
-              8
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6805,9 +6616,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              4
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6822,10 +6631,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              3
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6872,9 +6678,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -6889,9 +6693,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7026,10 +6828,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7044,10 +6843,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7062,10 +6858,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7095,9 +6888,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7129,10 +6920,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7175,9 +6963,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7206,10 +6992,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0.5,
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7224,10 +7007,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              4
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7329,10 +7109,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              15,
-              20
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7347,10 +7124,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              8,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7396,10 +7170,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7414,10 +7185,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              5,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7481,10 +7249,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              10,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -7884,10 +7649,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8283,10 +8045,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              6.01,
-              17.99
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8350,12 +8109,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1.5,
-              2,
-              3,
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8415,10 +8169,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0.2,
-              0.3
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8433,10 +8184,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0.2,
-              0.4
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8496,10 +8244,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8514,12 +8259,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              10,
-              14,
-              5,
-              8
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8576,9 +8316,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8593,9 +8331,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8641,10 +8377,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              4
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8719,10 +8452,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8977,10 +8707,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              4,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -8995,10 +8722,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              4,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9072,10 +8796,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              4,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9090,10 +8811,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              6,
-              12
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9187,12 +8905,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2,
-              5,
-              6
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9626,9 +9339,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9643,10 +9354,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0.2,
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9661,10 +9369,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0,
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9679,10 +9384,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0,
-              1
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9697,10 +9399,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              2.5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9715,10 +9414,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              2.5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9733,10 +9429,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9751,10 +9444,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9769,10 +9459,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              7,
-              9
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9787,10 +9474,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              7,
-              9
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9805,9 +9489,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              0
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9822,10 +9504,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              1,
-              2
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9840,9 +9519,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9857,10 +9534,7 @@
         "children": {
           "Value": {
             "type": "array",
-            "values": [
-              2,
-              5
-            ]
+            "values": []
           },
           "Description": {
             "type": "string",
@@ -9927,124 +9601,86 @@
       },
       "PrimaryTimer": {
         "type": "array",
-        "values": [
-          0.1
-        ]
+        "values": []
       },
       "PrimaryCharge": {
         "type": "number"
       },
       "PrimaryCost": {
         "type": "array",
-        "values": [
-          0.1,
-          1
-        ]
+        "values": []
       },
       "PrimaryDistance": {
         "type": "array",
-        "values": [
-          2,
-          2.5
-        ]
+        "values": []
       },
       "Secondary": {
         "type": "boolean"
       },
       "SecondaryTimer": {
         "type": "array",
-        "values": [
-          1,
-          5
-        ]
+        "values": []
       },
       "SecondaryCharge": {
         "type": "number"
       },
       "SecondaryCost": {
         "type": "array",
-        "values": [
-          0.2,
-          1
-        ]
+        "values": []
       },
       "SecondaryDistance": {
         "type": "array",
-        "values": [
-          2,
-          2.5
-        ]
+        "values": []
       },
       "Charged": {
         "type": "boolean"
       },
       "ChargedTimer": {
         "type": "array",
-        "values": [
-          2
-        ]
+        "values": []
       },
       "ChargedCharge": {
         "type": "number"
       },
       "ChargedCost": {
         "type": "array",
-        "values": [
-          0.3,
-          1
-        ]
+        "values": []
       },
       "ChargedDistance": {
         "type": "array",
-        "values": [
-          2,
-          2.5
-        ]
+        "values": []
       },
       "Signature": {
         "type": "boolean"
       },
       "SignatureTimer": {
         "type": "array",
-        "values": [
-          5
-        ]
+        "values": []
       },
       "SignatureCharge": {
         "type": "number"
       },
       "SignatureCost": {
         "type": "array",
-        "values": [
-          1
-        ]
+        "values": []
       },
       "SignatureDistance": {
         "type": "array",
-        "values": [
-          4,
-          5
-        ]
+        "values": []
       },
       "Flee": {
         "type": "boolean"
       },
       "FleeDistance": {
         "type": "array",
-        "values": [
-          4,
-          6
-        ]
+        "values": []
       },
       "Chase": {
         "type": "boolean"
       },
       "ChaseDistance": {
         "type": "array",
-        "values": [
-          2,
-          3
-        ]
+        "values": []
       },
       "_CombatConfig": {
         "type": "string",
@@ -10679,9 +10315,7 @@
                       },
                       "Size": {
                         "type": "array",
-                        "values": [
-                          2
-                        ]
+                        "values": []
                       },
                       "ViewSector": {
                         "type": "number"
@@ -10822,10 +10456,7 @@
                     ]
                   }
                 },
-                "values": [
-                  0,
-                  10
-                ]
+                "values": []
               },
               "ExcludeOwnType": {
                 "type": "boolean"
@@ -10905,18 +10536,11 @@
                   },
                   "CountRange": {
                     "type": "array",
-                    "values": [
-                      0,
-                      100
-                    ]
+                    "values": []
                   },
                   "FreeSlotRange": {
                     "type": "array",
-                    "values": [
-                      3,
-                      2,
-                      1
-                    ]
+                    "values": []
                   },
                   "State": {
                     "type": "string",
@@ -10929,10 +10553,7 @@
                   },
                   "HeightDifference": {
                     "type": "array",
-                    "values": [
-                      -2,
-                      2
-                    ]
+                    "values": []
                   },
                   "StatTarget": {
                     "type": "string",
@@ -10960,15 +10581,7 @@
                   },
                   "ValueRange": {
                     "type": "array",
-                    "values": [
-                      0,
-                      0.49,
-                      0.59,
-                      0.69,
-                      0.79,
-                      0.89,
-                      0.99
-                    ]
+                    "values": []
                   },
                   "Attitudes": {
                     "type": "array",
@@ -10989,10 +10602,7 @@
                   },
                   "AltitudeRange": {
                     "type": "array",
-                    "values": [
-                      10,
-                      30
-                    ]
+                    "values": []
                   },
                   "CheckCanJoin": {
                     "type": "boolean"
@@ -11046,16 +10656,11 @@
                       },
                       "CountRange": {
                         "type": "array",
-                        "values": [
-                          0,
-                          100
-                        ]
+                        "values": []
                       },
                       "FreeSlotRange": {
                         "type": "array",
-                        "values": [
-                          0
-                        ]
+                        "values": []
                       }
                     }
                   },
@@ -11260,28 +10865,11 @@
                     ]
                   }
                 },
-                "values": [
-                  2,
-                  4
-                ]
+                "values": []
               },
               "TimeRemainingRange": {
                 "type": "array",
-                "values": [
-                  0.01,
-                  1,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6,
-                  7,
-                  8,
-                  9,
-                  10,
-                  0,
-                  0.2
-                ]
+                "values": []
               },
               "Animation": {
                 "type": "string",
@@ -11334,12 +10922,7 @@
               },
               "LightRange": {
                 "type": "array",
-                "values": [
-                  0,
-                  49,
-                  50,
-                  100
-                ]
+                "values": []
               },
               "Direction": {
                 "type": "string",
@@ -11354,23 +10937,16 @@
                 "type": "string",
                 "values": [
                   "BodyPosition",
-                  "HeadPosition",
-                  2,
-                  0
+                  "HeadPosition"
                 ]
               },
               "TrueDurationRange": {
                 "type": "array",
-                "values": [
-                  1,
-                  2
-                ]
+                "values": []
               },
               "FalseDurationRange": {
                 "type": "array",
-                "values": [
-                  3
-                ]
+                "values": []
               },
               "UseMarkedTarget": {
                 "type": "boolean"
@@ -11442,10 +11018,7 @@
               },
               "Time": {
                 "type": "array",
-                "values": [
-                  2,
-                  5
-                ]
+                "values": []
               },
               "Motion": {
                 "type": "object",
@@ -11509,10 +11082,7 @@
               },
               "HeightDifference": {
                 "type": "array",
-                "values": [
-                  -15,
-                  15
-                ]
+                "values": []
               },
               "Reference": {
                 "type": "string",
@@ -11554,13 +11124,7 @@
                   },
                   "Time": {
                     "type": "array",
-                    "values": [
-                      2,
-                      5,
-                      1,
-                      8,
-                      3
-                    ]
+                    "values": []
                   },
                   "Motion": {
                     "type": "object",
@@ -11623,9 +11187,7 @@
               },
               "ThrottleDelayRange": {
                 "type": "array",
-                "values": [
-                  30
-                ]
+                "values": []
               },
               "RecomputeDistance": {
                 "type": "number"
@@ -11659,9 +11221,7 @@
               },
               "OffsetRange": {
                 "type": "array",
-                "values": [
-                  2
-                ]
+                "values": []
               },
               "OffsetSector": {
                 "type": "number"
@@ -11671,11 +11231,7 @@
               },
               "DesiredDistanceRange": {
                 "type": "array",
-                "values": [
-                  5,
-                  10,
-                  2
-                ]
+                "values": []
               },
               "TargetDistanceFactor": {
                 "type": "number"
@@ -11688,20 +11244,14 @@
               },
               "StrafingDurationRange": {
                 "type": "array",
-                "values": [
-                  0.5,
-                  1
-                ]
+                "values": []
               },
               "MoveThreshold": {
                 "type": "number"
               },
               "StrafingFrequencyRange": {
                 "type": "array",
-                "values": [
-                  0.5,
-                  2
-                ]
+                "values": []
               },
               "ViewSegments": {
                 "type": "number"
@@ -11920,13 +11470,7 @@
                       },
                       "ValueRange": {
                         "type": "array",
-                        "values": [
-                          0,
-                          0.8,
-                          0.5,
-                          0.25,
-                          1
-                        ]
+                        "values": []
                       },
                       "Attitudes": {
                         "type": "array",
@@ -12030,17 +11574,11 @@
                       },
                       "HeightDifference": {
                         "type": "array",
-                        "values": [
-                          -2,
-                          1
-                        ]
+                        "values": []
                       },
                       "CountRange": {
                         "type": "array",
-                        "values": [
-                          2,
-                          100
-                        ]
+                        "values": []
                       },
                       "State": {
                         "type": "string",
@@ -12074,12 +11612,7 @@
                       },
                       "TimeElapsedRange": {
                         "type": "array",
-                        "values": [
-                          0,
-                          1,
-                          2,
-                          100
-                        ]
+                        "values": []
                       }
                     }
                   },
@@ -12139,12 +11672,7 @@
                           },
                           "HeightDifference": {
                             "type": "array",
-                            "values": [
-                              -8,
-                              8,
-                              -2,
-                              1
-                            ]
+                            "values": []
                           },
                           "IncludeGroups": {
                             "type": "array",
@@ -12348,10 +11876,7 @@
                           },
                           "Period": {
                             "type": "array",
-                            "values": [
-                              6.01,
-                              16.99
-                            ]
+                            "values": []
                           },
                           "AbsoluteDetectionRange": {
                             "type": "object",
@@ -12722,10 +12247,7 @@
                           },
                           "Offset": {
                             "type": "array",
-                            "values": [
-                              0,
-                              1
-                            ]
+                            "values": []
                           },
                           "Sensor": {
                             "type": "object",
@@ -12906,10 +12428,7 @@
                                   },
                                   "HeightDifference": {
                                     "type": "array",
-                                    "values": [
-                                      -2,
-                                      2
-                                    ]
+                                    "values": []
                                   }
                                 }
                               },
@@ -13184,12 +12703,7 @@
                   },
                   "TimeRemainingRange": {
                     "type": "array",
-                    "values": [
-                      0,
-                      1,
-                      4.5,
-                      5
-                    ]
+                    "values": []
                   },
                   "Combat": {
                     "type": "boolean"
@@ -13199,10 +12713,7 @@
                   },
                   "Period": {
                     "type": "array",
-                    "values": [
-                      16.99,
-                      23.99
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -13348,10 +12859,7 @@
                   },
                   "Offset": {
                     "type": "array",
-                    "values": [
-                      2,
-                      0
-                    ]
+                    "values": []
                   },
                   "Collector": {
                     "type": "object",
@@ -13553,10 +13061,7 @@
                       },
                       "Delay": {
                         "type": "array",
-                        "values": [
-                          15,
-                          30
-                        ]
+                        "values": []
                       },
                       "Animation": {
                         "type": "string",
@@ -13568,18 +13073,11 @@
                       },
                       "Duration": {
                         "type": "array",
-                        "values": [
-                          5,
-                          30,
-                          1,
-                          2
-                        ]
+                        "values": []
                       },
                       "AlertedTime": {
                         "type": "array",
-                        "values": [
-                          0.5
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -13591,9 +13089,7 @@
                       },
                       "TargetSwitchTimer": {
                         "type": "array",
-                        "values": [
-                          5
-                        ]
+                        "values": []
                       },
                       "AttackSequence": {
                         "type": "object",
@@ -13670,9 +13166,7 @@
                       },
                       "SwitchTime": {
                         "type": "array",
-                        "values": [
-                          0
-                        ]
+                        "values": []
                       },
                       "SleepsAtNight": {
                         "type": "object",
@@ -13687,9 +13181,7 @@
                       },
                       "PrimaryIdleTimeout": {
                         "type": "array",
-                        "values": [
-                          60
-                        ]
+                        "values": []
                       },
                       "StayAtPost": {
                         "type": "boolean"
@@ -14187,10 +13679,7 @@
                               },
                               "ValueRange": {
                                 "type": "array",
-                                "values": [
-                                  0,
-                                  0.49
-                                ],
+                                "values": [],
                                 "children": {
                                   "Compute": {
                                     "type": "string",
@@ -14673,10 +14162,7 @@
                           },
                           "ValueRange": {
                             "type": "array",
-                            "values": [
-                              0,
-                              0.49
-                            ]
+                            "values": []
                           },
                           "Attitudes": {
                             "type": "array",
@@ -14752,10 +14238,7 @@
                           },
                           "HeightDifference": {
                             "type": "array",
-                            "values": [
-                              -2,
-                              1
-                            ]
+                            "values": []
                           },
                           "State": {
                             "type": "string",
@@ -14837,10 +14320,7 @@
                               },
                               "HeightDifference": {
                                 "type": "array",
-                                "values": [
-                                  -2,
-                                  1
-                                ]
+                                "values": []
                               }
                             }
                           },
@@ -15069,10 +14549,7 @@
                       },
                       "Offset": {
                         "type": "array",
-                        "values": [
-                          0,
-                          1
-                        ]
+                        "values": []
                       },
                       "Enabled": {
                         "type": "object",
@@ -15144,10 +14621,7 @@
                       },
                       "DesiredDistanceRange": {
                         "type": "array",
-                        "values": [
-                          2,
-                          3
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -15254,19 +14728,7 @@
                           },
                           "Time": {
                             "type": "array",
-                            "values": [
-                              1,
-                              5,
-                              3,
-                              8,
-                              4,
-                              6,
-                              0,
-                              2,
-                              10,
-                              30,
-                              0.5
-                            ],
+                            "values": [],
                             "children": {
                               "Compute": {
                                 "type": "string",
@@ -15326,12 +14788,7 @@
                               },
                               "Time": {
                                 "type": "array",
-                                "values": [
-                                  1,
-                                  2,
-                                  3,
-                                  6
-                                ]
+                                "values": []
                               },
                               "Motion": {
                                 "type": "object",
@@ -15371,11 +14828,7 @@
                       },
                       "Time": {
                         "type": "array",
-                        "values": [
-                          2,
-                          3,
-                          1
-                        ]
+                        "values": []
                       },
                       "Motion": {
                         "type": "object",
@@ -15419,10 +14872,7 @@
                             ]
                           }
                         },
-                        "values": [
-                          0,
-                          1
-                        ]
+                        "values": []
                       },
                       "StrafingFrequencyRange": {
                         "type": "object",
@@ -15434,9 +14884,7 @@
                             ]
                           }
                         },
-                        "values": [
-                          2
-                        ]
+                        "values": []
                       },
                       "Shape": {
                         "type": "object",
@@ -15454,9 +14902,7 @@
                       },
                       "OffsetRange": {
                         "type": "array",
-                        "values": [
-                          2
-                        ]
+                        "values": []
                       },
                       "MaxYOffset": {
                         "type": "number"
@@ -15503,31 +14949,7 @@
                       },
                       "Delay": {
                         "type": "array",
-                        "values": [
-                          1,
-                          0.25,
-                          5,
-                          10,
-                          0.8,
-                          7,
-                          8,
-                          12,
-                          20,
-                          0.1,
-                          4,
-                          6,
-                          3,
-                          0.2,
-                          0.5,
-                          2,
-                          0.83,
-                          0.3,
-                          15,
-                          30,
-                          0,
-                          2.55,
-                          0.15
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -15655,12 +15077,7 @@
                       },
                       "StartValueRange": {
                         "type": "array",
-                        "values": [
-                          4,
-                          10,
-                          20,
-                          0.5
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -15673,12 +15090,7 @@
                       },
                       "RestartValueRange": {
                         "type": "array",
-                        "values": [
-                          4,
-                          10,
-                          20,
-                          0.5
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -15806,22 +15218,15 @@
                               },
                               "CountRange": {
                                 "type": "array",
-                                "values": [
-                                  2
-                                ]
+                                "values": []
                               },
                               "DistanceRange": {
                                 "type": "array",
-                                "values": [
-                                  2,
-                                  4
-                                ]
+                                "values": []
                               },
                               "DelayRange": {
                                 "type": "array",
-                                "values": [
-                                  0
-                                ]
+                                "values": []
                               },
                               "Message": {
                                 "type": "string",
@@ -15860,10 +15265,7 @@
                           },
                           "Offset": {
                             "type": "array",
-                            "values": [
-                              0,
-                              2.1
-                            ]
+                            "values": []
                           },
                           "ParticleSystem": {
                             "type": "string",
@@ -15995,9 +15397,7 @@
                           },
                           "AimingTimeRange": {
                             "type": "array",
-                            "values": [
-                              3
-                            ]
+                            "values": []
                           },
                           "Attack": {
                             "type": "object",
@@ -16012,12 +15412,7 @@
                           },
                           "AttackPauseRange": {
                             "type": "array",
-                            "values": [
-                              1,
-                              2,
-                              0.5,
-                              1.5
-                            ]
+                            "values": []
                           },
                           "Actions": {
                             "type": "array",
@@ -16063,16 +15458,11 @@
                       },
                       "AimingTimeRange": {
                         "type": "array",
-                        "values": [
-                          3
-                        ]
+                        "values": []
                       },
                       "AttackPauseRange": {
                         "type": "array",
-                        "values": [
-                          1,
-                          2
-                        ]
+                        "values": []
                       },
                       "SpawnMarker": {
                         "type": "object",
@@ -16136,12 +15526,7 @@
                       },
                       "Offset": {
                         "type": "array",
-                        "values": [
-                          0,
-                          0.5,
-                          1,
-                          2.1
-                        ]
+                        "values": []
                       },
                       "ParticleSystem": {
                         "type": "string",
@@ -16201,9 +15586,7 @@
                       },
                       "Distance": {
                         "type": "array",
-                        "values": [
-                          0
-                        ]
+                        "values": []
                       },
                       "ThrowSpeed": {
                         "type": "number"
@@ -16761,29 +16144,7 @@
                           },
                           "Delay": {
                             "type": "array",
-                            "values": [
-                              1,
-                              5,
-                              2,
-                              5.5,
-                              1.2,
-                              2.1,
-                              2.4,
-                              8,
-                              10,
-                              3,
-                              0.5,
-                              4,
-                              25,
-                              35,
-                              15,
-                              20,
-                              6,
-                              0.2,
-                              0.05,
-                              30,
-                              0.7
-                            ],
+                            "values": [],
                             "children": {
                               "Compute": {
                                 "type": "string",
@@ -16825,19 +16186,11 @@
                           },
                           "StartValueRange": {
                             "type": "array",
-                            "values": [
-                              4,
-                              10,
-                              20
-                            ]
+                            "values": []
                           },
                           "RestartValueRange": {
                             "type": "array",
-                            "values": [
-                              4,
-                              10,
-                              20
-                            ]
+                            "values": []
                           },
                           "BeaconSpawn": {
                             "type": "string",
@@ -16881,13 +16234,7 @@
                           },
                           "AttackPauseRange": {
                             "type": "array",
-                            "values": [
-                              4,
-                              5,
-                              1,
-                              2,
-                              0.5
-                            ]
+                            "values": []
                           },
                           "Action": {
                             "type": "object",
@@ -17038,9 +16385,7 @@
                           },
                           "CountRange": {
                             "type": "array",
-                            "values": [
-                              1
-                            ]
+                            "values": []
                           },
                           "Kind": {
                             "type": "object",
@@ -17130,10 +16475,7 @@
                           },
                           "Offset": {
                             "type": "array",
-                            "values": [
-                              0,
-                              1
-                            ]
+                            "values": []
                           },
                           "ParticleSystem": {
                             "type": "string",
@@ -17149,9 +16491,7 @@
                           },
                           "AimingTimeRange": {
                             "type": "array",
-                            "values": [
-                              3
-                            ]
+                            "values": []
                           },
                           "ToCurrent": {
                             "type": "boolean"
@@ -17217,9 +16557,7 @@
                               },
                               "DesiredDistanceRange": {
                                 "type": "array",
-                                "values": [
-                                  5
-                                ]
+                                "values": []
                               },
                               "MoveThreshold": {
                                 "type": "number"
@@ -17267,10 +16605,7 @@
                               },
                               "Delay": {
                                 "type": "array",
-                                "values": [
-                                  15,
-                                  20
-                                ],
+                                "values": [],
                                 "children": {
                                   "Compute": {
                                     "type": "string",
@@ -17431,9 +16766,7 @@
                                       },
                                       "Delay": {
                                         "type": "array",
-                                        "values": [
-                                          25
-                                        ]
+                                        "values": []
                                       },
                                       "State": {
                                         "type": "string",
@@ -17593,11 +16926,7 @@
                           },
                           "DesiredDistanceRange": {
                             "type": "array",
-                            "values": [
-                              2,
-                              3,
-                              1
-                            ],
+                            "values": [],
                             "children": {
                               "Compute": {
                                 "type": "string",
@@ -17679,12 +17008,7 @@
                               },
                               "Time": {
                                 "type": "array",
-                                "values": [
-                                  1,
-                                  5,
-                                  3,
-                                  8
-                                ]
+                                "values": []
                               },
                               "Motion": {
                                 "type": "object",
@@ -17741,11 +17065,7 @@
                                 ]
                               }
                             },
-                            "values": [
-                              1,
-                              2,
-                              4
-                            ]
+                            "values": []
                           },
                           "StrafingFrequencyRange": {
                             "type": "object",
@@ -17757,18 +17077,11 @@
                                 ]
                               }
                             },
-                            "values": [
-                              1,
-                              0.1,
-                              0.5
-                            ]
+                            "values": []
                           },
                           "Time": {
                             "type": "array",
-                            "values": [
-                              2,
-                              3
-                            ]
+                            "values": []
                           },
                           "Motion": {
                             "type": "object",
@@ -18126,13 +17439,7 @@
                   },
                   "ExecuteFor": {
                     "type": "array",
-                    "values": [
-                      15,
-                      20,
-                      30,
-                      2,
-                      5
-                    ]
+                    "values": []
                   },
                   "Local": {
                     "type": "boolean"
@@ -18233,30 +17540,7 @@
                   },
                   "Delay": {
                     "type": "array",
-                    "values": [
-                      1,
-                      1.5,
-                      2,
-                      6,
-                      10,
-                      30,
-                      5,
-                      8,
-                      20,
-                      0.1,
-                      4,
-                      3,
-                      0.5,
-                      0.2,
-                      1.1,
-                      0,
-                      0.8,
-                      0.25,
-                      15,
-                      7,
-                      0.3,
-                      12
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -18435,10 +17719,7 @@
                           },
                           "AttackPauseRange": {
                             "type": "array",
-                            "values": [
-                              1,
-                              2
-                            ]
+                            "values": []
                           }
                         }
                       },
@@ -18452,9 +17733,7 @@
                       },
                       "Delay": {
                         "type": "array",
-                        "values": [
-                          1
-                        ]
+                        "values": []
                       },
                       "$TODO": {
                         "type": "string",
@@ -18589,9 +17868,7 @@
                           },
                           "Distance": {
                             "type": "array",
-                            "values": [
-                              4
-                            ]
+                            "values": []
                           },
                           "ThrowSpeed": {
                             "type": "number"
@@ -18630,10 +17907,7 @@
                       },
                       "AttackPauseRange": {
                         "type": "array",
-                        "values": [
-                          1,
-                          2
-                        ]
+                        "values": []
                       },
                       "Kind": {
                         "type": "object",
@@ -18651,16 +17925,11 @@
                       },
                       "CountRange": {
                         "type": "array",
-                        "values": [
-                          1
-                        ]
+                        "values": []
                       },
                       "DistanceRange": {
                         "type": "array",
-                        "values": [
-                          2,
-                          4
-                        ]
+                        "values": []
                       },
                       "Slot": {
                         "type": "string",
@@ -18771,14 +18040,7 @@
                   },
                   "AttackPauseRange": {
                     "type": "array",
-                    "values": [
-                      1,
-                      2,
-                      0.2,
-                      0.5,
-                      1.5,
-                      4
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -18814,12 +18076,7 @@
                   },
                   "CountRange": {
                     "type": "array",
-                    "values": [
-                      1,
-                      2,
-                      4,
-                      3
-                    ]
+                    "values": []
                   },
                   "Kind": {
                     "type": "string",
@@ -18854,13 +18111,7 @@
                   },
                   "Offset": {
                     "type": "array",
-                    "values": [
-                      0,
-                      2.1,
-                      0.8,
-                      1.2,
-                      1
-                    ]
+                    "values": []
                   },
                   "ParticleSystem": {
                     "type": "string",
@@ -18903,11 +18154,7 @@
                   },
                   "StartValueRange": {
                     "type": "array",
-                    "values": [
-                      10,
-                      20,
-                      60
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -18924,11 +18171,7 @@
                   },
                   "RestartValueRange": {
                     "type": "array",
-                    "values": [
-                      10,
-                      20,
-                      60
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -18954,9 +18197,7 @@
                   },
                   "DelayRange": {
                     "type": "array",
-                    "values": [
-                      0
-                    ]
+                    "values": []
                   },
                   "SendTargetSlot": {
                     "type": "string",
@@ -18978,19 +18219,11 @@
                   },
                   "AimingTimeRange": {
                     "type": "array",
-                    "values": [
-                      3,
-                      2
-                    ]
+                    "values": []
                   },
                   "DesiredAltitudeRange": {
                     "type": "array",
-                    "values": [
-                      6,
-                      10,
-                      2,
-                      4
-                    ]
+                    "values": []
                   },
                   "BallisticMode": {
                     "type": "string",
@@ -19142,18 +18375,11 @@
                   },
                   "Distance": {
                     "type": "array",
-                    "values": [
-                      0.2,
-                      0.5,
-                      0
-                    ]
+                    "values": []
                   },
                   "DropSector": {
                     "type": "array",
-                    "values": [
-                      -360,
-                      360
-                    ]
+                    "values": []
                   },
                   "PitchHigh": {
                     "type": "boolean"
@@ -19452,9 +18678,7 @@
                         ]
                       }
                     },
-                    "values": [
-                      2
-                    ]
+                    "values": []
                   },
                   "ThroughWalls": {
                     "type": "boolean"
@@ -19477,23 +18701,11 @@
                   },
                   "Duration": {
                     "type": "array",
-                    "values": [
-                      15,
-                      30,
-                      20,
-                      5,
-                      60,
-                      10
-                    ]
+                    "values": []
                   },
                   "Delay": {
                     "type": "array",
-                    "values": [
-                      10,
-                      15,
-                      3,
-                      6
-                    ]
+                    "values": []
                   },
                   "StopDistance": {
                     "type": "object",
@@ -19661,9 +18873,7 @@
                   },
                   "TargetSwitchTimer": {
                     "type": "array",
-                    "values": [
-                      5
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -19811,9 +19021,7 @@
                   },
                   "WaitTime": {
                     "type": "array",
-                    "values": [
-                      0.5
-                    ]
+                    "values": []
                   },
                   "CombatFleeIfTooCloseDistance": {
                     "type": "object",
@@ -19847,9 +19055,7 @@
                         ]
                       }
                     },
-                    "values": [
-                      5
-                    ]
+                    "values": []
                   },
                   "HardLeashDistance": {
                     "type": "object",
@@ -20097,12 +19303,7 @@
                       },
                       "Time": {
                         "type": "array",
-                        "values": [
-                          15,
-                          30,
-                          5,
-                          10
-                        ]
+                        "values": []
                       },
                       "Motion": {
                         "type": "object",
@@ -20129,10 +19330,7 @@
                   },
                   "Time": {
                     "type": "array",
-                    "values": [
-                      0.5,
-                      1
-                    ]
+                    "values": []
                   },
                   "Motion": {
                     "type": "object",
@@ -20335,12 +19533,7 @@
               },
               "ExecuteFor": {
                 "type": "array",
-                "values": [
-                  20,
-                  30,
-                  5,
-                  15
-                ]
+                "values": []
               },
               "TreeMode": {
                 "type": "boolean"
@@ -20461,17 +19654,7 @@
               },
               "Delay": {
                 "type": "array",
-                "values": [
-                  1,
-                  0.5,
-                  2,
-                  3,
-                  10,
-                  4,
-                  0.2,
-                  15,
-                  5
-                ]
+                "values": []
               },
               "EntityEffect": {
                 "type": "string",
@@ -20540,22 +19723,15 @@
                   },
                   "DistanceRange": {
                     "type": "array",
-                    "values": [
-                      1
-                    ]
+                    "values": []
                   },
                   "CountRange": {
                     "type": "array",
-                    "values": [
-                      5,
-                      1
-                    ]
+                    "values": []
                   },
                   "DelayRange": {
                     "type": "array",
-                    "values": [
-                      0.1
-                    ]
+                    "values": []
                   },
                   "Kind": {
                     "type": "string",
@@ -20578,11 +19754,7 @@
                   },
                   "Offset": {
                     "type": "array",
-                    "values": [
-                      0,
-                      1.2,
-                      -1
-                    ]
+                    "values": []
                   },
                   "ParticleSystem": {
                     "type": "string",
@@ -20677,24 +19849,11 @@
               },
               "StartValueRange": {
                 "type": "array",
-                "values": [
-                  0.1,
-                  1,
-                  5,
-                  7,
-                  10
-                ]
+                "values": []
               },
               "RestartValueRange": {
                 "type": "array",
-                "values": [
-                  10,
-                  30,
-                  5,
-                  7,
-                  1,
-                  2
-                ],
+                "values": [],
                 "children": {
                   "Compute": {
                     "type": "string",
@@ -20835,10 +19994,7 @@
               },
               "Offset": {
                 "type": "array",
-                "values": [
-                  0,
-                  2.1
-                ]
+                "values": []
               },
               "ParticleSystem": {
                 "type": "string",
@@ -20880,11 +20036,7 @@
                       },
                       "Offset": {
                         "type": "array",
-                        "values": [
-                          0,
-                          0.5,
-                          2
-                        ]
+                        "values": []
                       },
                       "ParticleSystem": {
                         "type": "string",
@@ -20918,9 +20070,7 @@
                           },
                           "Delay": {
                             "type": "array",
-                            "values": [
-                              2
-                            ]
+                            "values": []
                           }
                         }
                       }
@@ -20993,13 +20143,7 @@
                   },
                   "Delay": {
                     "type": "array",
-                    "values": [
-                      10,
-                      20,
-                      3,
-                      5,
-                      1
-                    ]
+                    "values": []
                   },
                   "$Comment": {
                     "type": "object",
@@ -21041,19 +20185,14 @@
                   },
                   "AttackPauseRange": {
                     "type": "array",
-                    "values": [
-                      0.5,
-                      1
-                    ]
+                    "values": []
                   },
                   "Crouch": {
                     "type": "boolean"
                   },
                   "AimingTimeRange": {
                     "type": "array",
-                    "values": [
-                      3
-                    ]
+                    "values": []
                   },
                   "DisplayName": {
                     "type": "string",
@@ -21090,10 +20229,7 @@
               },
               "AimingTimeRange": {
                 "type": "array",
-                "values": [
-                  3,
-                  5
-                ]
+                "values": []
               },
               "LineOfSight": {
                 "type": "boolean"
@@ -21103,10 +20239,7 @@
               },
               "AttackPauseRange": {
                 "type": "array",
-                "values": [
-                  1,
-                  2
-                ]
+                "values": []
               },
               "Reference": {
                 "type": "string",
@@ -21264,11 +20397,7 @@
               },
               "DoubleArray": {
                 "type": "array",
-                "values": [
-                  0,
-                  1,
-                  2
-                ],
+                "values": [],
                 "children": {
                   "Compute": {
                     "type": "string",
@@ -21311,16 +20440,11 @@
               },
               "Distance": {
                 "type": "array",
-                "values": [
-                  1
-                ]
+                "values": []
               },
               "DropSector": {
                 "type": "array",
-                "values": [
-                  -180,
-                  180
-                ]
+                "values": []
               },
               "PitchHigh": {
                 "type": "boolean"
@@ -21489,11 +20613,7 @@
                   },
                   "Time": {
                     "type": "array",
-                    "values": [
-                      4,
-                      5,
-                      3
-                    ]
+                    "values": []
                   },
                   "Motion": {
                     "type": "object",
@@ -21507,16 +20627,11 @@
                       },
                       "AngleRange": {
                         "type": "array",
-                        "values": [
-                          -90,
-                          90
-                        ]
+                        "values": []
                       },
                       "PauseTimeRange": {
                         "type": "array",
-                        "values": [
-                          1
-                        ]
+                        "values": []
                       },
                       "ViewSegments": {
                         "type": "number"
@@ -21530,16 +20645,11 @@
               },
               "AngleRange": {
                 "type": "array",
-                "values": [
-                  -90,
-                  90
-                ]
+                "values": []
               },
               "PauseTimeRange": {
                 "type": "array",
-                "values": [
-                  1
-                ]
+                "values": []
               },
               "PickRandomAngle": {
                 "type": "boolean"
@@ -21809,9 +20919,7 @@
       },
       "ExecuteFor": {
         "type": "array",
-        "values": [
-          1
-        ]
+        "values": []
       }
     }
   },
@@ -22584,21 +21692,11 @@
           },
           "AttackPauseRange": {
             "type": "array",
-            "values": [
-              1,
-              2,
-              0.5,
-              1.5,
-              0,
-              0.25,
-              0.75
-            ]
+            "values": []
           },
           "AimingTimeRange": {
             "type": "array",
-            "values": [
-              3
-            ]
+            "values": []
           },
           "ToCurrent": {
             "type": "boolean"
@@ -23204,10 +22302,7 @@
                       },
                       "Size": {
                         "type": "array",
-                        "values": [
-                          10,
-                          2000
-                        ]
+                        "values": []
                       },
                       "Filter": {
                         "type": "object",
@@ -23315,10 +22410,7 @@
                           },
                           "Size": {
                             "type": "array",
-                            "values": [
-                              10,
-                              2000
-                            ]
+                            "values": []
                           },
                           "IncludeGroups": {
                             "type": "array",
@@ -23432,10 +22524,7 @@
                                   },
                                   "Size": {
                                     "type": "array",
-                                    "values": [
-                                      10,
-                                      2000
-                                    ]
+                                    "values": []
                                   }
                                 }
                               }
@@ -23858,10 +22947,7 @@
               },
               "TimeRemainingRange": {
                 "type": "array",
-                "values": [
-                  0,
-                  0.3
-                ]
+                "values": []
               },
               "Combat": {
                 "type": "boolean"
@@ -23968,10 +23054,7 @@
               },
               "Offset": {
                 "type": "array",
-                "values": [
-                  0,
-                  2.1
-                ]
+                "values": []
               },
               "ParticleSystem": {
                 "type": "string",
@@ -24065,19 +23148,7 @@
                     ]
                   }
                 },
-                "values": [
-                  1,
-                  5,
-                  8,
-                  3,
-                  2,
-                  4,
-                  10,
-                  7,
-                  6,
-                  15,
-                  0
-                ]
+                "values": []
               },
               "Action": {
                 "type": "object",
@@ -24182,10 +23253,7 @@
                   },
                   "AttackPauseRange": {
                     "type": "array",
-                    "values": [
-                      1,
-                      2
-                    ]
+                    "values": []
                   },
                   "State": {
                     "type": "string",
@@ -24195,9 +23263,7 @@
                   },
                   "AimingTimeRange": {
                     "type": "array",
-                    "values": [
-                      3
-                    ]
+                    "values": []
                   }
                 }
               },
@@ -24218,18 +23284,11 @@
               },
               "AttackPauseRange": {
                 "type": "array",
-                "values": [
-                  0.5,
-                  1.5,
-                  1,
-                  2
-                ]
+                "values": []
               },
               "AimingTimeRange": {
                 "type": "array",
-                "values": [
-                  3
-                ]
+                "values": []
               },
               "ExpirationTime": {
                 "type": "number"
@@ -24478,10 +23537,7 @@
                       },
                       "ValueRange": {
                         "type": "array",
-                        "values": [
-                          0,
-                          0.4
-                        ]
+                        "values": []
                       },
                       "FlockStatus": {
                         "type": "string",
@@ -24921,22 +23977,7 @@
                   },
                   "Delay": {
                     "type": "array",
-                    "values": [
-                      10,
-                      5,
-                      1,
-                      2,
-                      3,
-                      9,
-                      0.4,
-                      4,
-                      6,
-                      15,
-                      20,
-                      11,
-                      0.1,
-                      0.5
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -25101,17 +24142,11 @@
                   },
                   "AttackPauseRange": {
                     "type": "array",
-                    "values": [
-                      1,
-                      2
-                    ]
+                    "values": []
                   },
                   "Offset": {
                     "type": "array",
-                    "values": [
-                      0,
-                      2.1
-                    ]
+                    "values": []
                   },
                   "ParticleSystem": {
                     "type": "string",
@@ -25213,10 +24248,7 @@
                       },
                       "AttackPauseRange": {
                         "type": "array",
-                        "values": [
-                          1,
-                          2
-                        ]
+                        "values": []
                       },
                       "Actions": {
                         "type": "array",
@@ -25264,9 +24296,7 @@
                   },
                   "CountRange": {
                     "type": "array",
-                    "values": [
-                      1
-                    ]
+                    "values": []
                   },
                   "Kind": {
                     "type": "object",
@@ -25390,10 +24420,7 @@
                   },
                   "Time": {
                     "type": "array",
-                    "values": [
-                      2,
-                      3
-                    ]
+                    "values": []
                   },
                   "Motion": {
                     "type": "object",
@@ -25431,10 +24458,7 @@
                       },
                       "Time": {
                         "type": "array",
-                        "values": [
-                          2,
-                          3
-                        ]
+                        "values": []
                       },
                       "Motion": {
                         "type": "object",
@@ -25468,10 +24492,7 @@
                           },
                           "Time": {
                             "type": "array",
-                            "values": [
-                              1,
-                              2
-                            ]
+                            "values": []
                           },
                           "Motion": {
                             "type": "object",
@@ -25654,9 +24675,7 @@
                   },
                   "SwitchTime": {
                     "type": "array",
-                    "values": [
-                      0
-                    ]
+                    "values": []
                   }
                 }
               },
@@ -25735,16 +24754,11 @@
                           },
                           "TrueDurationRange": {
                             "type": "array",
-                            "values": [
-                              3
-                            ]
+                            "values": []
                           },
                           "FalseDurationRange": {
                             "type": "array",
-                            "values": [
-                              30,
-                              45
-                            ]
+                            "values": []
                           },
                           "Name": {
                             "type": "string",
@@ -25810,10 +24824,7 @@
                               },
                               "HeightDifference": {
                                 "type": "array",
-                                "values": [
-                                  -1,
-                                  2
-                                ]
+                                "values": []
                               }
                             }
                           }
@@ -25915,10 +24926,7 @@
                             ]
                           }
                         },
-                        "values": [
-                          2,
-                          4
-                        ]
+                        "values": []
                       },
                       "Action": {
                         "type": "object",
@@ -26025,10 +25033,7 @@
                       },
                       "AttackPauseRange": {
                         "type": "array",
-                        "values": [
-                          0.5,
-                          1.5
-                        ]
+                        "values": []
                       }
                     }
                   },
@@ -26290,10 +25295,7 @@
                               },
                               "Delay": {
                                 "type": "array",
-                                "values": [
-                                  3,
-                                  5
-                                ]
+                                "values": []
                               },
                               "Action": {
                                 "type": "object",
@@ -26743,13 +25745,7 @@
                   },
                   "Time": {
                     "type": "array",
-                    "values": [
-                      3,
-                      6,
-                      2,
-                      1,
-                      4
-                    ],
+                    "values": [],
                     "children": {
                       "Compute": {
                         "type": "string",
@@ -26804,14 +25800,7 @@
                       },
                       "Time": {
                         "type": "array",
-                        "values": [
-                          2,
-                          4,
-                          1,
-                          3,
-                          5,
-                          6
-                        ],
+                        "values": [],
                         "children": {
                           "Compute": {
                             "type": "string",
@@ -26899,10 +25888,7 @@
                     ]
                   }
                 },
-                "values": [
-                  2,
-                  3
-                ]
+                "values": []
               },
               "StrafingDurationRange": {
                 "type": "object",
@@ -27798,10 +26784,7 @@
           },
           "ValueRange": {
             "type": "array",
-            "values": [
-              0,
-              0.5
-            ]
+            "values": []
           },
           "IncludeGroups": {
             "type": "array",
@@ -27923,12 +26906,7 @@
       },
       "Delay": {
         "type": "array",
-        "values": [
-          0.83,
-          1,
-          1.1,
-          3
-        ]
+        "values": []
       },
       "Scale": {
         "type": "object",
@@ -27968,10 +26946,7 @@
       },
       "SkyLightRange": {
         "type": "array",
-        "values": [
-          0,
-          95
-        ]
+        "values": []
       },
       "LockOnTarget": {
         "type": "boolean"
@@ -28067,10 +27042,7 @@
           },
           "LeashTimer": {
             "type": "array",
-            "values": [
-              3,
-              5
-            ]
+            "values": []
           },
           "HardLeashDistance": {
             "type": "number"
@@ -28269,11 +27241,7 @@
           },
           "Time": {
             "type": "array",
-            "values": [
-              2,
-              5,
-              3
-            ]
+            "values": []
           },
           "Motion": {
             "type": "object",
@@ -28622,15 +27590,7 @@
           },
           "Delay": {
             "type": "array",
-            "values": [
-              1,
-              0.5,
-              0.83,
-              0.55,
-              2,
-              1.25,
-              3
-            ]
+            "values": []
           },
           "SoundEventId": {
             "type": "string",
@@ -28655,11 +27615,7 @@
           },
           "Offset": {
             "type": "array",
-            "values": [
-              0,
-              1,
-              2.1
-            ]
+            "values": []
           },
           "ParticleSystem": {
             "type": "string",
@@ -28751,9 +27707,7 @@
           },
           "AttackPauseRange": {
             "type": "array",
-            "values": [
-              0.5
-            ]
+            "values": []
           },
           "DisplayName": {
             "type": "string",
@@ -28827,16 +27781,11 @@
               },
               "CountRange": {
                 "type": "array",
-                "values": [
-                  1
-                ]
+                "values": []
               },
               "Offset": {
                 "type": "array",
-                "values": [
-                  0,
-                  1.5
-                ]
+                "values": []
               },
               "ParticleSystem": {
                 "type": "string",
@@ -29837,10 +28786,7 @@
   },
   "SpawnParticlesOffset": {
     "type": "array",
-    "values": [
-      0,
-      1
-    ]
+    "values": []
   },
   "CollisionDistance": {
     "type": "number"
@@ -30025,12 +28971,7 @@
                   },
                   "XRange": {
                     "type": "array",
-                    "values": [
-                      0,
-                      10,
-                      24,
-                      12
-                    ]
+                    "values": []
                   }
                 }
               },
