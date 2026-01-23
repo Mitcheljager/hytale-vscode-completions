@@ -4,6 +4,12 @@ All notable changes to the "hytale-completions" extension will be documented in 
 
 Follow [Keep a Changelog](http://keepachangelog.com/)
 
+## [1.4.0]
+
+### Added
+
+- Completions will now complete fully when typed from nothing, completing with a default value related to their type
+
 ## [1.3.0]
 
 ### Added
