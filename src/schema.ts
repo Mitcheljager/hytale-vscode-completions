@@ -76,6 +76,21 @@ function getEnclosingNode(document: vscode.TextDocument, position: vscode.Positi
     return null;
 }
 
+export function isInsideString(document: vscode.TextDocument, position: vscode.Position): boolean {
+    const node = getCurrentNode(document, position);
+    if (!node) return false;
+
+    return node.type === "string";
+}
+
+export function getSnippetForValueType(type: jsonc.NodeType, key: string): vscode.SnippetString {
+    if (type === "object") return new vscode.SnippetString(`"${key}": {\n\t$0\n}`);
+    if (type === "array") return new vscode.SnippetString(`"${key}": [$0]`);
+    if (type === "number") return new vscode.SnippetString(`"${key}": 0`);
+    if (type === "boolean") return new vscode.SnippetString(`"${key}": true`);
+    return new vscode.SnippetString(`"${key}": "$0"`);
+}
+
 import schemaItems from "../schema/Items.json";
 import schemaRoles from "../schema/Roles.json";
 import schemaGroups from "../schema/Groups.json";

@@ -3,7 +3,8 @@ import { getItems } from "./getItems";
 import { type Item } from "./types/item";
 import { itemDescriptionToMarkdown } from "./markdown";
 import { isHytaleProject } from "./project";
-import { getExistingKeys, getSchemaForFile, jsonToSchema } from "./schema";
+import { getExistingKeys, getSchemaForFile, getSnippetForValueType, isInsideString, jsonToSchema } from "./schema";
+import { NodeType } from "./types/schema";
 
 const languages = ["plaintext", "json", "jsonc", "yaml", "java"];
 
@@ -86,7 +87,7 @@ function createJsonSchema(): vscode.Disposable {
 
             if (node.values?.length) {
                 return node.values.map((value: string) => {
-                    const item = new vscode.CompletionItem(JSON.stringify(value), vscode.CompletionItemKind.Value);
+                    const item = new vscode.CompletionItem(value, vscode.CompletionItemKind.Value);
 
                     item.sortText = "0_" + value;
 
@@ -96,9 +97,12 @@ function createJsonSchema(): vscode.Disposable {
 
             const existingKeys = getExistingKeys(document, position);
 
-            return Object.entries(node.children || node).filter(([key]) => !existingKeys.has(key)) .map(([key, value]: [string, any]) => {
+            return Object.entries(node.children || node).filter(([key]) => !existingKeys.has(key)).map(([key, value]: [string, any]) => {
                 const item = new vscode.CompletionItem(key, vscode.CompletionItemKind.Property);
+                const snippet = isInsideString(document, position) ? new vscode.SnippetString(key) : getSnippetForValueType(value.type, key);
 
+                item.insertText = snippet;
+                item.commitCharacters = [":"];
                 item.detail = value.type === "array" ? `array<${value.arrayTypes.join("|")}>` : value.type;
                 item.sortText = "0_" + key;
 
