@@ -1,0 +1,174 @@
+{
+  "MaxResidents": {
+    "type": "number",
+    "values": []
+  },
+  "ProduceDrops": {
+    "type": "object",
+    "children": {
+      "Chicken": {
+        "type": "string",
+        "values": [
+          "Drop_Chicken_Produce"
+        ]
+      },
+      "Chicken_Desert": {
+        "type": "string",
+        "values": [
+          "Drop_Chicken_Produce"
+        ]
+      },
+      "Skrill": {
+        "type": "string",
+        "values": [
+          "Drop_Chicken_Produce"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ResidentRoamTime": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
+  },
+  "ResidentSpawnOffset": {
+    "type": "object",
+    "children": {
+      "X": {
+        "type": "number",
+        "values": []
+      },
+      "Y": {
+        "type": "number",
+        "values": []
+      },
+      "Z": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "AcceptedNpcGroups": {
+    "type": "array",
+    "values": [
+      "Chicken",
+      "Chicken_Desert",
+      "Skrill"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "CaptureWildNPCsInRange": {
+    "type": "boolean",
+    "values": []
+  },
+  "WildCaptureRadius": {
+    "type": "number",
+    "values": []
+  },
+  "Type": {
+    "type": "string",
+    "values": [
+      "LightLevel",
+      "Fertilizer",
+      "Water"
+    ]
+  },
+  "Modifier": {
+    "type": "number",
+    "values": []
+  },
+  "ArtificialLight": {
+    "type": "object",
+    "children": {
+      "Red": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Green": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Blue": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Sunlight": {
+    "type": "object",
+    "children": {
+      "Min": {
+        "type": "number",
+        "values": []
+      },
+      "Max": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "RequireBoth": {
+    "type": "boolean",
+    "values": []
+  },
+  "Fluids": {
+    "type": "array",
+    "values": [
+      "Water_Source",
+      "Water"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "Weathers": {
+    "type": "array",
+    "values": [
+      "Zone1_Rain",
+      "Zone1_Rain_Light",
+      "Zone1_Storm",
+      "Zone3_Rain"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  }
+}

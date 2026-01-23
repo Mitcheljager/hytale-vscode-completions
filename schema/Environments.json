@@ -1,0 +1,1732 @@
+{
+  "WeatherForecasts": {
+    "type": "object",
+    "children": {
+      "0": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "1": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "2": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "3": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "4": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "5": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "6": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "7": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "8": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "9": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "10": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "11": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "12": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "13": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "14": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "15": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "16": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "17": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "18": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "19": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "20": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "21": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "22": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "23": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "WeatherId": {
+            "type": "string",
+            "values": [
+              "Zone1_Cloudy_Medium",
+              "Cave_Goblin",
+              "Cave_Shallow",
+              "Cave_Fog",
+              "Cave_Deep",
+              "Zone1_Foggy_Light",
+              "Zone1_Sunny_Fireflies",
+              "Zone1_Storm",
+              "Zone1_Sunny",
+              "Zone1_Rain",
+              "Zone1_Rain_Light",
+              "Zone2_Sunny",
+              "Zone2_Blazing_Light",
+              "Zone2_Sand_Storm",
+              "Zone2_Cloudy_Light",
+              "Zone3_Northern_Lights",
+              "Zone3_Cloudy_Medium",
+              "Zone3_Rain",
+              "Zone3_Cloudy_Light",
+              "Zone3_Snow",
+              "Zone4_Wastes",
+              "Creative_Hub",
+              "Forgotten_Temple",
+              "Zone3_Hedera",
+              "Void",
+              "Zone1_Autumn_Forest_Windy",
+              "Cave_Volcanic",
+              "Dungeon_Cursed_Crypt",
+              "Dungeon_Cursed_Crypt_Graveyard",
+              "Zone1_Swamp_Foggy",
+              "Zone1_Azurewood_Fireflies",
+              "Zone1_Swamp",
+              "Zone1_Swamp_Rain",
+              "Zone2_Thunder_Storm",
+              "Zone2_Desert_Haze",
+              "Zone3_Cave_Shallow",
+              "Zone3_Cave_Volcanic",
+              "Zone3_Cloudy_Boreal",
+              "Zone3_Snow_Storm",
+              "Zone3_Snow_Heavy",
+              "Zone4_Light",
+              "Zone4_Swamp_Storm",
+              "Zone4_Swamp_Gloomy",
+              "Zone4_Lava_Fields",
+              "Zone4_Forest_Burnt",
+              "Zone4_Underground_Jungle"
+            ]
+          },
+          "Weight": {
+            "type": "number",
+            "values": []
+          }
+        }
+      }
+    },
+    "values": []
+  },
+  "WaterTint": {
+    "type": "string",
+    "values": []
+  },
+  "SpawnDensity": {
+    "type": "number",
+    "values": []
+  },
+  "BlockModificationAllowed": {
+    "type": "boolean",
+    "values": []
+  },
+  "Tags": {
+    "type": "object",
+    "children": {
+      "Zone2": {
+        "type": "array",
+        "values": [
+          "Savanna",
+          "Caves",
+          "Oasis",
+          "Deserts",
+          "Goblins",
+          "Plateaus",
+          "Rats",
+          "Scarak",
+          "Scrub",
+          "Volcanic",
+          "Dungeons",
+          "Encounters",
+          "Feran",
+          "Mage_Towers",
+          "Mineshafts",
+          "Shores"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "CreativeHub": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": []
+      },
+      "ForgottenTemple": {
+        "type": "array",
+        "values": [
+          "Heart"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Exterior": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": []
+      },
+      "Interior": {
+        "type": "array",
+        "values": [
+          "Grand",
+          "Small",
+          "Tent"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Portals": {
+        "type": "array",
+        "values": [
+          "Hedera"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Void": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": []
+      },
+      "Zone0": {
+        "type": "array",
+        "values": [
+          "Cold",
+          "Temperate",
+          "Warm"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Zone1": {
+        "type": "array",
+        "values": [
+          "Autumn",
+          "Azure",
+          "Caves",
+          "Forests",
+          "Goblins",
+          "Mountains",
+          "Plains",
+          "Rats",
+          "Spiders",
+          "Swamps",
+          "Volcanic",
+          "Dungeons",
+          "Encounters",
+          "Kweebec",
+          "Mage_Towers",
+          "Mineshafts",
+          "Shores",
+          "Trork"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Zone3": {
+        "type": "array",
+        "values": [
+          "Caves",
+          "Forests",
+          "Glacial",
+          "Mountains",
+          "Spider",
+          "Tundra",
+          "Volcanic",
+          "Dungeons",
+          "Encounters",
+          "Hedera",
+          "Mage_Towers",
+          "Mineshafts",
+          "Outlander",
+          "Shores"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Zone4": {
+        "type": "array",
+        "values": [
+          "Caves",
+          "Volcanic",
+          "Crucible",
+          "Dungeons",
+          "Encounters",
+          "Forests",
+          "Jungles",
+          "Mage_Towers",
+          "Sewers",
+          "Shores",
+          "Volcanoes",
+          "Wastes"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      }
+    },
+    "values": []
+  },
+  "$Comment": {
+    "type": "string",
+    "values": [
+      "B9"
+    ]
+  },
+  "Parent": {
+    "type": "string",
+    "values": [
+      "Env_Forgotten_Temple_Base",
+      "Env_Zone0",
+      "Env_Zone1",
+      "Env_Zone1_Caves",
+      "Env_Zone1_Caves_Volcanic_T1",
+      "Env_Zone2_Caves",
+      "Env_Zone2_Caves_Volcanic_T1",
+      "Env_Zone2",
+      "Env_Zone3_Caves",
+      "Env_Zone3_Caves_Volcanic_T1",
+      "Env_Zone3",
+      "Env_Zone4"
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "Appearance": {
+    "type": "string",
+    "values": [
+      "Arrow_Crude",
+      "Bullet_Blunderbuss",
+      "Ice_Ball",
+      "Ice_Bolt",
+      "Cactee_Spike",
+      "Scarak_Seeker_Spitball",
+      "Spear_Bone",
+      "Axe_Bone",
+      "Feran_Windwalker_Wind_Burst",
+      "Feran_Windwalker_Wind_Vortex",
+      "Fireball",
+      "Spear_Scrap",
+      "Trash",
+      "Rubble_Stone",
+      "Dagger_Doomed",
+      "Arrow_Iron",
+      "Axe_Stone_Trork",
+      "Spear_Stone_Trork",
+      "Skeleton_Mage_Corruption_Orb",
+      "Eye_Void_Blast",
+      "Bomb_Potion_Poison",
+      "Dagger_Iron",
+      "Egg",
+      "Ingredient_Poop",
+      "Rubble_Aqua",
+      "Rubble_Basalt",
+      "Rubble_Calcite",
+      "Rubble_Ice",
+      "Rubble_Marble",
+      "Rubble_Quartzite",
+      "Rubble_Sandstone",
+      "Rubble_Sandstone_Red",
+      "Rubble_Sandstone_White",
+      "Rubble_Shale",
+      "Rubble_Slate",
+      "Rubble_Stone_Mossy",
+      "Rubble_Volcanic",
+      "Spear_Adamantite",
+      "Spear_Adamantite_Saurian",
+      "Spear_Bronze",
+      "Spear_Cobalt",
+      "Spear_Copper",
+      "Spear_Crude",
+      "Spear_Double_Incandescent",
+      "Spear_Iron",
+      "Spear_Leaf",
+      "Spear_Mithril",
+      "Spear_Onyxium",
+      "Spear_Thorium",
+      "Spear_Tribal",
+      "Projectile",
+      "Parrot",
+      "Arrow_Fire",
+      "Tornado"
+    ]
+  },
+  "SticksVertically": {
+    "type": "boolean",
+    "values": []
+  },
+  "MuzzleVelocity": {
+    "type": "number",
+    "values": []
+  },
+  "TerminalVelocity": {
+    "type": "number",
+    "values": []
+  },
+  "Gravity": {
+    "type": "number",
+    "values": []
+  },
+  "Bounciness": {
+    "type": "number",
+    "values": []
+  },
+  "ImpactSlowdown": {
+    "type": "number",
+    "values": []
+  },
+  "TimeToLive": {
+    "type": "number",
+    "values": []
+  },
+  "Damage": {
+    "type": "number",
+    "values": []
+  },
+  "DeadTime": {
+    "type": "number",
+    "values": []
+  },
+  "HorizontalCenterShot": {
+    "type": "number",
+    "values": []
+  },
+  "VerticalCenterShot": {
+    "type": "number",
+    "values": []
+  },
+  "DepthShot": {
+    "type": "number",
+    "values": []
+  },
+  "PitchAdjustShot": {
+    "type": "boolean",
+    "values": []
+  },
+  "HitSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Arrow_FullCharge_Hit",
+      "SFX_Arrow_HalfCharge_Hit",
+      "SFX_Arrow_NoCharge_Hit",
+      "SFX_Ice_Break",
+      "SFX_Rubble_Hit",
+      "SFX_Outlander_Hunter_Arrow_Hit",
+      "SFX_Skeleton_Mage_Spellbook_Impact",
+      "SFX_Bomb_Fire_Goblin_Hit",
+      "SFX_Blunderbuss_Hit",
+      "SFX_Egg_Hit",
+      "SFX_Spear_Projectile_Impact",
+      "SFX_Arrow_Fire_Hit",
+      "SFX_Arrow_Frost_Hit"
+    ]
+  },
+  "MissSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Arrow_FullCharge_Miss",
+      "SFX_Arrow_HalfCharge_Miss",
+      "SFX_Arrow_NoCharge_Miss",
+      "SFX_Rubble_Bounce",
+      "SFX_Outlander_Hunter_Arrow_Miss",
+      "SFX_Skeleton_Mage_Spellbook_Impact",
+      "SFX_Crystal_Break",
+      "SFX_Blunderbuss_Miss",
+      "SFX_Egg_Miss",
+      "SFX_Spear_Miss",
+      "SFX_Fireball_Miss",
+      "SFX_Arrow_Fire_Miss",
+      "SFX_Arrow_Frost_Miss"
+    ]
+  },
+  "HitParticles": {
+    "type": "object",
+    "children": {
+      "SystemId": {
+        "type": "string",
+        "values": [
+          "Impact_Blade_01",
+          "Impact_Ice",
+          "Impact_Poison",
+          "Stone_Death",
+          "VoidImpact",
+          "Explosion_Medium",
+          "Block_Break_Dirt",
+          "GreenOrbImpact",
+          "Effect_Poison"
+        ]
+      },
+      "Color": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Radius": {
+    "type": "number",
+    "values": []
+  },
+  "Height": {
+    "type": "number",
+    "values": []
+  },
+  "DeathEffectsOnHit": {
+    "type": "boolean",
+    "values": []
+  },
+  "DeadTimeMiss": {
+    "type": "number",
+    "values": []
+  },
+  "DeathParticles": {
+    "type": "object",
+    "children": {
+      "SystemId": {
+        "type": "string",
+        "values": [
+          "Gun_Impact",
+          "IceBall_Explosion",
+          "Impact_Ice",
+          "Impact_Poison",
+          "Explosion_Medium",
+          "VoidImpact",
+          "Block_Break_Stone",
+          "Block_Break_Dirt",
+          "Stone_Death",
+          "GreenOrbImpact",
+          "Effect_Poison"
+        ]
+      },
+      "PositionOffset": {
+        "type": "object",
+        "children": {
+          "Y": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Color": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "DeathSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_GunPvP_Assault_Rifle_Bullet_Death",
+      "SFX_GunPvP_Handgun_Bullet_Death",
+      "SFX_Ice_Ball_Death",
+      "SFX_Ice_Break",
+      "SFX_Scarak_Seeker_Spitball_Death",
+      "SFX_Crystal_Break",
+      "SFX_Projectile_Poop_Hit",
+      "SFX_Stone_Break",
+      "SFX_Fireball_Death"
+    ]
+  },
+  "MissParticles": {
+    "type": "object",
+    "children": {
+      "SystemId": {
+        "type": "string",
+        "values": [
+          "IceBall_Explosion",
+          "Impact_Poison",
+          "Explosion_Medium",
+          "Stone_Death"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ComputeYaw": {
+    "type": "boolean",
+    "values": []
+  },
+  "ComputePitch": {
+    "type": "boolean",
+    "values": []
+  },
+  "ComputeRoll": {
+    "type": "boolean",
+    "values": []
+  },
+  "BounceParticles": {
+    "type": "object",
+    "children": {
+      "SystemId": {
+        "type": "string",
+        "values": [
+          "Impact_Fire"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ExplosionConfig": {
+    "type": "object",
+    "children": {
+      "DamageEntities": {
+        "type": "boolean",
+        "values": []
+      },
+      "DamageBlocks": {
+        "type": "boolean",
+        "values": []
+      },
+      "BlockDamageRadius": {
+        "type": "number",
+        "values": []
+      },
+      "EntityDamageRadius": {
+        "type": "number",
+        "values": []
+      },
+      "EntityDamageFalloff": {
+        "type": "number",
+        "values": []
+      },
+      "Knockback": {
+        "type": "object",
+        "children": {
+          "Type": {
+            "type": "string",
+            "values": [
+              "Point"
+            ]
+          },
+          "VelocityConfig": {
+            "type": "object",
+            "children": {
+              "AirResistance": {
+                "type": "number",
+                "values": []
+              },
+              "AirResistanceMax": {
+                "type": "number",
+                "values": []
+              },
+              "GroundResistance": {
+                "type": "number",
+                "values": []
+              },
+              "GroundResistanceMax": {
+                "type": "number",
+                "values": []
+              },
+              "Threshold": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Force": {
+            "type": "number",
+            "values": []
+          },
+          "VelocityType": {
+            "type": "string",
+            "values": [
+              "Set"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "BounceSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Rubble_Bounce",
+      "SFX_Bomb_Fire_Goblin_Bounce",
+      "SFX_Poop_Bounce",
+      "SFX_Fireball_Bounce"
+    ]
+  },
+  "Parent": {
+    "type": "string",
+    "values": [
+      "Arrow_FullCharge",
+      "Wand_Wood_Rotten_Corruption_Orb",
+      "Bomb_Potion_Poison",
+      "Gun_Blunderbuss_Bullet",
+      "Staff_Wood_Rotten_Corruption_Orb",
+      "Rubble_Stone",
+      "Spear_Iron"
+    ]
+  },
+  "Density": {
+    "type": "number",
+    "values": []
+  },
+  "WaterHitImpulseLoss": {
+    "type": "number",
+    "values": []
+  },
+  "WaterTerminalVelocityMultiplier": {
+    "type": "number",
+    "values": []
+  }
+}

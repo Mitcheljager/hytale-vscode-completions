@@ -1,0 +1,476 @@
+{
+  "Parent": {
+    "type": "string",
+    "values": [
+      "Default"
+    ]
+  },
+  "World": {
+    "type": "object",
+    "children": {
+      "AllowBlockBreaking": {
+        "type": "boolean",
+        "values": []
+      },
+      "AllowBlockGathering": {
+        "type": "boolean",
+        "values": []
+      },
+      "AllowBlockPlacement": {
+        "type": "boolean",
+        "values": []
+      },
+      "DaytimeDurationSeconds": {
+        "type": "number",
+        "values": []
+      },
+      "NighttimeDurationSeconds": {
+        "type": "number",
+        "values": []
+      },
+      "BlockPlacementFragilityTimer": {
+        "type": "number",
+        "values": []
+      },
+      "Sleep": {
+        "type": "object",
+        "children": {
+          "WakeUpHour": {
+            "type": "number",
+            "values": []
+          },
+          "AllowedSleepHoursRange": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Gathering": {
+    "type": "object",
+    "children": {
+      "UnbreakableBlock": {
+        "type": "object",
+        "children": {
+          "ParticleSystemId": {
+            "type": "string",
+            "values": [
+              "Block_Break_Dust"
+            ]
+          },
+          "SoundEventId": {
+            "type": "string",
+            "values": [
+              "SFX_Unbreakable_Block"
+            ]
+          }
+        },
+        "values": []
+      },
+      "IncorrectTool": {
+        "type": "object",
+        "children": {
+          "ParticleSystemId": {
+            "type": "string",
+            "values": [
+              "Block_Break_Dust"
+            ]
+          },
+          "SoundEventId": {
+            "type": "string",
+            "values": [
+              "SFX_Unbreakable_Block"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Death": {
+    "type": "object",
+    "children": {
+      "ItemsLossMode": {
+        "type": "string",
+        "values": [
+          "Configured",
+          "None"
+        ]
+      },
+      "ItemsAmountLossPercentage": {
+        "type": "number",
+        "values": []
+      },
+      "ItemsDurabilityLossPercentage": {
+        "type": "number",
+        "values": []
+      },
+      "LoseItems": {
+        "type": "boolean",
+        "values": []
+      },
+      "RespawnController": {
+        "type": "object",
+        "children": {
+          "Type": {
+            "type": "string",
+            "values": [
+              "ExitInstance",
+              "WorldSpawnPoint"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "ItemEntity": {
+    "type": "object",
+    "children": {
+      "Lifetime": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "ItemDurability": {
+    "type": "object",
+    "children": {
+      "BrokenPenalties": {
+        "type": "object",
+        "children": {
+          "Weapon": {
+            "type": "number",
+            "values": []
+          },
+          "Armor": {
+            "type": "number",
+            "values": []
+          },
+          "Tool": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Plugin": {
+    "type": "object",
+    "children": {
+      "Stamina": {
+        "type": "object",
+        "children": {
+          "SprintRegenDelay": {
+            "type": "object",
+            "children": {
+              "EntityStatId": {
+                "type": "string",
+                "values": [
+                  "StaminaRegenDelay"
+                ]
+              },
+              "Value": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Memories": {
+        "type": "object",
+        "children": {
+          "MemoriesAmountPerLevel": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
+          },
+          "MemoriesRecordParticles": {
+            "type": "string",
+            "values": [
+              "MemoryRecordedStatue"
+            ]
+          },
+          "MemoriesCatchItemId": {
+            "type": "string",
+            "values": [
+              "Memory_Particle"
+            ]
+          },
+          "MemoriesCatchEntityParticle": {
+            "type": "object",
+            "children": {
+              "SystemId": {
+                "type": "string",
+                "values": [
+                  "Memory_Catch_Rune"
+                ]
+              },
+              "TargetNodeName": {
+                "type": "string",
+                "values": [
+                  "Head"
+                ]
+              }
+            },
+            "values": []
+          },
+          "MemoriesCatchParticleViewDistance": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "ForgottenTemple": {
+        "type": "object",
+        "children": {
+          "MinYRespawn": {
+            "type": "number",
+            "values": []
+          },
+          "RespawnSound": {
+            "type": "string",
+            "values": [
+              "SFX_Divine_Respawn"
+            ]
+          }
+        },
+        "values": []
+      },
+      "Portal": {
+        "type": "object",
+        "children": {
+          "VoidEvent": {
+            "type": "object",
+            "children": {
+              "DurationSeconds": {
+                "type": "number",
+                "values": []
+              },
+              "MusicAmbienceFX": {
+                "type": "string",
+                "values": [
+                  "Mus_Portal_VoidEvent"
+                ]
+              },
+              "InvasionPortals": {
+                "type": "object",
+                "children": {
+                  "BlockKey": {
+                    "type": "string",
+                    "values": [
+                      "VoidInvasion_Portal"
+                    ]
+                  },
+                  "SpawnBeacons": {
+                    "type": "array",
+                    "values": [
+                      "Portal_Void_Event_Minor",
+                      "Portal_Void_Event_Major",
+                      "Portal_Void_Event_Critter"
+                    ],
+                    "arrayTypes": [
+                      "string"
+                    ]
+                  },
+                  "OnSpawnParticles": {
+                    "type": "string",
+                    "values": [
+                      "Void_Dragon_Effects"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Stages": {
+                "type": "array",
+                "values": [],
+                "arrayTypes": [
+                  "object"
+                ],
+                "children": {
+                  "SecondsInto": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "ForcedWeather": {
+                    "type": "string",
+                    "values": [
+                      "Portals_Void_Event_Light",
+                      "Portals_Void_Event_Intense"
+                    ]
+                  }
+                }
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Respawn": {
+    "type": "object",
+    "children": {
+      "RadiusLimitRespawnPoint": {
+        "type": "number",
+        "values": []
+      },
+      "MaxRespawnPointsPerPlayer": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Player": {
+    "type": "object",
+    "children": {
+      "MovementConfig": {
+        "type": "string",
+        "values": [
+          "Default"
+        ]
+      },
+      "HitboxCollisionConfig": {
+        "type": "string",
+        "values": [
+          "SoftCollision"
+        ]
+      }
+    },
+    "values": []
+  },
+  "CameraEffects": {
+    "type": "object",
+    "children": {
+      "DamageEffects": {
+        "type": "object",
+        "children": {
+          "Fall": {
+            "type": "string",
+            "values": [
+              "Damage_Fall"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "CreativePlaySoundSet": {
+    "type": "string",
+    "values": [
+      "CreativePlayDefaults"
+    ]
+  },
+  "Spawn": {
+    "type": "object",
+    "children": {
+      "FirstSpawnParticles": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "SystemId": {
+            "type": "string",
+            "values": [
+              "PlayerSpawn_Spawn"
+            ]
+          },
+          "RotationOffset": {
+            "type": "object",
+            "children": {
+              "Yaw": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "PositionOffset": {
+            "type": "object",
+            "children": {
+              "Y": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          }
+        }
+      }
+    },
+    "values": []
+  },
+  "Ping": {
+    "type": "object",
+    "children": {
+      "PingDuration": {
+        "type": "number",
+        "values": []
+      },
+      "PingCooldown": {
+        "type": "number",
+        "values": []
+      },
+      "PingBroadcastRadius": {
+        "type": "number",
+        "values": []
+      },
+      "PingSound": {
+        "type": "string",
+        "values": [
+          "SFX_Ping"
+        ]
+      }
+    },
+    "values": []
+  },
+  "Combat": {
+    "type": "object",
+    "children": {
+      "DisableNPCIncomingDamage": {
+        "type": "boolean",
+        "values": []
+      },
+      "DisablePlayerIncomingDamage": {
+        "type": "boolean",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "WorldMap": {
+    "type": "object",
+    "children": {
+      "DisplaySpawn": {
+        "type": "boolean",
+        "values": []
+      }
+    },
+    "values": []
+  }
+}

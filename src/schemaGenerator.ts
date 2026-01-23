@@ -63,7 +63,7 @@ function mergeSchema(existing: SchemaNode | undefined, value: any): SchemaNode {
 
 function removeBogusValues(array: any[]) {
     return array.filter(item => {
-        if (typeof item === "number") return false;
+        if (typeof item !== "string") return false;
         if (item.match(/^(#|rgba\().*|==$/)) return false;
 
         return true;
@@ -88,7 +88,7 @@ function readJsonFiles(dir: string): any[] {
                 const data = JSON.parse(fs.readFileSync(fullPath, "utf8"));
                 results.push(data);
             } catch (e) {
-                console.warn("Failed to parse JSON:", fullPath);
+                console.warn("Failed to parse JSON file:", fullPath);
             }
         }
     }
@@ -117,12 +117,18 @@ const items = [
     { input: "/Server/NPC/Spawn", output: "Spawn.json" },
     { input: "/Server/Drops", output: "Drops.json" },
     { input: "/Server/BarterShops", output: "BarterShops.json" },
-    { input: "/Server/Weathers", output: "Weathers.json" }
+    { input: "/Server/Weathers", output: "Weathers.json" },
+    { input: "/Server/World", output: "World.json" },
+    { input: "/Server/Projectiles", output: "Projectiles.json" },
+    { input: "/Server/GameplayConfigs", output: "GameplayConfigs.json" },
+    { input: "/Server/Farming", output: "Farming.json" },
+    { input: "/Server/Environments", output: "Environments.json" },
+    { input: "/Server/PrefabList", output: "PrefabList.json" },
 ];
 
 const folderArg = process.argv[2];
 if (!folderArg) {
-    console.error("Usage: node generateSchema.js <folder-path>");
+    console.error("Pass a Hytale Assets folder. Usage: node generateSchema.js \"C:\\Path\\Hytale Assets\"");
     process.exit(1);
 }
 

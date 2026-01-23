@@ -99,6 +99,12 @@ import schemaSpawn from "../schema/Spawn.json";
 import schemaDrops from "../schema/Drops.json";
 import schemaBarterShops from "../schema/BarterShops.json";
 import schemaWeathers from "../schema/Weathers.json";
+import schemaWorld from "../schema/World.json";
+import schemaProjectiles from "../schema/Projectiles.json";
+import schemaGameplayConfigs from "../schema/GameplayConfigs.json";
+import schemaFarming from "../schema/Farming.json";
+import schemaEnvironments from "../schema/Environments.json";
+import schemaPrefabList from "../schema/PrefabList.json";
 
 export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
     const schemas = [
@@ -110,6 +116,12 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/Drops", json: schemaDrops },
         { path: "/BarterShops", json: schemaBarterShops },
         { path: "/Weathers", json: schemaWeathers },
+        { path: "/World", json: schemaWorld },
+        { path: "/Projectiles", json: schemaProjectiles },
+        { path: "/GameplayConfigs", json: schemaGameplayConfigs },
+        { path: "/Farming", json: schemaFarming },
+        { path: "/Environments", json: schemaEnvironments },
+        { path: "/PrefabList", json: schemaPrefabList },
     ];
 
     const fileName = document.uri.path;
