@@ -45,7 +45,9 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
   },
   "dependencies": {
     "jsonc-parser": "^3.3.1"
