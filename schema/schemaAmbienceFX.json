@@ -1,0 +1,848 @@
+{
+  "Conditions": {
+    "type": "object",
+    "children": {
+      "EnvironmentIds": {
+        "type": "array",
+        "values": [
+          "Unknown",
+          "Env_Void",
+          "Env_Portals_Hedera",
+          "Dungeon_GoblinLair_Ogre",
+          "Dungeon_GoblinLair_Duke",
+          "Env_Zone1_Kweebec",
+          "Env_Zone1_Mountains",
+          "Env_Zone1_Shores",
+          "Env_Zone1_Swamps",
+          "Env_Zone1_Trork",
+          "Env_Zone2_Deserts",
+          "Env_Zone2_Scrub",
+          "Env_Zone3_Dungeons",
+          "Env_Zone3_Forests",
+          "Env_Zone3_Glacial",
+          "Env_Zone3_Hedera",
+          "Env_Zone3_Mountains",
+          "Env_Zone3_Tundra",
+          "Env_Zone3_Outlander",
+          "Env_Zone3_Encounters",
+          "Env_Zone3",
+          "Env_Zone1_Forests",
+          "Env_Zone2_Savanna",
+          "Env_Zone2_Plateaus",
+          "Env_Zone1_Plains",
+          "Env_Zone4_Forests",
+          "Env_Zone4_Volcanoes",
+          "Env_Zone4_Crucible",
+          "Env_Zone1_Dungeons",
+          "Env_Zone2_Dungeons",
+          "Env_Zone1_Encounters",
+          "Env_Zone2_Encounters",
+          "Env_Zone1_Mage_Towers",
+          "Env_Zone2_Mage_Towers",
+          "Env_Zone3_Mage_Towers",
+          "Env_Zone4_Mage_Towers",
+          "Env_Zone1_Mineshafts",
+          "Env_Zone3_Mineshafts",
+          "Env_Zone2_Mineshafts",
+          "Env_Zone1_Caves_Forests",
+          "Env_Zone1_Caves_Goblins",
+          "Env_Zone1_Caves_Mountains",
+          "Env_Zone1_Caves_Plains",
+          "Env_Zone1_Caves_Rats",
+          "Env_Zone1_Caves_Spiders",
+          "Env_Zone1_Caves_Swamps",
+          "Env_Zone1_Caves_Volcanic_T1",
+          "Env_Zone1_Caves_Volcanic_T2",
+          "Env_Zone1_Caves_Volcanic_T3",
+          "Env_Zone1_Caves",
+          "Env_Zone2_Caves_Deserts",
+          "Env_Zone2_Caves_Goblins",
+          "Env_Zone2_Caves_Plateaus",
+          "Env_Zone2_Caves_Rats",
+          "Env_Zone2_Caves_Savanna",
+          "Env_Zone2_Caves_Scarak",
+          "Env_Zone2_Caves_Scrub",
+          "Env_Zone2_Caves_Volcanic_T1",
+          "Env_Zone2_Caves_Volcanic_T2",
+          "Env_Zone2_Caves_Volcanic_T3",
+          "Env_Zone2_Caves",
+          "Env_Zone3_Caves_Forests",
+          "Env_Zone3_Caves_Glacial",
+          "Env_Zone3_Caves_Mountains",
+          "Env_Zone3_Caves_Spider",
+          "Env_Zone3_Caves_Tundra",
+          "Env_Zone3_Caves_Volcanic_T1",
+          "Env_Zone3_Caves_Volcanic_T2",
+          "Env_Zone3_Caves_Volcanic_T3",
+          "Env_Zone3_Caves",
+          "Env_Zone4_Caves",
+          "Env_Zone4_Caves_Volcanic"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "SunLightLevel": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "EnvironmentTagPattern": {
+        "type": "object",
+        "children": {
+          "Op": {
+            "type": "string",
+            "values": [
+              "And",
+              "Equals",
+              "Or"
+            ]
+          },
+          "Patterns": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Op": {
+                "type": "string",
+                "values": [
+                  "Equals",
+                  "Not",
+                  "Or"
+                ]
+              },
+              "Tag": {
+                "type": "string",
+                "values": [
+                  "Caves",
+                  "Spiders",
+                  "Volcanic",
+                  "ForgottenTemple",
+                  "Exterior",
+                  "Interior=Grand",
+                  "Interior",
+                  "Tent",
+                  "Small",
+                  "Zone1",
+                  "Autumn",
+                  "Azure",
+                  "Forests",
+                  "Plains",
+                  "Zone2",
+                  "Zone3",
+                  "Zone4",
+                  "Jungles",
+                  "Dungeons",
+                  "Kweebec",
+                  "Mage_Towers"
+                ]
+              },
+              "Pattern": {
+                "type": "object",
+                "children": {
+                  "Op": {
+                    "type": "string",
+                    "values": [
+                      "Or",
+                      "Equals"
+                    ]
+                  },
+                  "Patterns": {
+                    "type": "array",
+                    "values": [],
+                    "arrayTypes": [
+                      "object"
+                    ],
+                    "children": {
+                      "Op": {
+                        "type": "string",
+                        "values": [
+                          "Equals"
+                        ]
+                      },
+                      "Tag": {
+                        "type": "string",
+                        "values": [
+                          "Volcanic",
+                          "Spiders",
+                          "Dungeons",
+                          "Jungles",
+                          "Forests"
+                        ]
+                      }
+                    }
+                  },
+                  "Tag": {
+                    "type": "string",
+                    "values": [
+                      "Volcanic"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Patterns": {
+                "type": "array",
+                "values": [],
+                "arrayTypes": [
+                  "object"
+                ],
+                "children": {
+                  "Op": {
+                    "type": "string",
+                    "values": [
+                      "Equals"
+                    ]
+                  },
+                  "Tag": {
+                    "type": "string",
+                    "values": [
+                      "Exterior",
+                      "Tent",
+                      "Small",
+                      "Forests",
+                      "Azure",
+                      "Swamps",
+                      "Autumn",
+                      "Plains",
+                      "Encounters",
+                      "Savanna"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "Tag": {
+            "type": "string",
+            "values": [
+              "Dungeons",
+              "Mage_Towers",
+              "Mineshafts",
+              "ForgottenTemple",
+              "ForgottenTemple=Heart",
+              "Zone1",
+              "Zone2",
+              "Zone3",
+              "Zone4",
+              "CreativeHub",
+              "Zone0",
+              "Trork",
+              "Feran",
+              "Scarak",
+              "Hedera",
+              "Outlander",
+              "Jungles"
+            ]
+          }
+        },
+        "values": []
+      },
+      "Roof": {
+        "type": "boolean",
+        "values": []
+      },
+      "Walls": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "SurroundingBlockSoundSets": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "BlockSoundSetId": {
+            "type": "string",
+            "values": [
+              "Water"
+            ]
+          },
+          "Percent": {
+            "type": "object",
+            "children": {
+              "Min": {
+                "type": "number",
+                "values": []
+              },
+              "Max": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          }
+        }
+      },
+      "FluidFXIds": {
+        "type": "array",
+        "values": [
+          "Water"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "WeatherTagPattern": {
+        "type": "object",
+        "children": {
+          "Op": {
+            "type": "string",
+            "values": [
+              "Equals",
+              "Not",
+              "Or"
+            ]
+          },
+          "Tag": {
+            "type": "string",
+            "values": [
+              "Rain=Storm",
+              "Rain=Moderate",
+              "Rain=Light",
+              "Sandstorm",
+              "Snow=Heavy",
+              "Snow=Storm",
+              "Rain"
+            ]
+          },
+          "Pattern": {
+            "type": "object",
+            "children": {
+              "Op": {
+                "type": "string",
+                "values": [
+                  "Equals"
+                ]
+              },
+              "Tag": {
+                "type": "string",
+                "values": [
+                  "Rain"
+                ]
+              }
+            },
+            "values": []
+          },
+          "Patterns": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Op": {
+                "type": "string",
+                "values": [
+                  "Equals"
+                ]
+              },
+              "Tag": {
+                "type": "string",
+                "values": [
+                  "Rain",
+                  "Swamp_Rain"
+                ]
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "Floor": {
+        "type": "boolean",
+        "values": []
+      },
+      "DayTime": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Altitude": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Never": {
+        "type": "boolean",
+        "values": []
+      },
+      "WeatherIds": {
+        "type": "array",
+        "values": [
+          "Zone2_Sand_Storm",
+          "Zone2_Thunder_Storm",
+          "Zone1_Swamp",
+          "Zone1_Swamp_Rain",
+          "Zone1_Swamp_Foggy"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      }
+    },
+    "values": []
+  },
+  "AmbientBed": {
+    "type": "object",
+    "children": {
+      "Track": {
+        "type": "string",
+        "values": [
+          "Sounds/00a1_Silence_Stereo.ogg",
+          "Sounds/Environments/Void/Void_Static_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Zone1/Global/Wind/Z1_Wind_Base_Low_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Cave/Cave_Shallow/Cave_Shallow_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Cave/Cave_Spider/Cave_Spider_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Cave/Cave_Volcanic/Cave_Volcanic_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Temple/Env_Temple_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Mage_Tower/Mage_Tower_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Water/Underwater_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Weather/Rainstorm_Exterior_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Weather/Rain_Exterior_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Weather/Sandstorm_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone2/Environments/Desert/Day/Oasis/Z2_Desert_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone2/Global/Wind/Z2_Wind_Base_Low_Stereo_LOOP.ogg",
+          "Sounds/Environments/Global/Weather/Rain_Interior_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Night/Z3_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Wind/Z3_Wind_Base_Low_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Plains/Day/Z1_Plains_Gen_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Unique/Forgotten_Temple/Forgotten_Temple_Whispers_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Interior/Tent_Billow_Stereo_01.ogg",
+          "Sounds/Environments/Interior/Room_Tone_Generic_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Zone1/Environments/Dungeon/Z1_Dng_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Forest/Day/Autumn/Z1_Forest_Autumn_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Forest/Day/Azure/Z1_Forest_Azure_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Forest/Day/Gen/Z1_Forest_Gen_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Forest/Night/Z1_Forest_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Kweebec_Village/Z1_Kweebec_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Mountain/Z1_Mountain_Wind_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Plains/Night/Z1_Plains_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Shore/Z1_Shore_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Swamp/Day/Z1_Swamp_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Swamp/Night/Z1_Swamp_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Environments/Trork_Camp/Z1_Trork_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Global/Night/Z1_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Global/Sunrise/Z1_Sunrise_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Global/Sunrise/Z1_Swamp_Sunrise_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Global/Sunset/Z1_Sunset_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone1/Global/Wind/Z1_Wind_Base_Mid_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone2/Environments/Savannah_Plains/Day/Z2_Savannah_Plains_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone2/Environments/Scrub_Brushland/Day/Z2_Scrub_Brushland_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone2/Global/Wind/Z2_Wind_Base_Mid_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Forest/Active/Day/Z3_Forest_Active_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Forest/Shared/Z3_Forest_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Frozen/Day/Z3_Frozen_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Frozen/Night/Z3_Frozen_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Frozen/Shared/Z3_Frozen_Glacier_Crevasse_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Plains/Day/Z3_Plains_Day_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Environments/Plains/Night/Z3_Plains_Night_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Cave/Z3_Cave_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Sunrise/Z3_Sunrise_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Sunset/Z3_Sunset_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone3/Global/Wind/Z3_Wind_Base_Mid_Stereo_LOOP.ogg",
+          "Sounds/Environments/Zone4/Forest/Zone4_Forest_Base_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Zone4/Jungle/Zone4_Jungle_Base_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Zone4/Jungle/Zone4_Jungle_Day_Loop_Stereo_01.ogg",
+          "Sounds/Environments/Zone4/Wastes/Zone4_Desert_Base_Loop_Stereo_01.ogg"
+        ]
+      },
+      "Volume": {
+        "type": "number",
+        "values": []
+      },
+      "TransitionSpeed": {
+        "type": "string",
+        "values": [
+          "Instant",
+          "Fast"
+        ]
+      }
+    },
+    "values": []
+  },
+  "Music": {
+    "type": "object",
+    "children": {
+      "Tracks": {
+        "type": "array",
+        "values": [
+          "Music/_general/00a1_Silence.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_01.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_02.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_03.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_04.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_05.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_06.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_07.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_08.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_09.ogg",
+          "Music/_general/Z123AD_Ambient_Fragments_10.ogg",
+          "Music/Caves/Z1-Cave_01-1.ogg",
+          "Music/Caves/Z1-Cave_02-1.ogg",
+          "Music/Caves/Z1-Cave_03-1.ogg",
+          "Music/Caves/Z1-Cave_04-1.ogg",
+          "Music/Caves/Z1-Cave_05-1.ogg",
+          "Music/Caves/Z1-Cave_06-1.ogg",
+          "Music/Caves/Z1-Cave_07-1.ogg",
+          "Music/Unique/CreativeHub.ogg",
+          "Music/Unique/ZG-ForgottenTemple.ogg",
+          "Music/Events/Event_Extraction.ogg",
+          "Music/Oceans/ZO-CoralReefs.ogg",
+          "Music/Oceans/ZO-SolemnTides.ogg",
+          "Music/Oceans/ZO-SungleamLagoon.ogg",
+          "Music/Oceans/ZO-ThroughtheAbyss.ogg",
+          "Music/Caves/Z1-Cave_01-2.ogg",
+          "Music/Caves/Z1-Cave_02-2.ogg",
+          "Music/Caves/Z1-Cave_03-2.ogg",
+          "Music/Caves/Z1-Cave_04-2.ogg",
+          "Music/Caves/Z1-Cave_05-2.ogg",
+          "Music/Caves/Z1-Cave_06-2.ogg",
+          "Music/Caves/Z1-Cave_07-2.ogg",
+          "Music/Caves/Z1-Cave_01-3.ogg",
+          "Music/Caves/Z1-Cave_02-3.ogg",
+          "Music/Caves/Z1-Cave_03-3.ogg",
+          "Music/Caves/Z1-Cave_04-3.ogg",
+          "Music/Caves/Z1-Cave_05-3.ogg",
+          "Music/Caves/Z1-Cave_06-3.ogg",
+          "Music/Caves/Z1-Cave_07-3.ogg",
+          "Music/Zone1/Z1AD-BountifulHarvest.ogg",
+          "Music/Zone1/Z1AD-Comradery.ogg",
+          "Music/Zone1/Z1AD-EmeraldGrove.ogg",
+          "Music/Zone1/Z1AD-HerbalistsRefuge.ogg",
+          "Music/Zone1/Z1AD-HerosGlade.ogg",
+          "Music/Zone1/Z1AD-JourneymansQuest.ogg",
+          "Music/Zone1/Z1AD-MorningBreeze.ogg",
+          "Music/Zone1/Z1AD-Orbis.ogg",
+          "Music/Zone1/Z1AD-PeacefulDays.ogg",
+          "Music/Zone1/Z1AD-PillarsofFoundation.ogg",
+          "Music/Zone1/Z1AD-ShortForm1.ogg",
+          "Music/Zone1/Z1AD-ShortForm2.ogg",
+          "Music/Zone1/Z1AD-ShortForm3.ogg",
+          "Music/Zone1/Z1AD-ShortForm4.ogg",
+          "Music/Zone1/Z1AD-ShortForm5.ogg",
+          "Music/Zone1/Z1AD-ShortForm6.ogg",
+          "Music/Zone1/Z1AD-ShortForm7.ogg",
+          "Music/Zone1/Z1AD-ShortForm8.ogg",
+          "Music/Zone1/Z1AD-ShortForm9.ogg",
+          "Music/Zone1/Z1AD-ShortForm10.ogg",
+          "Music/Zone1/Z1AD-ShortForm11.ogg",
+          "Music/Zone1/Z1AD-ShortForm12.ogg",
+          "Music/Zone1/Z1AD-SunriseOfLutes.ogg",
+          "Music/Zone1/Z1AD-Avatars.ogg",
+          "Music/Zone1/Z1AD-UnclaimedLand.ogg",
+          "Music/Zone1/Z1D-GoblinDungeon.ogg",
+          "Music/Zone1/Z1D-GoblinBossBattle.ogg",
+          "Music/Zone1/Z1D-GoblinOgre.ogg",
+          "Music/Zone1/Z1V-KweebecVillageDay.ogg",
+          "Music/Zone1/Z1V-KweebecVillageNight.ogg",
+          "Music/Zone1/Z1-MageTowerEarth.ogg",
+          "Music/Zone1/Z1AN-AuroraCascade.ogg",
+          "Music/Zone1/Z1AN-AWizardsDiscipline.ogg",
+          "Music/Zone1/Z1AN-ByTheCampfire.ogg",
+          "Music/Zone1/Z1AN-KnightsOfTheBrokenOrder.ogg",
+          "Music/Zone1/Z1AN-Reflection.ogg",
+          "Music/Zone1/Z1AN-ShadowsOfThePast.ogg",
+          "Music/Zone1/Z1AN-TidesOfDarkness.ogg",
+          "Music/Zone1/Z1AN-TwistedShadows.ogg",
+          "Music/Zone1/Sunrise.ogg",
+          "Music/Zone1/Z1V-TrorkVillageDay.ogg",
+          "Music/Zone1/Z1V-TrorkVillageNight.ogg",
+          "Music/Caves/Z2-Cave_01-2.ogg",
+          "Music/Caves/Z2-Cave_02-2.ogg",
+          "Music/Caves/Z2-Cave_03-2.ogg",
+          "Music/Caves/Z2-Cave_04-2.ogg",
+          "Music/Caves/Z2-Cave_05-2.ogg",
+          "Music/Caves/Z2-Cave_06-2.ogg",
+          "Music/Caves/Z2-Cave_01-1.ogg",
+          "Music/Caves/Z2-Cave_02-1.ogg",
+          "Music/Caves/Z2-Cave_03-1.ogg",
+          "Music/Caves/Z2-Cave_04-1.ogg",
+          "Music/Caves/Z2-Cave_05-1.ogg",
+          "Music/Caves/Z2-Cave_06-1.ogg",
+          "Music/Caves/Z2-Cave_01-3.ogg",
+          "Music/Caves/Z2-Cave_02-3.ogg",
+          "Music/Caves/Z2-Cave_03-3.ogg",
+          "Music/Caves/Z2-Cave_04-3.ogg",
+          "Music/Caves/Z2-Cave_05-3.ogg",
+          "Music/Caves/Z2-Cave_06-3.ogg",
+          "Music/Zone2/Z2AD-CanyonoftheManySuns.ogg",
+          "Music/Zone2/Z2AD-Caravan.ogg",
+          "Music/Zone2/Z2AD-Drylands.ogg",
+          "Music/Zone2/Z2AD-EnchantingBarrens.ogg",
+          "Music/Zone2/Z2AD-GaiasLament.ogg",
+          "Music/Zone2/Z2AD-LastingDrought.ogg",
+          "Music/Zone2/Z2AD-MountainHike.ogg",
+          "Music/Zone2/Z2AD-ScorchingSands.ogg",
+          "Music/Zone2/Z2AD-UncoveringLostSecrets.ogg",
+          "Music/Zone2/Z2D-AncientTombs.ogg",
+          "Music/Zone2/Z2V-FeranVillageDay.ogg",
+          "Music/Zone2/Z2V-FeranVillageNight.ogg",
+          "Music/Zone2/Z2AN-ArcaneDiscoveries.ogg",
+          "Music/Zone2/Z2AN-MemoriesoftheAncients.ogg",
+          "Music/Zone2/Z2AN-NightontheDunes.ogg",
+          "Music/Zone2/Z2AN-RiseofaHero.ogg",
+          "Music/Zone2/Z2-ScarakHives.ogg",
+          "Music/Caves/Z3-Cave_01-2.ogg",
+          "Music/Caves/Z3-Cave_02-2.ogg",
+          "Music/Caves/Z3-Cave_03-2.ogg",
+          "Music/Caves/Z3-Cave_04-2.ogg",
+          "Music/Caves/Z3-Cave_05-2.ogg",
+          "Music/Caves/Z3-Cave_01-1.ogg",
+          "Music/Caves/Z3-Cave_02-1.ogg",
+          "Music/Caves/Z3-Cave_03-1.ogg",
+          "Music/Caves/Z3-Cave_04-1.ogg",
+          "Music/Caves/Z3-Cave_05-1.ogg",
+          "Music/Caves/Z3-Cave_01-3.ogg",
+          "Music/Caves/Z3-Cave_02-3.ogg",
+          "Music/Caves/Z3-Cave_03-3.ogg",
+          "Music/Caves/Z3-Cave_04-3.ogg",
+          "Music/Caves/Z3-Cave_05-3.ogg",
+          "Music/Zone3/Z3AD-FrigidWinds.ogg",
+          "Music/Zone3/Z3AD-FrozenPines.ogg",
+          "Music/Zone3/Z3AD-Oathbreaker.ogg",
+          "Music/Zone3/Z3AD-OldCraft.ogg",
+          "Music/Zone3/Z3AD-Snowfall.ogg",
+          "Music/Zone3/Z3AD-TaintedLands.ogg",
+          "Music/Zone3/Z3AD-TravelingBand.ogg",
+          "Music/Zone3/Z3D-OutlanderDungeon.ogg",
+          "Music/Zone3/Z3-HederaWoods.ogg",
+          "Music/Zone3/Z3AN-OvergrownCopse.ogg",
+          "Music/Zone3/Z3AN-RefugefromtheStorm.ogg",
+          "Music/Zone3/Z3AN-Shelter.ogg",
+          "Music/Zone3/Z3AN-StarsAbovetheCampfire.ogg",
+          "Music/Zone3/Z3AN-ColdMoon.ogg",
+          "Music/Zone3/Z3V-OutlanderVillageDay.ogg",
+          "Music/Zone3/Z3V-OutlanderVillageNight.ogg",
+          "Music/Zone4/Z4A-DarkOmens.ogg",
+          "Music/Zone4/Z4A-LostBrethren.ogg",
+          "Music/Zone4/Z4A-MarchoftheTurned.ogg",
+          "Music/Zone4/Z4A-Tragedy.ogg",
+          "Music/Zone4/Z4A-VolcanicPits.ogg",
+          "Music/Zone4/Z4J-AmongtheBamboo.ogg",
+          "Music/Zone4/Z4J-AWorldBelow.ogg",
+          "Music/Zone4/Z4J-ChasmsofYore.ogg",
+          "Music/Zone4/Z4J-DeepJungles.ogg"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Volume": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Sounds": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "object"
+    ],
+    "children": {
+      "SoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Env_Emit_Fluid_Water",
+          "SFX_Global_Weather_Thunder",
+          "SFX_Z3_Emit_Hedera_PlantRustle",
+          "SFX_Z3_Emit_Hedera_FX",
+          "SFX_Emit_Wind_Grass",
+          "SFX_Emit_Wind_Gusts",
+          "SFX_Emit_Temple_Wisps",
+          "SFX_Forgotten_Temple_Emit_Birds",
+          "SFX_Z1_Emit_Plains_Gen_Day_Wind",
+          "SFX_Emit_Forgotten_Whispers",
+          "SFX_Emit_Tree_Creak",
+          "SFX_Z1_Emit_Forest_Autumn_Day_Birds",
+          "SFX_Z1_Emit_Forest_Autumn_Day_Insects",
+          "SFX_Z1_Emit_Forest_Autumn_Day_Wind",
+          "SFX_Z1_Emit_Forest_Azure_Day_Insects",
+          "SFX_Z1_Emit_Forest_Azure_Day_Wind",
+          "SFX_Z1_Emit_Forest_Gen_Day_Birds",
+          "SFX_Z1_Emit_Forest_Gen_Day_Insects",
+          "SFX_Z1_Emit_Forest_Gen_Day_Winds",
+          "SFX_Z1_Emit_Forest_Night_Birds",
+          "SFX_Z1_Emit_Forest_Night_Insects",
+          "SFX_Z1_Emit_Kweebec_Village_Wind",
+          "SFX_Z1_Emit_Mountain_Day_Birds",
+          "SFX_Z1_Emit_Plains_Gen_Day_Birds",
+          "SFX_Z1_Emit_Plains_Gen_Day_Insects",
+          "SFX_Z1_Emit_Plains_Gen_Night_Birds",
+          "SFX_Z1_Emit_Plains_Gen_Night_Insects",
+          "SFX_Z1_Emit_Plains_Gen_Night_Wind",
+          "SFX_Z1_Emit_Shore_Day_Birds",
+          "SFX_Z1_Emit_Shore_Wind",
+          "SFX_Z1_Emit_Swamp_Day_Birds",
+          "SFX_Z1_Emit_Swamp_Day_Insects",
+          "SFX_Z1_Emit_Swamp_Day_Frogs",
+          "SFX_Z1_Emit_Swamp_Day_Wind",
+          "SFX_Z1_Emit_Swamp_Night_Frogs",
+          "SFX_Z1_Emit_Trork_Camp",
+          "SFX_Z3_Forest_Day_Birds",
+          "SFX_Z3_Forest_Day_General",
+          "SFX_Z3_Emit_Wind_Leaves_Stereo",
+          "SFX_Z3_Emit_Wind_Leaves",
+          "SFX_Z3_Emit_Tree_Creak",
+          "SFX_Z3_Forest_Night_Birds",
+          "SFX_Z3_Emit_Cave_Ice_Crackle",
+          "SFX_Z3_Emit_Cave_Snow_Melt",
+          "SFX_Z3_Emit_Cave_Ice_Rumble",
+          "SFX_Z3_Emit_Cave_Ice_Stress",
+          "SFX_Z3_Emit_Cave_Snow_Crackle"
+        ]
+      },
+      "Radius": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Play3D": {
+        "type": "string",
+        "values": [
+          "LocationName",
+          "Random",
+          "No"
+        ]
+      },
+      "BlockSoundSetId": {
+        "type": "string",
+        "values": [
+          "Water",
+          "Wood"
+        ]
+      },
+      "Frequency": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Altitude": {
+        "type": "string",
+        "values": [
+          "Highest"
+        ]
+      }
+    }
+  },
+  "Priority": {
+    "type": "number",
+    "values": []
+  },
+  "SoundEffect": {
+    "type": "object",
+    "children": {
+      "EqualizerEffectId": {
+        "type": "string",
+        "values": [
+          "EQ_Underwater"
+        ]
+      },
+      "IsInstant": {
+        "type": "boolean",
+        "values": []
+      },
+      "ReverbEffectId": {
+        "type": "string",
+        "values": [
+          "Rev_Temple_Grand",
+          "Rev_Village",
+          "Rev_Reflective_Slap",
+          "Rev_Forest",
+          "Rev_Plains",
+          "Rev_Plains_Snow",
+          "Rev_Cave",
+          "Rev_Mage_Tower",
+          "Rev_Temple",
+          "Rev_Swamp_Foggy"
+        ]
+      }
+    },
+    "values": []
+  },
+  "BlockedAmbienceFxIds": {
+    "type": "array",
+    "values": [
+      "AmbFX_Fallback_Wind_Base_Low",
+      "AmbFX_Weather_Rain_Exterior",
+      "AmbFX_Weather_Rain_Light_Exterior",
+      "AmbFX_Weather_Rainstorm"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "$Comment": {
+    "type": "string",
+    "values": [
+      "Fallback for overground day and night music if nothing else is defined.",
+      "Fallback for underground music if nothing else is defined."
+    ]
+  },
+  "AudioCategory": {
+    "type": "string",
+    "values": [
+      "AudioCat_Music"
+    ]
+  }
+}

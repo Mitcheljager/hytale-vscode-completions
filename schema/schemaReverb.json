@@ -1,0 +1,58 @@
+{
+  "DryGain": {
+    "type": "number",
+    "values": []
+  },
+  "ModalDensity": {
+    "type": "number",
+    "values": []
+  },
+  "Diffusion": {
+    "type": "number",
+    "values": []
+  },
+  "Gain": {
+    "type": "number",
+    "values": []
+  },
+  "HighFrequencyGain": {
+    "type": "number",
+    "values": []
+  },
+  "DecayTime": {
+    "type": "number",
+    "values": []
+  },
+  "HighFrequencyDecayRatio": {
+    "type": "number",
+    "values": []
+  },
+  "ReflectionGain": {
+    "type": "number",
+    "values": []
+  },
+  "ReflectionDelay": {
+    "type": "number",
+    "values": []
+  },
+  "LateReverbGain": {
+    "type": "number",
+    "values": []
+  },
+  "LateReverbDelay": {
+    "type": "number",
+    "values": []
+  },
+  "RoomRolloffFactor": {
+    "type": "number",
+    "values": []
+  },
+  "AirAbsorbptionHighFrequencyGain": {
+    "type": "number",
+    "values": []
+  },
+  "LimitDecayHighFrequency": {
+    "type": "boolean",
+    "values": []
+  }
+}

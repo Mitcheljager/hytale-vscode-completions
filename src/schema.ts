@@ -105,6 +105,14 @@ import schemaGameplayConfigs from "../schema/GameplayConfigs.json";
 import schemaFarming from "../schema/Farming.json";
 import schemaEnvironments from "../schema/Environments.json";
 import schemaPrefabList from "../schema/PrefabList.json";
+import schemaCamera from "../schema/Camera.json";
+import schemaAmbienceFX from "../schema/schemaAmbienceFX.json";
+import schemaAudioCategories from "../schema/schemaAudioCategories.json";
+import schemaEQ from "../schema/schemaEQ.json";
+import schemaItemSounds from "../schema/schemaItemSounds.json";
+import schemaReverb from "../schema/schemaReverb.json";
+import schemaSoundEvents from "../schema/schemaSoundEvents.json";
+import schemaSoundSets from "../schema/schemaSoundSets.json";
 
 export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
     const schemas = [
@@ -122,6 +130,14 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/Farming", json: schemaFarming },
         { path: "/Environments", json: schemaEnvironments },
         { path: "/PrefabList", json: schemaPrefabList },
+        { path: "/Camera", json: schemaCamera },
+        { path: "/Audio/AmbienceFX", json: schemaAmbienceFX },
+        { path: "/Audio/AudioCategories", json: schemaAudioCategories },
+        { path: "/Audio/EQ", json: schemaEQ },
+        { path: "/Audio/ItemSounds", json: schemaItemSounds },
+        { path: "/Audio/Reverb", json: schemaReverb },
+        { path: "/Audio/SoundEvents", json: schemaSoundEvents },
+        { path: "/Audio/SoundSets", json: schemaSoundSets }
     ];
 
     const fileName = document.uri.path;

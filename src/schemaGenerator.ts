@@ -124,6 +124,14 @@ const items = [
     { input: "/Server/Farming", output: "Farming.json" },
     { input: "/Server/Environments", output: "Environments.json" },
     { input: "/Server/PrefabList", output: "PrefabList.json" },
+    { input: "/Server/Camera", output: "Camera.json" },
+    { input: "/Server/Audio/AmbienceFX", output: "schemaAmbienceFX.json" },
+    { input: "/Server/Audio/AudioCategories", output: "schemaAudioCategories.json" },
+    { input: "/Server/Audio/EQ", output: "schemaEQ.json" },
+    { input: "/Server/Audio/ItemSounds", output: "schemaItemSounds.json" },
+    { input: "/Server/Audio/Reverb", output: "schemaReverb.json" },
+    { input: "/Server/Audio/SoundEvents", output: "schemaSoundEvents.json" },
+    { input: "/Server/Audio/SoundSets", output: "schemaSoundSets.json" },
 ];
 
 const folderArg = process.argv[2];

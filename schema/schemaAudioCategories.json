@@ -1,0 +1,13 @@
+{
+  "Volume": {
+    "type": "number",
+    "values": []
+  },
+  "Parent": {
+    "type": "string",
+    "values": [
+      "AudioCat_NPC",
+      "AudioCat_Weapons"
+    ]
+  }
+}

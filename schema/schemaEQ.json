@@ -1,0 +1,42 @@
+{
+  "LowGain": {
+    "type": "number",
+    "values": []
+  },
+  "LowCutOff": {
+    "type": "number",
+    "values": []
+  },
+  "LowMidGain": {
+    "type": "number",
+    "values": []
+  },
+  "LowMidCenter": {
+    "type": "number",
+    "values": []
+  },
+  "LowMidWidth": {
+    "type": "number",
+    "values": []
+  },
+  "HighMidGain": {
+    "type": "number",
+    "values": []
+  },
+  "HighMidCenter": {
+    "type": "number",
+    "values": []
+  },
+  "HighMidWidth": {
+    "type": "number",
+    "values": []
+  },
+  "HighGain": {
+    "type": "number",
+    "values": []
+  },
+  "HighCutOff": {
+    "type": "number",
+    "values": []
+  }
+}

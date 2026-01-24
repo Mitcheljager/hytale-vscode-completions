@@ -1,0 +1,615 @@
+{
+  "Type": {
+    "type": "string",
+    "values": [
+      "CameraShake"
+    ]
+  },
+  "CameraShake": {
+    "type": "string",
+    "values": [
+      "Battleaxe_Bash",
+      "Battleaxe_Downstrike",
+      "Battleaxe_Downstrike_Jump",
+      "Battleaxe_Frontflip_Chop",
+      "Battleaxe_Jump",
+      "Battleaxe_Sweep",
+      "Battleaxe_Swing_Diagonal_Left",
+      "Battleaxe_Swing_Diagonal_Right",
+      "Battleaxe_Swing_Horizontal",
+      "Battleaxe_Swing_Vertical",
+      "Battleaxe_Whirlwind",
+      "Block_Swing_Diagonal_Right",
+      "Crossbow_Bash",
+      "Daggers_Bash",
+      "Daggers_Dash",
+      "Daggers_Dash_Side",
+      "Daggers_Jump",
+      "Daggers_Land",
+      "Daggers_Slash",
+      "Daggers_Stab",
+      "Daggers_Sweep",
+      "Daggers_Swing_Diagonal_Left",
+      "Daggers_Swing_Diagonal_Right",
+      "Daggers_Swing_Horizontal",
+      "Damage",
+      "Damage_Fall",
+      "Handgun_Shoot",
+      "Hatchet_Chop",
+      "Hoe_Swing_Horizontal",
+      "Impact",
+      "Impact_Light",
+      "Impact_Strong",
+      "Mace_Bash",
+      "Mace_Explode",
+      "Mace_Jump",
+      "Mace_Swing_Horizontal",
+      "Hedera_Scream",
+      "Pickaxe_Mine",
+      "Pickaxe_Mine_Impact",
+      "Shield_Bash",
+      "Shortbow_Bash",
+      "Shovel_Dig",
+      "Sword_Bash",
+      "Sword_Spin",
+      "Sword_Stab",
+      "Sword_Swing_Diagonal_Right",
+      "Sword_Swing_Vertical",
+      "Unarmed_Block_Impact",
+      "Unarmed_Swing_Horizontal"
+    ]
+  },
+  "Intensity": {
+    "type": "object",
+    "children": {
+      "Value": {
+        "type": "number",
+        "values": []
+      },
+      "AccumulationMode": {
+        "type": "string",
+        "values": [
+          "Sum"
+        ]
+      },
+      "Modifier": {
+        "type": "object",
+        "children": {
+          "Input": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
+          },
+          "Output": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "number"
+            ]
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "FirstPerson": {
+    "type": "object",
+    "children": {
+      "Duration": {
+        "type": "number",
+        "values": []
+      },
+      "EaseIn": {
+        "type": "object",
+        "children": {
+          "Time": {
+            "type": "number",
+            "values": []
+          },
+          "Type": {
+            "type": "string",
+            "values": [
+              "QuadInOut",
+              "Linear"
+            ]
+          }
+        },
+        "values": []
+      },
+      "EaseOut": {
+        "type": "object",
+        "children": {
+          "Time": {
+            "type": "number",
+            "values": []
+          },
+          "Type": {
+            "type": "string",
+            "values": [
+              "QuadInOut",
+              "Linear"
+            ]
+          }
+        },
+        "values": []
+      },
+      "Offset": {
+        "type": "object",
+        "children": {
+          "X": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Perlin_Hermite"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Y": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos",
+                  "Perlin_Hermite"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Normalize": {
+                    "type": "boolean",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Z": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos",
+                  "Perlin_Hermite"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "Rotation": {
+        "type": "object",
+        "children": {
+          "Pitch": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos",
+                  "Perlin_Hermite"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Yaw": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Roll": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos",
+                  "Perlin_Hermite"
+                ]
+              },
+              "Seed": {
+                "type": "number",
+                "values": []
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "StartTime": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "ThirdPerson": {
+    "type": "object",
+    "children": {
+      "Duration": {
+        "type": "number",
+        "values": []
+      },
+      "EaseIn": {
+        "type": "object",
+        "children": {
+          "Time": {
+            "type": "number",
+            "values": []
+          },
+          "Type": {
+            "type": "string",
+            "values": [
+              "QuadInOut",
+              "Linear"
+            ]
+          }
+        },
+        "values": []
+      },
+      "EaseOut": {
+        "type": "object",
+        "children": {
+          "Time": {
+            "type": "number",
+            "values": []
+          },
+          "Type": {
+            "type": "string",
+            "values": [
+              "QuadInOut",
+              "Linear"
+            ]
+          }
+        },
+        "values": []
+      },
+      "Offset": {
+        "type": "object",
+        "children": {
+          "X": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin"
+                ]
+              }
+            }
+          },
+          "Y": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin"
+                ]
+              }
+            }
+          },
+          "Z": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin"
+                ]
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "Rotation": {
+        "type": "object",
+        "children": {
+          "Pitch": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin"
+                ]
+              },
+              "Clamp": {
+                "type": "object",
+                "children": {
+                  "Max": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Min": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Yaw": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin"
+                ]
+              }
+            }
+          },
+          "Roll": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Frequency": {
+                "type": "number",
+                "values": []
+              },
+              "Amplitude": {
+                "type": "number",
+                "values": []
+              },
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Sin",
+                  "Cos"
+                ]
+              },
+              "Seed": {
+                "type": "number",
+                "values": []
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "StartTime": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  }
+}
