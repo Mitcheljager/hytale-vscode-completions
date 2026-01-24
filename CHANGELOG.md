@@ -4,6 +4,12 @@ All notable changes to the "hytale-completions" extension will be documented in 
 
 Follow [Keep a Changelog](http://keepachangelog.com/)
 
+## [1.7.0]
+
+### Added
+
+- Added various additional schema files
+
 ## [1.6.0]
 
 ### Added
