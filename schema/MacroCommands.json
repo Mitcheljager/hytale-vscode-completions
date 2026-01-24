@@ -1,0 +1,108 @@
+{
+  "Name": {
+    "type": "string",
+    "values": [
+      "delete",
+      "fillsignature",
+      "heal",
+      "neardeath",
+      "noon",
+      "resetrotation",
+      "unstuck",
+      "setTimeAndGoHome"
+    ]
+  },
+  "Description": {
+    "type": "string",
+    "values": [
+      "Sets the current selection to empty / deletes things.",
+      "Fills your signature energy",
+      "Heals up to your max stamina and health",
+      "Set your health to 1",
+      "Sets the time to noon and pauses",
+      "Resets camera rotation to default (pitch=0, yaw=0, roll=0)",
+      "Teleport to the top of the world at your current position",
+      "Sets the time of day and teleports the user"
+    ]
+  },
+  "Commands": {
+    "type": "array",
+    "values": [
+      "set Empty",
+      "player stat settomax SignatureEnergy",
+      "player stat settomax Stamina",
+      "player stat settomax Health",
+      "player stat set Health 1",
+      "time set noon",
+      "time pause",
+      "tp ~ ~ ~ --pitch=0 --yaw=0 --roll=0",
+      "tp top",
+      "time set {timeOfDay}",
+      "wait 2",
+      "tp home --world={world}"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "Aliases": {
+    "type": "array",
+    "values": [
+      "/del",
+      "/d",
+      "macrotest"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "Parameters": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "object"
+    ],
+    "children": {
+      "Name": {
+        "type": "string",
+        "values": [
+          "timeOfDay",
+          "world"
+        ]
+      },
+      "Description": {
+        "type": "string",
+        "values": [
+          "The time of day to set the world to",
+          "The world to tp to"
+        ]
+      },
+      "Requirement": {
+        "type": "string",
+        "values": [
+          "Required",
+          "Default"
+        ]
+      },
+      "ArgType": {
+        "type": "string",
+        "values": [
+          "Integer",
+          "World"
+        ]
+      },
+      "DefaultValue": {
+        "type": "string",
+        "values": [
+          "Default"
+        ]
+      },
+      "DefaultValueDescription": {
+        "type": "string",
+        "values": [
+          "The default world"
+        ]
+      }
+    }
+  }
+}

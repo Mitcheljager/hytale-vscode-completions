@@ -1,0 +1,1584 @@
+{
+  "Model": {
+    "type": "string",
+    "values": [
+      "Scarak_Seeker_Spitball",
+      "Ice_Ball",
+      "Bomb_Fire_Goblin",
+      "Bomb_Fire_Goblin_Dud",
+      "Bomb_Large_Fire_Goblin",
+      "Trash",
+      "Rubble_Stone",
+      "Arrow_Crude",
+      "Bomb",
+      "Bomb_Popberry",
+      "Arrow_Ricochet_Signature",
+      "Arrow_Ricochet",
+      "Arrow_Vamp",
+      "Arrow_Vamp_Signature",
+      "Arrow_Crossbow_Signature",
+      "Healing_Totem_Projectile",
+      "Slowness_Totem",
+      "Crossbow_Turret_Item_Projectile",
+      "Arrow_Shortbow_Signature",
+      "Ice_Bolt",
+      "Fireball",
+      "Kunai",
+      "Rubble_Default"
+    ]
+  },
+  "Physics": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Standard"
+        ]
+      },
+      "Gravity": {
+        "type": "number",
+        "values": []
+      },
+      "TerminalVelocityAir": {
+        "type": "number",
+        "values": []
+      },
+      "TerminalVelocityWater": {
+        "type": "number",
+        "values": []
+      },
+      "RotationMode": {
+        "type": "string",
+        "values": [
+          "Velocity",
+          "VelocityDamped",
+          "VelocityRoll",
+          "None"
+        ]
+      },
+      "Bounciness": {
+        "type": "number",
+        "values": []
+      },
+      "SticksVertically": {
+        "type": "boolean",
+        "values": []
+      },
+      "BounceLimit": {
+        "type": "number",
+        "values": []
+      },
+      "BounceCount": {
+        "type": "number",
+        "values": []
+      },
+      "AllowRolling": {
+        "type": "boolean",
+        "values": []
+      },
+      "RollingFrictionFactor": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "LaunchForce": {
+    "type": "number",
+    "values": []
+  },
+  "SpawnOffset": {
+    "type": "object",
+    "children": {
+      "X": {
+        "type": "number",
+        "values": []
+      },
+      "Y": {
+        "type": "number",
+        "values": []
+      },
+      "Z": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Interactions": {
+    "type": "object",
+    "children": {
+      "ProjectileHit": {
+        "type": "object",
+        "children": {
+          "Cooldown": {
+            "type": "object",
+            "children": {
+              "Cooldown": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Interactions": {
+            "type": "array",
+            "values": [
+              "Goblin_Lobber_Bomb_Explode",
+              "Goblin_Lobber_Bomb_Explode_Charged",
+              "Weapon_Crossbow_Primary_Combo_Condition",
+              "Common_Projectile_Despawn",
+              "Weapon_Shortbow_Primary_Shoot_Damage",
+              "Bow_Two_Handed_Projectile_Damage",
+              "Bow_Two_Handed_Projectile_Damage_End",
+              "Bow_Two_Handed_Ability1_Damage",
+              "Bow_Two_Handed_Ability1_Damage_End",
+              "Bow_Two_Handed_Ability2_Damage",
+              "Bow_Two_Handed_Ability2_Damage_End",
+              "Bomb_Explode",
+              "Bomb_Explode_Stun",
+              "Bow_Bomb_Boomshot_Explosion",
+              "Bow_Combat_Projectile_Damage_End",
+              "Bow_Combat_Projectile_Damage",
+              "Bow_Combat_Projectile_Trishot_Damage",
+              "Bow_Pull_Projectile_Pullshot_Damage",
+              "Bow_Vamp_Projectile_Damage",
+              "Bow_Vamp_Projectile_Supershot_Damage",
+              "Weapon_Stick_Fire_Projectile_Despawn_Delay",
+              "Weapon_Stick_Fire_Projectile_Despawn"
+            ],
+            "arrayTypes": [
+              "object",
+              "string"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "DamageEntity",
+                  "RemoveEntity",
+                  "ApplyEffect",
+                  "Simple",
+                  "Replace"
+                ]
+              },
+              "Entity": {
+                "type": "string",
+                "values": [
+                  "Target",
+                  "User"
+                ]
+              },
+              "DamageCalculator": {
+                "type": "object",
+                "children": {
+                  "Type": {
+                    "type": "string",
+                    "values": [
+                      "Absolute"
+                    ]
+                  },
+                  "BaseDamage": {
+                    "type": "object",
+                    "children": {
+                      "Poison": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "Physical": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "Projectile": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "Ice": {
+                        "type": "number",
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  },
+                  "RandomPercentageModifier": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Class": {
+                    "type": "string",
+                    "values": [
+                      "Charged"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "DamageEffects": {
+                "type": "object",
+                "children": {
+                  "WorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Scarak_Seeker_Spitball_Death",
+                      "SFX_Ice_Ball_Death",
+                      "SFX_Ice_Break",
+                      "SFX_Sword_T2_Impact"
+                    ]
+                  },
+                  "WorldParticles": {
+                    "type": "array",
+                    "values": [],
+                    "arrayTypes": [
+                      "object"
+                    ],
+                    "children": {
+                      "SystemId": {
+                        "type": "string",
+                        "values": [
+                          "Impact_Poison",
+                          "Impact_Ice",
+                          "IceBall_Explosion",
+                          "Impact_Dagger_Stab",
+                          "Impact_Sword_Basic"
+                        ]
+                      },
+                      "Scale": {
+                        "type": "number",
+                        "values": []
+                      }
+                    }
+                  },
+                  "Knockback": {
+                    "type": "object",
+                    "children": {
+                      "Type": {
+                        "type": "string",
+                        "values": [
+                          "Point",
+                          "Force"
+                        ]
+                      },
+                      "VelocityConfig": {
+                        "type": "object",
+                        "children": {
+                          "AirResistance": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "AirResistanceMax": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "GroundResistance": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "GroundResistanceMax": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Threshold": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Style": {
+                            "type": "string",
+                            "values": [
+                              "Exp"
+                            ]
+                          }
+                        },
+                        "values": []
+                      },
+                      "Force": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "VelocityType": {
+                        "type": "string",
+                        "values": [
+                          "Add",
+                          "Set"
+                        ]
+                      },
+                      "Direction": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  },
+                  "LocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Sword_T2_Impact"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Next": {
+                "type": "object",
+                "children": {
+                  "Type": {
+                    "type": "string",
+                    "values": [
+                      "EffectCondition"
+                    ]
+                  },
+                  "Entity": {
+                    "type": "string",
+                    "values": [
+                      "Target"
+                    ]
+                  },
+                  "EntityEffectIds": {
+                    "type": "array",
+                    "values": [
+                      "Antidote"
+                    ],
+                    "arrayTypes": [
+                      "string"
+                    ]
+                  },
+                  "Match": {
+                    "type": "string",
+                    "values": [
+                      "None"
+                    ]
+                  },
+                  "Next": {
+                    "type": "object",
+                    "children": {
+                      "Type": {
+                        "type": "string",
+                        "values": [
+                          "ClearEntityEffect"
+                        ]
+                      },
+                      "Entity": {
+                        "type": "string",
+                        "values": [
+                          "Target"
+                        ]
+                      },
+                      "EntityEffectId": {
+                        "type": "string",
+                        "values": [
+                          "Poison_T2"
+                        ]
+                      },
+                      "Next": {
+                        "type": "object",
+                        "children": {
+                          "Type": {
+                            "type": "string",
+                            "values": [
+                              "ApplyEffect"
+                            ]
+                          },
+                          "Entity": {
+                            "type": "string",
+                            "values": [
+                              "Target"
+                            ]
+                          },
+                          "EffectId": {
+                            "type": "string",
+                            "values": [
+                              "Poison_T2"
+                            ]
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  }
+                },
+                "values": []
+              },
+              "EffectId": {
+                "type": "string",
+                "values": [
+                  "Impact_Ice",
+                  "Stone_Death",
+                  "Flame_Staff_Burn",
+                  "SFX_Rubble_Hit"
+                ]
+              },
+              "RunTime": {
+                "type": "number",
+                "values": []
+              },
+              "Effects": {
+                "type": "object",
+                "children": {
+                  "WorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Rubble_Hit",
+                      "SFX_Goblin_Lobber_Bomb_Death",
+                      "SFX_Daggers_T2_Stab_Impact"
+                    ]
+                  },
+                  "LocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Rubble_Hit",
+                      "SFX_Goblin_Lobber_Bomb_Death",
+                      "SFX_Daggers_T2_Stab_Impact"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Var": {
+                "type": "string",
+                "values": [
+                  "Standard_Projectile_Impact",
+                  "Primary_Shoot_Impact",
+                  "Signature_BigArrow_Damage",
+                  "Primary_Shoot_Damage_Strength_0",
+                  "Primary_Shoot_Impact_Strength_0",
+                  "Primary_Shoot_Damage_Strength_1",
+                  "Primary_Shoot_Impact_Strength_1",
+                  "Primary_Shoot_Damage_Strength_2",
+                  "Primary_Shoot_Impact_Strength_2",
+                  "Primary_Shoot_Damage_Strength_3",
+                  "Primary_Shoot_Impact_Strength_3",
+                  "Primary_Shoot_Damage_Strength_4",
+                  "Primary_Shoot_Impact_Strength_4",
+                  "Signature_Volley_Damage",
+                  "Signature_Volley_Impact",
+                  "Fireball_Impact_0",
+                  "Fireball_Impact_1",
+                  "Fireball_Impact_2",
+                  "Fireball_Impact_3"
+                ]
+              },
+              "DefaultValue": {
+                "type": "object",
+                "children": {
+                  "Interactions": {
+                    "type": "array",
+                    "values": [
+                      "Weapon_Crossbow_Effects_Standard_Projectile_Impact",
+                      "Common_Projectile_Impact_Effects",
+                      "Weapon_Crossbow_Damage_Standard_Projectile",
+                      "Weapon_Shortbow_Primary_Shoot_Damage",
+                      "Weapon_Shortbow_Signature_Volley_Damage",
+                      "Weapon_Stick_Fire_Impact_Base"
+                    ],
+                    "arrayTypes": [
+                      "string"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Parent": {
+                "type": "string",
+                "values": [
+                  "Bow_Combat_Projectile_Damage",
+                  "Bow_Vamp_Projectile_Damage",
+                  "Bow_Two_Handed_Projectile_Damage",
+                  "DamageEntityParent"
+                ]
+              },
+              "EntityStatsOnHit": {
+                "type": "array",
+                "values": [],
+                "arrayTypes": [
+                  "object"
+                ],
+                "children": {
+                  "EntityStatId": {
+                    "type": "string",
+                    "values": [
+                      "SignatureEnergy",
+                      "Health"
+                    ]
+                  },
+                  "Amount": {
+                    "type": "number",
+                    "values": []
+                  }
+                }
+              },
+              "DefaultOk": {
+                "type": "boolean",
+                "values": []
+              },
+              "TargetedDamage": {
+                "type": "object",
+                "children": {
+                  "Head": {
+                    "type": "object",
+                    "children": {
+                      "DamageCalculator": {
+                        "type": "object",
+                        "children": {
+                          "BaseDamage": {
+                            "type": "object",
+                            "children": {
+                              "Physical": {
+                                "type": "number",
+                                "values": []
+                              }
+                            },
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "DamageEffects": {
+                        "type": "object",
+                        "children": {
+                          "Knockback": {
+                            "type": "object",
+                            "children": {
+                              "Type": {
+                                "type": "string",
+                                "values": [
+                                  "Force"
+                                ]
+                              },
+                              "VelocityConfig": {
+                                "type": "object",
+                                "children": {
+                                  "AirResistance": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "AirResistanceMax": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "GroundResistance": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "GroundResistanceMax": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "Threshold": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "Style": {
+                                    "type": "string",
+                                    "values": [
+                                      "Exp"
+                                    ]
+                                  }
+                                },
+                                "values": []
+                              },
+                              "Direction": {
+                                "type": "object",
+                                "children": {
+                                  "X": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "Y": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "Z": {
+                                    "type": "number",
+                                    "values": []
+                                  }
+                                },
+                                "values": []
+                              },
+                              "Force": {
+                                "type": "number",
+                                "values": []
+                              },
+                              "VelocityType": {
+                                "type": "string",
+                                "values": [
+                                  "Set"
+                                ]
+                              }
+                            },
+                            "values": []
+                          },
+                          "WorldSoundEventId": {
+                            "type": "string",
+                            "values": [
+                              "SFX_Mace_T2_Impact"
+                            ]
+                          },
+                          "LocalSoundEventId": {
+                            "type": "string",
+                            "values": [
+                              "SFX_Mace_T2_Impact"
+                            ]
+                          },
+                          "WorldParticles": {
+                            "type": "array",
+                            "values": [],
+                            "arrayTypes": [
+                              "object"
+                            ],
+                            "children": {
+                              "SystemId": {
+                                "type": "string",
+                                "values": [
+                                  "Impact_Mace_Basic"
+                                ]
+                              },
+                              "PositionOffset": {
+                                "type": "object",
+                                "children": {
+                                  "Y": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "X": {
+                                    "type": "number",
+                                    "values": []
+                                  },
+                                  "Z": {
+                                    "type": "number",
+                                    "values": []
+                                  }
+                                },
+                                "values": []
+                              }
+                            }
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          },
+          "Rules": {
+            "type": "object",
+            "children": {
+              "Interrupting": {
+                "type": "array",
+                "values": [
+                  "ProjectileSpawn"
+                ],
+                "arrayTypes": [
+                  "string"
+                ]
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "ProjectileMiss": {
+        "type": "object",
+        "children": {
+          "Cooldown": {
+            "type": "object",
+            "children": {
+              "Cooldown": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Interactions": {
+            "type": "array",
+            "values": [
+              "Goblin_Lobber_Bomb_Explode",
+              "Goblin_Lobber_Bomb_Explode_Charged",
+              "Common_Projectile_Despawn",
+              "Bow_Two_Handed_Projectile_Miss",
+              "Bow_Two_Handed_Projectile_Miss_End",
+              "Bow_Two_Handed_Ability1_Miss",
+              "Bow_Two_Handed_Ability1_Miss_End",
+              "Bow_Two_Handed_Ability2_Miss",
+              "Bow_Two_Handed_Ability2_Miss_End",
+              "Bow_Bomb_Boomshot_Explosion",
+              "Bow_Combat_Projectile_Miss_End",
+              "Bow_Combat_Projectile_Miss",
+              "Weapon_Stick_Fire_Projectile_Despawn_Delay",
+              "Weapon_Stick_Fire_Projectile_Despawn"
+            ],
+            "arrayTypes": [
+              "object",
+              "string"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Simple",
+                  "RemoveEntity",
+                  "ApplyEffect",
+                  "Replace",
+                  "SpawnDeployableAtHitLocation"
+                ]
+              },
+              "RunTime": {
+                "type": "number",
+                "values": []
+              },
+              "Effects": {
+                "type": "object",
+                "children": {
+                  "WorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Scarak_Seeker_Spitball_Death",
+                      "SFX_Rubble_Bounce",
+                      "SFX_Ice_Ball_Death",
+                      "SFX_Ice_Break",
+                      "SFX_Daggers_T2_Stab_Impact"
+                    ]
+                  },
+                  "WorldParticles": {
+                    "type": "array",
+                    "values": [],
+                    "arrayTypes": [
+                      "object"
+                    ],
+                    "children": {
+                      "SystemId": {
+                        "type": "string",
+                        "values": [
+                          "Impact_Poison",
+                          "Impact_Ice",
+                          "IceBall_Explosion"
+                        ]
+                      }
+                    }
+                  },
+                  "LocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Rubble_Bounce",
+                      "SFX_Daggers_T2_Stab_Impact"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Entity": {
+                "type": "string",
+                "values": [
+                  "User"
+                ]
+              },
+              "EffectId": {
+                "type": "string",
+                "values": [
+                  "Impact_Ice",
+                  "Stone_Death",
+                  "Rubble_Miss"
+                ]
+              },
+              "Var": {
+                "type": "string",
+                "values": [
+                  "Standard_Projectile_Miss",
+                  "Primary_Shoot_Miss",
+                  "Signature_BigArrow_Miss",
+                  "Primary_Shoot_Miss_Strength_0",
+                  "Primary_Shoot_Miss_Strength_1",
+                  "Primary_Shoot_Miss_Strength_2",
+                  "Primary_Shoot_Miss_Strength_3",
+                  "Primary_Shoot_Miss_Strength_4",
+                  "Signature_Volley_Miss",
+                  "Fireball_Impact_0",
+                  "Fireball_Impact_1",
+                  "Fireball_Impact_2",
+                  "Fireball_Impact_3"
+                ]
+              },
+              "DefaultValue": {
+                "type": "object",
+                "children": {
+                  "Interactions": {
+                    "type": "array",
+                    "values": [
+                      "Common_Projectile_Miss",
+                      "Weapon_Stick_Fire_Impact_Base"
+                    ],
+                    "arrayTypes": [
+                      "string"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Config": {
+                "type": "object",
+                "children": {
+                  "Type": {
+                    "type": "string",
+                    "values": [
+                      "Aoe",
+                      "Turret"
+                    ]
+                  },
+                  "Shape": {
+                    "type": "string",
+                    "values": [
+                      "Cylinder"
+                    ]
+                  },
+                  "Id": {
+                    "type": "string",
+                    "values": [
+                      "Healing_Totem",
+                      "Slowness_Totem",
+                      "Turret"
+                    ]
+                  },
+                  "LiveDuration": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Model": {
+                    "type": "string",
+                    "values": [
+                      "Healing_Totem",
+                      "Slowness_Totem",
+                      "Crossbow_Turret"
+                    ]
+                  },
+                  "ModelScale": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "StartRadius": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "EndRadius": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "Height": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "RadiusChangeTime": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "DamageInterval": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "DamageAmount": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "HitboxCollisionConfig": {
+                    "type": "string",
+                    "values": [
+                      "HardCollision"
+                    ]
+                  },
+                  "DeploySoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Deployable_Totem_Heal_Spawn",
+                      "SFX_Deployable_Totem_Slowing_Spawn"
+                    ]
+                  },
+                  "DespawnSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Deployable_Totem_Heal_Despawn",
+                      "SFX_Deployable_Totem_Slowing_Despawn"
+                    ]
+                  },
+                  "ApplyEffects": {
+                    "type": "array",
+                    "values": [
+                      "Healing_Totem_Heal",
+                      "Slowness_Totem_Slow"
+                    ],
+                    "arrayTypes": [
+                      "string"
+                    ]
+                  },
+                  "SpawnParticles": {
+                    "type": "array",
+                    "values": [],
+                    "arrayTypes": [
+                      "object"
+                    ],
+                    "children": {
+                      "SystemId": {
+                        "type": "string",
+                        "values": [
+                          "Explosion_Medium",
+                          "Totem_Heal_Simple_Test",
+                          "Totem_Heal_Extra",
+                          "Totem_Slow_Simple_Test",
+                          "Totem_Slow_Extra"
+                        ]
+                      },
+                      "TargetEntityPart": {
+                        "type": "string",
+                        "values": [
+                          "Entity"
+                        ]
+                      },
+                      "Scale": {
+                        "type": "number",
+                        "values": []
+                      }
+                    }
+                  },
+                  "DespawnParticles": {
+                    "type": "array",
+                    "values": [],
+                    "arrayTypes": [
+                      "object"
+                    ],
+                    "children": {
+                      "SystemId": {
+                        "type": "string",
+                        "values": [
+                          "Explosion_Medium"
+                        ]
+                      },
+                      "TargetEntityPart": {
+                        "type": "string",
+                        "values": [
+                          "Entity"
+                        ]
+                      }
+                    }
+                  },
+                  "DeployDelay": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "DetectionRadius": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "TrackableRadius": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "RotationSpeed": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "ShotInterval": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "BurstCount": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "BurstCooldown": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "ProjectileDamage": {
+                    "type": "number",
+                    "values": []
+                  },
+                  "DebugVisuals": {
+                    "type": "boolean",
+                    "values": []
+                  },
+                  "CanShootOwner": {
+                    "type": "boolean",
+                    "values": []
+                  },
+                  "DoLineOfSightTest": {
+                    "type": "boolean",
+                    "values": []
+                  },
+                  "RespectTeams": {
+                    "type": "boolean",
+                    "values": []
+                  },
+                  "Stats": {
+                    "type": "object",
+                    "children": {
+                      "Health": {
+                        "type": "object",
+                        "children": {
+                          "Initial": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Max": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  },
+                  "TargetOffset": {
+                    "type": "object",
+                    "children": {
+                      "X": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "Y": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "Z": {
+                        "type": "number",
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  },
+                  "Knockback": {
+                    "type": "object",
+                    "children": {
+                      "Type": {
+                        "type": "string",
+                        "values": [
+                          "Force"
+                        ]
+                      },
+                      "VelocityConfig": {
+                        "type": "object",
+                        "children": {
+                          "AirResistance": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "AirResistanceMax": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "GroundResistance": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "GroundResistanceMax": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Threshold": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Style": {
+                            "type": "string",
+                            "values": [
+                              "Exp"
+                            ]
+                          }
+                        },
+                        "values": []
+                      },
+                      "Direction": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "Force": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "VelocityType": {
+                        "type": "string",
+                        "values": [
+                          "Set"
+                        ]
+                      }
+                    },
+                    "values": []
+                  },
+                  "ProjectileSpawnOffsets": {
+                    "type": "object",
+                    "children": {
+                      "UP": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "DOWN": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "NORTH": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "SOUTH": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "EAST": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "WEST": {
+                        "type": "object",
+                        "children": {
+                          "X": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Y": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Z": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  },
+                  "ProjectileHitLocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "ARROW_FULLCHARGE_HIT"
+                    ]
+                  },
+                  "ProjectileHitWorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "ARROW_HIT_3P"
+                    ]
+                  },
+                  "ProjectileConfig": {
+                    "type": "object",
+                    "children": {
+                      "Model": {
+                        "type": "string",
+                        "values": [
+                          "Arrow_Crude"
+                        ]
+                      },
+                      "Physics": {
+                        "type": "object",
+                        "children": {
+                          "Type": {
+                            "type": "string",
+                            "values": [
+                              "Standard"
+                            ]
+                          },
+                          "Gravity": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "TerminalVelocityAir": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "TerminalVelocityWater": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "RotationMode": {
+                            "type": "string",
+                            "values": [
+                              "VelocityDamped"
+                            ]
+                          },
+                          "Bounciness": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "SticksVertically": {
+                            "type": "boolean",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "LaunchForce": {
+                        "type": "number",
+                        "values": []
+                      },
+                      "SpawnRotationOffset": {
+                        "type": "object",
+                        "children": {
+                          "Pitch": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Yaw": {
+                            "type": "number",
+                            "values": []
+                          },
+                          "Roll": {
+                            "type": "number",
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      },
+                      "Interactions": {
+                        "type": "object",
+                        "children": {
+                          "ProjectileMiss": {
+                            "type": "object",
+                            "children": {
+                              "Interactions": {
+                                "type": "array",
+                                "values": [],
+                                "arrayTypes": [
+                                  "object"
+                                ],
+                                "children": {
+                                  "Type": {
+                                    "type": "string",
+                                    "values": [
+                                      "Simple"
+                                    ]
+                                  },
+                                  "RunTime": {
+                                    "type": "number",
+                                    "values": []
+                                  }
+                                }
+                              }
+                            },
+                            "values": []
+                          }
+                        },
+                        "values": []
+                      }
+                    },
+                    "values": []
+                  }
+                },
+                "values": []
+              },
+              "DefaultOk": {
+                "type": "boolean",
+                "values": []
+              }
+            }
+          },
+          "Rules": {
+            "type": "object",
+            "children": {
+              "Interrupting": {
+                "type": "array",
+                "values": [
+                  "ProjectileSpawn"
+                ],
+                "arrayTypes": [
+                  "string"
+                ]
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "ProjectileSpawn": {
+        "type": "object",
+        "children": {
+          "Cooldown": {
+            "type": "object",
+            "children": {
+              "Cooldown": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Interactions": {
+            "type": "array",
+            "values": [
+              "Goblin_Lobber_Bomb_Explode",
+              "Goblin_Lobber_Bomb_Explode_Charged",
+              "Bomb_Explode",
+              "Bomb_Explode_Stun"
+            ],
+            "arrayTypes": [
+              "object",
+              "string"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Simple",
+                  "RemoveEntity",
+                  "SendMessage"
+                ]
+              },
+              "RunTime": {
+                "type": "number",
+                "values": []
+              },
+              "Entity": {
+                "type": "string",
+                "values": [
+                  "User"
+                ]
+              },
+              "Effects": {
+                "type": "object",
+                "children": {
+                  "WorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Goblin_Lobber_Bomb_Death"
+                    ]
+                  },
+                  "LocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Goblin_Lobber_Bomb_Death"
+                    ]
+                  }
+                },
+                "values": []
+              },
+              "Message": {
+                "type": "string",
+                "values": [
+                  "Spawn"
+                ]
+              }
+            }
+          }
+        },
+        "values": []
+      },
+      "ProjectileBounce": {
+        "type": "object",
+        "children": {
+          "Cooldown": {
+            "type": "object",
+            "children": {
+              "Cooldown": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Interactions": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "Simple"
+                ]
+              },
+              "RunTime": {
+                "type": "number",
+                "values": []
+              },
+              "Effects": {
+                "type": "object",
+                "children": {
+                  "WorldSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Goblin_Lobber_Bomb_Bounce",
+                      "SFX_Rubble_Bounce"
+                    ]
+                  },
+                  "LocalSoundEventId": {
+                    "type": "string",
+                    "values": [
+                      "SFX_Goblin_Lobber_Bomb_Bounce",
+                      "SFX_Rubble_Bounce"
+                    ]
+                  }
+                },
+                "values": []
+              }
+            }
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "SpawnRotationOffset": {
+    "type": "object",
+    "children": {
+      "Pitch": {
+        "type": "number",
+        "values": []
+      },
+      "Yaw": {
+        "type": "number",
+        "values": []
+      },
+      "Roll": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Parent": {
+    "type": "string",
+    "values": [
+      "Projectile_Config_Goblin_Lobber_Bomb",
+      "Projectile_Config_Arrow_Base",
+      "Projectile_Config_Bomb_Base",
+      "Projectile_Config_Bow_Combat_Trishot",
+      "Projectile_Config_Bow_Combat",
+      "Projectile_Config_Arrow_Ricochet_Base",
+      "Projectile_Config_Bow_Vamp",
+      "Projectile_Config_Arrow_Two_Handed_Bow",
+      "Projectile_Config_Arrow_Shortbow",
+      "Projectile_Config_Shortbow_Volley",
+      "Projectile_Config_Arrow_Shortbow_Strength_0",
+      "Projectile_Config_Arrow_Shortbow_Strength_1",
+      "Projectile_Config_Arrow_Shortbow_Strength_2",
+      "Projectile_Config_Shortbow_Signature_Volley",
+      "Projectile_Config_Fireball"
+    ]
+  },
+  "LaunchLocalSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Bow_T2_Shoot_Local",
+      "SFX_Bow_T2_Shoot",
+      "SFX_Bow_T2_Signature_Shoot_Local",
+      "SFX_Bow_T1_Shoot_Local",
+      "SFX_Mace_T2_Impact"
+    ]
+  },
+  "LaunchWorldSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Bow_T2_Shoot",
+      "SFX_Bow_T2_Signature_Shoot",
+      "SFX_Bow_T1_Shoot",
+      "SFX_Staff_Ice_Shoot",
+      "SFX_Mace_T2_Impact"
+    ]
+  }
+}

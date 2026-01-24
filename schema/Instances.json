@@ -1,0 +1,405 @@
+{
+  "HadPlayer": {
+    "type": "boolean",
+    "values": []
+  },
+  "SpawnPoint": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "number"
+    ]
+  },
+  "LoadedPrefabMetadata": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": []
+  },
+  "Stats": {
+    "type": "object",
+    "children": {},
+    "values": []
+  },
+  "SpawnSuppressorMap": {
+    "type": "object",
+    "children": {},
+    "values": []
+  },
+  "Now": {
+    "type": "string",
+    "values": [
+      "1970-01-01T00:00:02.207904012Z",
+      "1970-01-01T00:00:03.062851534Z",
+      "1970-01-01T02:24:02.607425678Z",
+      "1970-01-01T00:00:01.139266452Z",
+      "1970-01-01T00:00:03.113751342Z",
+      "1970-01-01T00:00:04.595449242Z",
+      "1970-01-01T00:00:01.429369340Z",
+      "1970-01-01T00:00:01.625961988Z",
+      "1970-01-01T02:12:50.920015426Z",
+      "1970-01-01T00:04:41.990920184Z",
+      "1970-01-01T00:00:02.988159918Z",
+      "1970-01-01T00:00:03.038486748Z",
+      "1970-01-01T00:00:02.196402706Z",
+      "1970-01-01T00:00:02.196402604Z",
+      "1970-01-01T12:00:02.196402706Z",
+      "1970-01-01T00:00:03.017318258Z",
+      "1970-01-01T00:00:01.142553106Z",
+      "1970-01-01T00:00:01.449930866Z",
+      "1970-01-01T00:00:01.825699876Z",
+      "1970-01-01T00:00:02.163598610Z",
+      "1970-01-01T00:00:02.226937644Z",
+      "1970-01-01T00:00:02.196403604Z",
+      "1970-01-01T00:00:00.864256676Z"
+    ]
+  },
+  "Version": {
+    "type": "number",
+    "values": []
+  },
+  "UUID": {
+    "type": "object",
+    "children": {
+      "$binary": {
+        "type": "string",
+        "values": []
+      },
+      "$type": {
+        "type": "string",
+        "values": [
+          "04"
+        ]
+      }
+    },
+    "values": []
+  },
+  "Seed": {
+    "type": "number",
+    "values": []
+  },
+  "SpawnProvider": {
+    "type": "object",
+    "children": {
+      "Id": {
+        "type": "string",
+        "values": [
+          "Global"
+        ]
+      },
+      "SpawnPoint": {
+        "type": "object",
+        "children": {
+          "X": {
+            "type": "number",
+            "values": []
+          },
+          "Y": {
+            "type": "number",
+            "values": []
+          },
+          "Z": {
+            "type": "number",
+            "values": []
+          },
+          "Pitch": {
+            "type": "number",
+            "values": []
+          },
+          "Yaw": {
+            "type": "number",
+            "values": []
+          },
+          "Roll": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "WorldGen": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Hytale"
+        ]
+      },
+      "Name": {
+        "type": "string",
+        "values": [
+          "Instance_Creative_Hub",
+          "Instance_Forgotten_Temple"
+        ]
+      },
+      "Environment": {
+        "type": "string",
+        "values": [
+          "Env_Creative_Hub"
+        ]
+      }
+    },
+    "values": []
+  },
+  "WorldMap": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Disabled"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ChunkStorage": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Hytale"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ChunkConfig": {
+    "type": "object",
+    "children": {},
+    "values": []
+  },
+  "IsTicking": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsBlockTicking": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsPvpEnabled": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsFallDamageEnabled": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsGameTimePaused": {
+    "type": "boolean",
+    "values": []
+  },
+  "GameTime": {
+    "type": "string",
+    "values": [
+      "0001-01-01T16:50:44.090953998Z",
+      "0001-01-04T08:00:00.000858306Z"
+    ]
+  },
+  "RequiredPlugins": {
+    "type": "object",
+    "children": {},
+    "values": []
+  },
+  "GameMode": {
+    "type": "string",
+    "values": [
+      "Creative"
+    ]
+  },
+  "IsSpawningNPC": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsSpawnMarkersEnabled": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsAllNPCFrozen": {
+    "type": "boolean",
+    "values": []
+  },
+  "GameplayConfig": {
+    "type": "string",
+    "values": [
+      "CreativeHub",
+      "ForgottenTemple"
+    ]
+  },
+  "IsCompassUpdating": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsSavingPlayers": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsSavingChunks": {
+    "type": "boolean",
+    "values": []
+  },
+  "SaveNewChunks": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsUnloadingChunks": {
+    "type": "boolean",
+    "values": []
+  },
+  "IsObjectiveMarkersEnabled": {
+    "type": "boolean",
+    "values": []
+  },
+  "DeleteOnUniverseStart": {
+    "type": "boolean",
+    "values": []
+  },
+  "DeleteOnRemove": {
+    "type": "boolean",
+    "values": []
+  },
+  "ResourceStorage": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Hytale"
+        ]
+      }
+    },
+    "values": []
+  },
+  "Plugin": {
+    "type": "object",
+    "children": {
+      "Instance": {
+        "type": "object",
+        "children": {
+          "RemovalConditions": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": []
+          },
+          "PreventReconnection": {
+            "type": "boolean",
+            "values": []
+          },
+          "Discovery": {
+            "type": "object",
+            "children": {
+              "TitleKey": {
+                "type": "string",
+                "values": [
+                  "server.instances.creative_hub.title",
+                  "server.instances.forgotten_temple.title"
+                ]
+              },
+              "SubtitleKey": {
+                "type": "string",
+                "values": [
+                  "server.instances.creative_hub.subtitle",
+                  "server.instances.forgotten_temple.subtitle"
+                ]
+              },
+              "Display": {
+                "type": "boolean",
+                "values": []
+              },
+              "AlwaysDisplay": {
+                "type": "boolean",
+                "values": []
+              },
+              "Icon": {
+                "type": "string",
+                "values": [
+                  "Forgotten_Temple.png"
+                ]
+              },
+              "Major": {
+                "type": "boolean",
+                "values": []
+              },
+              "Duration": {
+                "type": "number",
+                "values": []
+              },
+              "FadeInDuration": {
+                "type": "number",
+                "values": []
+              },
+              "FadeOutDuration": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "BlockPlacementCounts": {
+    "type": "object",
+    "children": {},
+    "values": []
+  },
+  "SmartBlocks": {
+    "type": "object",
+    "children": {
+      "3801038101204172757": {
+        "type": "string",
+        "values": [
+          "Rock_Marble_Brick_Pillar_Base"
+        ]
+      },
+      "3765009303648337877": {
+        "type": "string",
+        "values": [
+          "Rock_Marble_Brick_Pillar_Base"
+        ]
+      },
+      "3765009304185208789": {
+        "type": "string",
+        "values": [
+          "Rock_Marble_Brick_Pillar_Base"
+        ]
+      },
+      "3801038100667301845": {
+        "type": "string",
+        "values": [
+          "Rock_Marble_Brick_Pillar_Base"
+        ]
+      }
+    },
+    "values": []
+  },
+  "SmartBlockRotations": {
+    "type": "object",
+    "children": {
+      "3801038101204172757": {
+        "type": "number",
+        "values": []
+      },
+      "3765009303648337877": {
+        "type": "number",
+        "values": []
+      },
+      "3765009304185208789": {
+        "type": "number",
+        "values": []
+      },
+      "3801038100667301845": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  }
+}

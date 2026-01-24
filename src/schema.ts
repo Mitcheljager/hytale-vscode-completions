@@ -101,18 +101,22 @@ import schemaBarterShops from "../schema/BarterShops.json";
 import schemaWeathers from "../schema/Weathers.json";
 import schemaWorld from "../schema/World.json";
 import schemaProjectiles from "../schema/Projectiles.json";
+import schemaProjectileConfigs from "../schema/ProjectileConfigs.json";
 import schemaGameplayConfigs from "../schema/GameplayConfigs.json";
 import schemaFarming from "../schema/Farming.json";
 import schemaEnvironments from "../schema/Environments.json";
 import schemaPrefabList from "../schema/PrefabList.json";
 import schemaCamera from "../schema/Camera.json";
-import schemaAmbienceFX from "../schema/schemaAmbienceFX.json";
-import schemaAudioCategories from "../schema/schemaAudioCategories.json";
-import schemaEQ from "../schema/schemaEQ.json";
-import schemaItemSounds from "../schema/schemaItemSounds.json";
-import schemaReverb from "../schema/schemaReverb.json";
-import schemaSoundEvents from "../schema/schemaSoundEvents.json";
-import schemaSoundSets from "../schema/schemaSoundSets.json";
+import schemaAmbienceFX from "../schema/AmbienceFX.json";
+import schemaAudioCategories from "../schema/AudioCategories.json";
+import schemaEQ from "../schema/EQ.json";
+import schemaItemSounds from "../schema/ItemSounds.json";
+import schemaReverb from "../schema/Reverb.json";
+import schemaSoundEvents from "../schema/SoundEvents.json";
+import schemaSoundSets from "../schema/SoundSets.json";
+import schemaEntity from "../schema/Entity.json";
+import schemaInstances from "../schema/Instances.json";
+import schemaMacroCommands from "../schema/MacroCommands.json";
 
 export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
     const schemas = [
@@ -126,6 +130,7 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/Weathers", json: schemaWeathers },
         { path: "/World", json: schemaWorld },
         { path: "/Projectiles", json: schemaProjectiles },
+        { path: "/ProjectileConfigs", json: schemaProjectileConfigs },
         { path: "/GameplayConfigs", json: schemaGameplayConfigs },
         { path: "/Farming", json: schemaFarming },
         { path: "/Environments", json: schemaEnvironments },
@@ -137,7 +142,10 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/Audio/ItemSounds", json: schemaItemSounds },
         { path: "/Audio/Reverb", json: schemaReverb },
         { path: "/Audio/SoundEvents", json: schemaSoundEvents },
-        { path: "/Audio/SoundSets", json: schemaSoundSets }
+        { path: "/Audio/SoundSets", json: schemaSoundSets },
+        { path: "/Audio/Entity", json: schemaEntity },
+        { path: "/Audio/Instances", json: schemaInstances },
+        { path: "/Audio/MacroCommands", json: schemaMacroCommands }
     ];
 
     const fileName = document.uri.path;

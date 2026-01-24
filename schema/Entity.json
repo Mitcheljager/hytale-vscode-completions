@@ -1,0 +1,1615 @@
+{
+  "Parent": {
+    "type": "string",
+    "values": [
+      "Physical",
+      "Environment",
+      "Elemental",
+      "Poison",
+      "Medium_Sword_Strong"
+    ]
+  },
+  "Inherits": {
+    "type": "string",
+    "values": [
+      "Physical",
+      "Environment",
+      "Elemental"
+    ]
+  },
+  "DurabilityLoss": {
+    "type": "boolean",
+    "values": []
+  },
+  "StaminaLoss": {
+    "type": "boolean",
+    "values": []
+  },
+  "BypassResistances": {
+    "type": "boolean",
+    "values": []
+  },
+  "$Comment": {
+    "type": "string",
+    "values": [
+      "This damage type exists to facilitate sub types",
+      "Damage type for environmental hazards like plants (bushes, cactus, etc.)",
+      "Greater Stamina Potion buff - tunable: regen, speed, max stamina, etc.",
+      "Brief immunity to Stamina_Broken, applied before charged attack stamina costs"
+    ]
+  },
+  "DamageTextColor": {
+    "type": "string",
+    "values": []
+  },
+  "DamageCalculator": {
+    "type": "object",
+    "children": {
+      "BaseDamage": {
+        "type": "object",
+        "children": {
+          "Physical": {
+            "type": "number",
+            "values": []
+          },
+          "Fire": {
+            "type": "number",
+            "values": []
+          },
+          "Poison": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Duration": {
+    "type": "number",
+    "values": []
+  },
+  "OverlapBehavior": {
+    "type": "string",
+    "values": [
+      "Overwrite",
+      "Extend"
+    ]
+  },
+  "ApplicationEffects": {
+    "type": "object",
+    "children": {
+      "ModelVFXId": {
+        "type": "string",
+        "values": [
+          "PrototypeBlockPlaceFail",
+          "PrototypeBlockPlaceSuccess",
+          "Drop_Epic",
+          "Drop_Legendary",
+          "Drop_Rare",
+          "Drop_Uncommon",
+          "Creative",
+          "Death",
+          "Portal_Teleport",
+          "Intangible_Dark",
+          "Burn",
+          "Freeze",
+          "Test2",
+          "Erosion_Test",
+          "Stoneskin",
+          "Sword_Test",
+          "Dagger_Dash",
+          "Dagger_Signature",
+          "Mace_Signature"
+        ]
+      },
+      "EntityBottomTint": {
+        "type": "string",
+        "values": []
+      },
+      "EntityTopTint": {
+        "type": "string",
+        "values": []
+      },
+      "ScreenEffect": {
+        "type": "string",
+        "values": [
+          "ScreenEffects/Immune.png",
+          "ScreenEffects/Snow.png",
+          "ScreenEffects/Poison.png",
+          "ScreenEffects/Fire.png",
+          "ScreenEffects/Poison_T1.png"
+        ]
+      },
+      "LocalSoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Deployable_Totem_Heal_Effect_Local",
+          "SFX_Deployable_Totem_Slowing_Effect_Local",
+          "SFX_Avatar_Powers_Enable_Local",
+          "SFX_Effect_Burn_Local",
+          "SFX_Effect_Poison_Local",
+          "SFX_Ice_Break",
+          "SFX_Staff_Flame_Flamethrower_Local"
+        ]
+      },
+      "HorizontalSpeedMultiplier": {
+        "type": "number",
+        "values": []
+      },
+      "Particles": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "SystemId": {
+            "type": "string",
+            "values": [
+              "Drop_Epic",
+              "Drop_Legendary",
+              "Drop_Rare",
+              "Drop_Uncommon",
+              "Creative_Switch",
+              "Effect_Death",
+              "Portal_Going_Through_Blue",
+              "Potion_Health_Heal",
+              "Potion_Morph_Burst",
+              "Effect_Poison",
+              "Potion_Stamina_Burst",
+              "Stone_Bounce",
+              "Effect_Fire",
+              "Effect_Snow",
+              "Effect_Snow_Impact",
+              "Stunned",
+              "Erosion_Status_Effect",
+              "Blue_Beam",
+              "Ash",
+              "Daggers_Dash_Straight",
+              "Daggers_Charged_Trail",
+              "Daggers_Dash_Status"
+            ]
+          },
+          "TargetEntityPart": {
+            "type": "string",
+            "values": [
+              "Entity"
+            ]
+          },
+          "TargetNodeName": {
+            "type": "string",
+            "values": [
+              "Pelvis",
+              "Head",
+              "Hip"
+            ]
+          },
+          "PositionOffset": {
+            "type": "object",
+            "children": {
+              "Y": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          },
+          "Color": {
+            "type": "string",
+            "values": []
+          }
+        }
+      },
+      "WorldSoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Avatar_Powers_Enable",
+          "SFX_Wolf_Alerted",
+          "SFX_Frog_Croak",
+          "SFX_Cow_Alerted",
+          "SFX_Mouse_Alerted",
+          "SFX_Pigeon_Death",
+          "SFX_Stamina_Potion_Success",
+          "SFX_Effect_Burn_World",
+          "SFX_Effect_Poison_World",
+          "SFX_Ice_Break",
+          "SFX_Staff_Flame_Flamethrower"
+        ]
+      },
+      "EntityAnimationId": {
+        "type": "string",
+        "values": [
+          "DashLeft",
+          "DashRight",
+          "Hurt"
+        ]
+      },
+      "MovementEffects": {
+        "type": "object",
+        "children": {
+          "DisableAll": {
+            "type": "boolean",
+            "values": []
+          },
+          "DisableSprint": {
+            "type": "boolean",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "AbilityEffects": {
+        "type": "object",
+        "children": {
+          "Disabled": {
+            "type": "array",
+            "values": [
+              "Primary",
+              "Secondary",
+              "Ability1",
+              "Ability3"
+            ],
+            "arrayTypes": [
+              "string"
+            ]
+          }
+        },
+        "values": []
+      },
+      "KnockbackMultiplier": {
+        "type": "number",
+        "values": []
+      },
+      "MouseSensitivityAdjustmentTarget": {
+        "type": "number",
+        "values": []
+      },
+      "MouseSensitivityAdjustmentDuration": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "RemovalBehavior": {
+    "type": "string",
+    "values": [
+      "Duration"
+    ]
+  },
+  "StatModifiers": {
+    "type": "object",
+    "children": {
+      "Health": {
+        "type": "number",
+        "values": []
+      },
+      "Stamina": {
+        "type": "number",
+        "values": []
+      },
+      "Mana": {
+        "type": "number",
+        "values": []
+      },
+      "SignatureEnergy": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Debuff": {
+    "type": "boolean",
+    "values": []
+  },
+  "StatusEffectIcon": {
+    "type": "string",
+    "values": [
+      "UI/StatusEffects/AddHealth/Tiny.png",
+      "UI/StatusEffects/Icon_Slow.png",
+      "UI/StatusEffects/AddHealth/Large.png",
+      "UI/StatusEffects/AddHealth/Medium.png",
+      "UI/StatusEffects/AddHealth/Small.png",
+      "UI/StatusEffects/AddStamina/Large.png",
+      "UI/StatusEffects/AddStamina/Medium.png",
+      "UI/StatusEffects/AddStamina/Small.png",
+      "UI/StatusEffects/AddStamina/Tiny.png",
+      "UI/StatusEffects/Stamina/Tiny.png",
+      "UI/StatusEffects/Stamina/Small.png",
+      "UI/StatusEffects/Stamina/Medium.png",
+      "UI/StatusEffects/HealthRegen.png",
+      "UI/StatusEffects/Regen/Small.png",
+      "UI/StatusEffects/Regen/Medium.png",
+      "UI/StatusEffects/Regen/Large.png",
+      "UI/StatusEffects/Regen/Tiny.png",
+      "Icons/ItemsGenerated/Potion_Health.png",
+      "Icons/ItemsGenerated/Potion_Health_Small.png",
+      "Icons/ItemsGenerated/Potion_Purify.png",
+      "UI/StatusEffects/Poison.png",
+      "Icons/ItemsGenerated/Potion_Regen_Mana.png",
+      "Icons/ItemsGenerated/Potion_Regen_Mana_Small.png",
+      "Icons/ItemsGenerated/Potion_Stamina.png",
+      "UI/StatusEffects/Health_Potion.png",
+      "UI/Crosshairs/Reticle_BlockingStateBreak.png",
+      "Icons/ItemsGenerated/Weapon_Bomb_Potion_Poison.png",
+      "UI/StatusEffects/Burn.png"
+    ]
+  },
+  "Infinite": {
+    "type": "boolean",
+    "values": []
+  },
+  "RawStatModifiers": {
+    "type": "object",
+    "children": {
+      "Health": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Amount": {
+            "type": "number",
+            "values": []
+          },
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Additive",
+              "Multiplicative"
+            ]
+          },
+          "Target": {
+            "type": "string",
+            "values": [
+              "Max"
+            ]
+          }
+        }
+      },
+      "Stamina": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Amount": {
+            "type": "number",
+            "values": []
+          },
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Additive",
+              "Multiplicative"
+            ]
+          },
+          "Target": {
+            "type": "string",
+            "values": [
+              "Max"
+            ]
+          }
+        }
+      }
+    },
+    "values": []
+  },
+  "ValueType": {
+    "type": "string",
+    "values": [
+      "Percent"
+    ]
+  },
+  "DamageCalculatorCooldown": {
+    "type": "number",
+    "values": []
+  },
+  "DamageResistance": {
+    "type": "object",
+    "children": {
+      "Physical": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Multiplicative"
+            ]
+          },
+          "Amount": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "Projectile": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Multiplicative"
+            ]
+          },
+          "Amount": {
+            "type": "number",
+            "values": []
+          }
+        }
+      },
+      "Environmental": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Amount": {
+            "type": "number",
+            "values": []
+          },
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Multiplicative"
+            ]
+          }
+        }
+      },
+      "Fire": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Amount": {
+            "type": "number",
+            "values": []
+          },
+          "CalculationType": {
+            "type": "string",
+            "values": [
+              "Multiplicative"
+            ]
+          }
+        }
+      }
+    },
+    "values": []
+  },
+  "Type": {
+    "type": "string",
+    "values": [
+      "EffectCondition",
+      "CombatText",
+      "EntityStat"
+    ]
+  },
+  "EntityEffectIds": {
+    "type": "array",
+    "values": [
+      "Food_Buff_Medium_T1",
+      "Food_Buff_Medium_T2",
+      "Food_Buff_Medium_T3",
+      "Food_Buff_Small_T1",
+      "Food_Buff_Small_T2",
+      "Food_Buff_Small_T3"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "Match": {
+    "type": "string",
+    "values": [
+      "None"
+    ]
+  },
+  "Next": {
+    "type": "string",
+    "values": [
+      "Consume_Charge"
+    ]
+  },
+  "Failed": {
+    "type": "object",
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Simple"
+        ]
+      },
+      "RunTime": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "Invulnerable": {
+    "type": "boolean",
+    "values": []
+  },
+  "StatModifierEffects": {
+    "type": "object",
+    "children": {
+      "WorldParticles": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "SystemId": {
+            "type": "string",
+            "values": [
+              "Potion_Health_Implosion",
+              "Potion_Signature_Burst"
+            ]
+          },
+          "PositionOffset": {
+            "type": "object",
+            "children": {
+              "Y": {
+                "type": "number",
+                "values": []
+              }
+            },
+            "values": []
+          }
+        }
+      },
+      "WorldSoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Deployable_Totem_Heal_Despawn"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ModelChange": {
+    "type": "string",
+    "values": [
+      "Corgi",
+      "Frog_Green",
+      "Mosshorn",
+      "Mouse",
+      "Pigeon",
+      "Rat"
+    ]
+  },
+  "DamageEffects": {
+    "type": "object",
+    "children": {
+      "WorldSoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Effect_Burn_World",
+          "SFX_Effect_Poison_World"
+        ]
+      },
+      "PlayerSoundEventId": {
+        "type": "string",
+        "values": [
+          "SFX_Effect_Burn_Local",
+          "SFX_Effect_Poison_Local"
+        ]
+      }
+    },
+    "values": []
+  },
+  "ModelOverride": {
+    "type": "object",
+    "children": {
+      "Model": {
+        "type": "string",
+        "values": [
+          "VFX/Spells/Roots/Model.blockymodel"
+        ]
+      },
+      "Texture": {
+        "type": "string",
+        "values": [
+          "VFX/Spells/Roots/Model.png"
+        ]
+      },
+      "AnimationSets": {
+        "type": "object",
+        "children": {
+          "Spawn": {
+            "type": "object",
+            "children": {
+              "Animations": {
+                "type": "array",
+                "values": [],
+                "arrayTypes": [
+                  "object"
+                ],
+                "children": {
+                  "Animation": {
+                    "type": "string",
+                    "values": [
+                      "VFX/Spells/Roots/Spawn.blockyanim"
+                    ]
+                  },
+                  "Looping": {
+                    "type": "boolean",
+                    "values": []
+                  }
+                }
+              }
+            },
+            "values": []
+          },
+          "Despawn": {
+            "type": "object",
+            "children": {
+              "Animations": {
+                "type": "array",
+                "values": [],
+                "arrayTypes": [
+                  "object"
+                ],
+                "children": {
+                  "Animation": {
+                    "type": "string",
+                    "values": [
+                      "VFX/Spells/Roots/Despawn.blockyanim"
+                    ]
+                  },
+                  "Looping": {
+                    "type": "boolean",
+                    "values": []
+                  }
+                }
+              }
+            },
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "WorldRemovalSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Staff_Flame_Flamethrower_End"
+    ]
+  },
+  "LocalRemovalSoundEventId": {
+    "type": "string",
+    "values": [
+      "SFX_Staff_Flame_Flamethrower_End_Local"
+    ]
+  },
+  "PermissionGroups": {
+    "type": "array",
+    "values": [
+      "Adventure",
+      "Creative"
+    ],
+    "arrayTypes": [
+      "string"
+    ]
+  },
+  "InteractionsOnEnter": {
+    "type": "object",
+    "children": {
+      "Interactions": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Type": {
+            "type": "string",
+            "values": [
+              "Simple",
+              "ApplyEffect"
+            ]
+          },
+          "Effects": {
+            "type": "object",
+            "children": {
+              "LocalSoundEventId": {
+                "type": "string",
+                "values": [
+                  "SFX_Avatar_Powers_Disable_Local"
+                ]
+              },
+              "WorldSoundEventId": {
+                "type": "string",
+                "values": [
+                  "SFX_Avatar_Powers_Disable"
+                ]
+              }
+            },
+            "values": []
+          },
+          "EffectId": {
+            "type": "string",
+            "values": [
+              "Creative"
+            ]
+          }
+        }
+      }
+    },
+    "values": []
+  },
+  "CollisionType": {
+    "type": "string",
+    "values": [
+      "Hard",
+      "Soft"
+    ]
+  },
+  "SoftCollisionOffsetRatio": {
+    "type": "number",
+    "values": []
+  },
+  "SwitchTo": {
+    "type": "string",
+    "values": [
+      "PostColor",
+      "Disappear",
+      "Distortion"
+    ]
+  },
+  "EffectDirection": {
+    "type": "string",
+    "values": [
+      "FromCenter",
+      "BottomUp",
+      "ToCenter",
+      "TopDown",
+      "None"
+    ]
+  },
+  "AnimationDuration": {
+    "type": "number",
+    "values": []
+  },
+  "HighlightColor": {
+    "type": "string",
+    "values": []
+  },
+  "HighlightThickness": {
+    "type": "number",
+    "values": []
+  },
+  "UseBloomOnHighlight": {
+    "type": "boolean",
+    "values": []
+  },
+  "NoiseScale": {
+    "type": "object",
+    "children": {
+      "X": {
+        "type": "number",
+        "values": []
+      },
+      "Y": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "PostColor": {
+    "type": "string",
+    "values": []
+  },
+  "UseProgessiveHighlight": {
+    "type": "boolean",
+    "values": []
+  },
+  "LoopOption": {
+    "type": "string",
+    "values": [
+      "Loop",
+      "PlayOnce",
+      "LoopMirror"
+    ]
+  },
+  "PostColorOpacity": {
+    "type": "number",
+    "values": []
+  },
+  "CurveType": {
+    "type": "string",
+    "values": [
+      "Linear",
+      "QuartOut",
+      "QuartInOut"
+    ]
+  },
+  "AnimationRange": {
+    "type": "object",
+    "children": {
+      "Y": {
+        "type": "number",
+        "values": []
+      },
+      "X": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "NoiseScrollSpeed": {
+    "type": "object",
+    "children": {
+      "Y": {
+        "type": "number",
+        "values": []
+      },
+      "X": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "VelocityResistance": {
+    "type": "number",
+    "values": []
+  },
+  "JumpForce": {
+    "type": "number",
+    "values": []
+  },
+  "SwimJumpForce": {
+    "type": "number",
+    "values": []
+  },
+  "JumpBufferDuration": {
+    "type": "number",
+    "values": []
+  },
+  "JumpBufferMaxYVelocity": {
+    "type": "number",
+    "values": []
+  },
+  "Acceleration": {
+    "type": "number",
+    "values": []
+  },
+  "AirDragMin": {
+    "type": "number",
+    "values": []
+  },
+  "AirDragMax": {
+    "type": "number",
+    "values": []
+  },
+  "AirDragMinSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirDragMaxSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirFrictionMin": {
+    "type": "number",
+    "values": []
+  },
+  "AirFrictionMax": {
+    "type": "number",
+    "values": []
+  },
+  "AirFrictionMinSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirFrictionMaxSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "AirControlMinSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirControlMaxSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "AirControlMinMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "AirControlMaxMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "ComboAirSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "BaseSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "ClimbSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "ClimbSpeedLateral": {
+    "type": "number",
+    "values": []
+  },
+  "ClimbUpSprintSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "ClimbDownSprintSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "HorizontalFlySpeed": {
+    "type": "number",
+    "values": []
+  },
+  "VerticalFlySpeed": {
+    "type": "number",
+    "values": []
+  },
+  "MaxSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "MinSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "WishDirectionGravityX": {
+    "type": "number",
+    "values": []
+  },
+  "WishDirectionGravityY": {
+    "type": "number",
+    "values": []
+  },
+  "WishDirectionWeightX": {
+    "type": "number",
+    "values": []
+  },
+  "WishDirectionWeightY": {
+    "type": "number",
+    "values": []
+  },
+  "CollisionExpulsionForce": {
+    "type": "number",
+    "values": []
+  },
+  "ForwardWalkSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "BackwardWalkSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "StrafeWalkSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "ForwardRunSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "BackwardRunSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "StrafeRunSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "ForwardCrouchSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "BackwardCrouchSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "StrafeCrouchSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "ForwardSprintSpeedMultiplier": {
+    "type": "number",
+    "values": []
+  },
+  "VariableJumpFallForce": {
+    "type": "number",
+    "values": []
+  },
+  "FallEffectDuration": {
+    "type": "number",
+    "values": []
+  },
+  "FallJumpForce": {
+    "type": "number",
+    "values": []
+  },
+  "FallMomentumLoss": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpObstacleSpeedLoss": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpObstacleSprintSpeedLoss": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpObstacleEffectDuration": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpObstacleSprintEffectDuration": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpObstacleMaxAngle": {
+    "type": "number",
+    "values": []
+  },
+  "AutoJumpDisableJumping": {
+    "type": "boolean",
+    "values": []
+  },
+  "MinSlideEntrySpeed": {
+    "type": "number",
+    "values": []
+  },
+  "SlideExitSpeed": {
+    "type": "number",
+    "values": []
+  },
+  "MinFallSpeedToEngageRoll": {
+    "type": "number",
+    "values": []
+  },
+  "MaxFallSpeedToEngageRoll": {
+    "type": "number",
+    "values": []
+  },
+  "FallDamagePartialMitigationPercent": {
+    "type": "number",
+    "values": []
+  },
+  "MaxFallSpeedRollFullMitigation": {
+    "type": "number",
+    "values": []
+  },
+  "RollStartSpeedModifier": {
+    "type": "number",
+    "values": []
+  },
+  "RollExitSpeedModifier": {
+    "type": "number",
+    "values": []
+  },
+  "RollTimeToComplete": {
+    "type": "number",
+    "values": []
+  },
+  "Radius": {
+    "type": "number",
+    "values": []
+  },
+  "MaxForce": {
+    "type": "number",
+    "values": []
+  },
+  "MinForce": {
+    "type": "number",
+    "values": []
+  },
+  "InitialValue": {
+    "type": "number",
+    "values": []
+  },
+  "Min": {
+    "type": "number",
+    "values": []
+  },
+  "Max": {
+    "type": "number",
+    "values": []
+  },
+  "Shared": {
+    "type": "boolean",
+    "values": []
+  },
+  "MaxValueEffects": {
+    "type": "object",
+    "children": {
+      "Interactions": {
+        "type": "object",
+        "children": {
+          "Interactions": {
+            "type": "array",
+            "values": [],
+            "arrayTypes": [
+              "object"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "ApplyEffect",
+                  "ClearEntityEffect"
+                ]
+              },
+              "EffectId": {
+                "type": "string",
+                "values": [
+                  "Immune"
+                ]
+              },
+              "EntityEffectId": {
+                "type": "string",
+                "values": [
+                  "Stamina_Broken"
+                ]
+              }
+            }
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "IgnoreInvulnerability": {
+    "type": "boolean",
+    "values": []
+  },
+  "Regenerating": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "object"
+    ],
+    "children": {
+      "Interval": {
+        "type": "number",
+        "values": []
+      },
+      "Amount": {
+        "type": "number",
+        "values": []
+      },
+      "RegenType": {
+        "type": "string",
+        "values": [
+          "Additive",
+          "Percentage"
+        ]
+      },
+      "ClampAtZero": {
+        "type": "boolean",
+        "values": []
+      },
+      "Conditions": {
+        "type": "array",
+        "values": [],
+        "arrayTypes": [
+          "object"
+        ],
+        "children": {
+          "Id": {
+            "type": "string",
+            "values": [
+              "Gliding",
+              "Alive",
+              "Player",
+              "NoDamageTaken",
+              "RegenHealth",
+              "Charging",
+              "Suffocating",
+              "Stat",
+              "Wielding",
+              "Sprinting"
+            ]
+          },
+          "Inverse": {
+            "type": "boolean",
+            "values": []
+          },
+          "Delay": {
+            "type": "number",
+            "values": []
+          },
+          "GameMode": {
+            "type": "string",
+            "values": [
+              "Creative"
+            ]
+          },
+          "Stat": {
+            "type": "string",
+            "values": [
+              "StaminaRegenDelay",
+              "Stamina"
+            ]
+          },
+          "Amount": {
+            "type": "number",
+            "values": []
+          },
+          "Comparison": {
+            "type": "string",
+            "values": [
+              "Gte",
+              "Lt"
+            ]
+          }
+        }
+      },
+      "$Comment": {
+        "type": "string",
+        "values": [
+          "NPC",
+          "Player in creative mode",
+          "Positive charges regeneration values",
+          "Positive stamina regeneration values",
+          "Overdrawn state regeneration values"
+        ]
+      }
+    }
+  },
+  "MinValueEffects": {
+    "type": "object",
+    "children": {
+      "TriggerAtZero": {
+        "type": "boolean",
+        "values": []
+      },
+      "Interactions": {
+        "type": "object",
+        "children": {
+          "Interactions": {
+            "type": "array",
+            "values": [
+              "Stamina_Bar_Flash",
+              "Stamina_Broken_Check"
+            ],
+            "arrayTypes": [
+              "object",
+              "string"
+            ],
+            "children": {
+              "Type": {
+                "type": "string",
+                "values": [
+                  "ChangeStat"
+                ]
+              },
+              "Behaviour": {
+                "type": "string",
+                "values": [
+                  "Set"
+                ]
+              },
+              "StatModifiers": {
+                "type": "object",
+                "children": {
+                  "StaminaRegenDelay": {
+                    "type": "number",
+                    "values": []
+                  }
+                },
+                "values": []
+              }
+            }
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "ResetType": {
+    "type": "string",
+    "values": [
+      "MaxValue"
+    ]
+  },
+  "TexturePath": {
+    "type": "string",
+    "values": [
+      "Trails/Acid.png",
+      "Trails/Charged.png",
+      "Trails/Critical.png",
+      "Trails/Daggers_Dash.png",
+      "Trails/Daggers_Dash2.png",
+      "Trails/Distortion_Dagger.png",
+      "Trails/White.png",
+      "Trails/Dagger_Signature.png",
+      "Trails/Basic2.png",
+      "Trails/Charged_Black.png",
+      "Trails/Charged_Red.png",
+      "Trails/Fire.png",
+      "Trails/Signature_Mace.png",
+      "Trails/Signature_Mace2.png",
+      "Trails/Charged_Mace.png",
+      "Trails/Basic.png",
+      "Trails/Signature.png",
+      "Trails/Ice.png",
+      "Trails/Claws/Claw_4.png",
+      "Trails/Claws/Claw.png",
+      "Trails/Claws/Claw_3.png",
+      "Trails/Distortion_Sword.png",
+      "Trails/Swipe.png",
+      "Trails/Wind.png",
+      "Trails/Arrow.png",
+      "Trails/Void.png",
+      "Trails/Void_Green.png",
+      "Trails/Charged_Blue.png",
+      "Trails/Gold.png",
+      "Trails/Basic_Strong.png"
+    ]
+  },
+  "LifeSpan": {
+    "type": "number",
+    "values": []
+  },
+  "Roll": {
+    "type": "number",
+    "values": []
+  },
+  "Start": {
+    "type": "object",
+    "children": {
+      "Color": {
+        "type": "string",
+        "values": []
+      },
+      "Width": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "End": {
+    "type": "object",
+    "children": {
+      "Color": {
+        "type": "string",
+        "values": []
+      },
+      "Width": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "LightInfluence": {
+    "type": "number",
+    "values": []
+  },
+  "Smooth": {
+    "type": "boolean",
+    "values": []
+  },
+  "RenderMode": {
+    "type": "string",
+    "values": [
+      "BlendLinear",
+      "Distortion",
+      "Erosion",
+      "BlendAdd"
+    ]
+  },
+  "Animation": {
+    "type": "object",
+    "children": {
+      "FrameSize": {
+        "type": "object",
+        "children": {
+          "X": {
+            "type": "number",
+            "values": []
+          },
+          "Y": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "FrameLifeSpan": {
+        "type": "number",
+        "values": []
+      },
+      "FrameRange": {
+        "type": "object",
+        "children": {
+          "Max": {
+            "type": "number",
+            "values": []
+          },
+          "Min": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "IntersectionHighlight": {
+    "type": "object",
+    "children": {
+      "HighlightThreshold": {
+        "type": "number",
+        "values": []
+      },
+      "HighlightColor": {
+        "type": "string",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "HitboxOffset": {
+    "type": "object",
+    "children": {
+      "X": {
+        "type": "number",
+        "values": []
+      },
+      "Y": {
+        "type": "number",
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "RandomPositionOffsetRange": {
+    "type": "object",
+    "children": {
+      "X": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "Y": {
+        "type": "object",
+        "children": {
+          "Min": {
+            "type": "number",
+            "values": []
+          },
+          "Max": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      }
+    },
+    "values": []
+  },
+  "ViewportMargin": {
+    "type": "number",
+    "values": []
+  },
+  "HitAngleModifierStrength": {
+    "type": "number",
+    "values": []
+  },
+  "FontSize": {
+    "type": "number",
+    "values": []
+  },
+  "TextColor": {
+    "type": "string",
+    "values": []
+  },
+  "AnimationEvents": {
+    "type": "array",
+    "values": [],
+    "arrayTypes": [
+      "object"
+    ],
+    "children": {
+      "Type": {
+        "type": "string",
+        "values": [
+          "Scale",
+          "Position",
+          "Opacity"
+        ]
+      },
+      "StartAt": {
+        "type": "number",
+        "values": []
+      },
+      "EndAt": {
+        "type": "number",
+        "values": []
+      },
+      "StartScale": {
+        "type": "number",
+        "values": []
+      },
+      "EndScale": {
+        "type": "number",
+        "values": []
+      },
+      "PositionOffset": {
+        "type": "object",
+        "children": {
+          "X": {
+            "type": "number",
+            "values": []
+          },
+          "Y": {
+            "type": "number",
+            "values": []
+          }
+        },
+        "values": []
+      },
+      "StartOpacity": {
+        "type": "number",
+        "values": []
+      },
+      "EndOpacity": {
+        "type": "number",
+        "values": []
+      }
+    }
+  },
+  "EntityStat": {
+    "type": "string",
+    "values": [
+      "Health"
+    ]
+  }
+}
