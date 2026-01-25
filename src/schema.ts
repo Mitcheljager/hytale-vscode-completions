@@ -96,6 +96,7 @@ import schemaRoles from "../schema/Roles.json";
 import schemaGroups from "../schema/Groups.json";
 import schemaFlocks from "../schema/Flocks.json";
 import schemaSpawn from "../schema/Spawn.json";
+import schemaAttitude from "../schema/Attitude.json";
 import schemaDrops from "../schema/Drops.json";
 import schemaBarterShops from "../schema/BarterShops.json";
 import schemaWeathers from "../schema/Weathers.json";
@@ -117,6 +118,7 @@ import schemaSoundSets from "../schema/SoundSets.json";
 import schemaEntity from "../schema/Entity.json";
 import schemaInstances from "../schema/Instances.json";
 import schemaMacroCommands from "../schema/MacroCommands.json";
+import schemaObjectives from "../schema/Objectives.json";
 
 export function getSchemaForFile(document: vscode.TextDocument): any | undefined {
     const schemas = [
@@ -125,6 +127,7 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/NPC/Groups", json: schemaGroups },
         { path: "/NPC/Flocks", json: schemaFlocks },
         { path: "/NPC/Spawn", json: schemaSpawn },
+        { path: "/NPC/Attitude", json: schemaAttitude },
         { path: "/Drops", json: schemaDrops },
         { path: "/BarterShops", json: schemaBarterShops },
         { path: "/Weathers", json: schemaWeathers },
@@ -145,7 +148,8 @@ export function getSchemaForFile(document: vscode.TextDocument): any | undefined
         { path: "/Audio/SoundSets", json: schemaSoundSets },
         { path: "/Audio/Entity", json: schemaEntity },
         { path: "/Audio/Instances", json: schemaInstances },
-        { path: "/Audio/MacroCommands", json: schemaMacroCommands }
+        { path: "/Audio/MacroCommands", json: schemaMacroCommands },
+        { path: "/Audio/Objectives", json: schemaObjectives }
     ];
 
     const fileName = document.uri.path;

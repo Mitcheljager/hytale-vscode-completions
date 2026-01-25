@@ -115,6 +115,7 @@ const items = [
     { input: "/Server/NPC/Groups", output: "Groups.json" },
     { input: "/Server/NPC/Flocks", output: "Flocks.json" },
     { input: "/Server/NPC/Spawn", output: "Spawn.json" },
+    { input: "/Server/NPC/Attitude", output: "Attitude.json" },
     { input: "/Server/Drops", output: "Drops.json" },
     { input: "/Server/BarterShops", output: "BarterShops.json" },
     { input: "/Server/Weathers", output: "Weathers.json" },
@@ -135,7 +136,8 @@ const items = [
     { input: "/Server/Audio/SoundSets", output: "SoundSets.json" },
     { input: "/Server/Entity", output: "Entity.json" },
     { input: "/Server/Instances", output: "Instances.json" },
-    { input: "/Server/MacroCommands", output: "MacroCommands.json" }
+    { input: "/Server/MacroCommands", output: "MacroCommands.json" },
+    { input: "/Server/Objectives", output: "Objectives.json" }
 ];
 
 const folderArg = process.argv[2];

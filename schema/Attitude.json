@@ -1,0 +1,103 @@
+{
+  "Attitudes": {
+    "type": "object",
+    "children": {
+      "Dislike": {
+        "type": "array",
+        "values": [
+          "Weapon"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Love": {
+        "type": "array",
+        "values": [
+          "Food"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      }
+    },
+    "values": []
+  },
+  "Groups": {
+    "type": "object",
+    "children": {
+      "Hostile": {
+        "type": "array",
+        "values": [
+          "Birds",
+          "Eats_Cactees",
+          "Vermin",
+          "Predators",
+          "PredatorsBig",
+          "Void",
+          "Trork",
+          "Undead",
+          "Deer",
+          "Feran",
+          "Kweebec",
+          "Scarak",
+          "Spiders",
+          "Scorpions",
+          "Snakes",
+          "Goblin",
+          "Passive",
+          "Aggressive",
+          "Prey",
+          "PreyBig",
+          "Test_Dummy",
+          "Tests",
+          "Critters",
+          "Player"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Friendly": {
+        "type": "array",
+        "values": [
+          "Fen_Stalker",
+          "Goblin",
+          "Trork",
+          "Kweebec",
+          "Self"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Revered": {
+        "type": "array",
+        "values": [
+          "Goblin_Lobber",
+          "Outlander_Marauder",
+          "Trork_Chieftain"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      },
+      "Ignore": {
+        "type": "array",
+        "values": [
+          "Kweebec_Prisoner",
+          "Predators",
+          "PreyBig",
+          "PredatorsBig",
+          "Prey",
+          "Critters",
+          "Vermin"
+        ],
+        "arrayTypes": [
+          "string"
+        ]
+      }
+    },
+    "values": []
+  }
+}
